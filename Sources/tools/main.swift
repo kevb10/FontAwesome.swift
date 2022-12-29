@@ -13,8 +13,9 @@ struct Icon: Codable {
 }
 
 struct SVG: Codable {
+    let last_modified: UInt
     let raw: String
-    let viewBox: [String]
+    let viewBox: [UInt]
     let width: UInt
     let height: UInt
     let path: Path
@@ -214,4 +215,4 @@ fontAwesomeEnum += """
 
 """
 
-FileManager.default.createFile(atPath: "FontAwesome/Enum.swift", contents: fontAwesomeEnum.data(using: .utf8), attributes: nil)
+FileManager.default.createFile(atPath: "Sources/FontAwesome/Enum.swift", contents: fontAwesomeEnum.data(using: .utf8), attributes: nil)
