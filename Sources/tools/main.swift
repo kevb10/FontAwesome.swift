@@ -47,6 +47,20 @@ struct Path: Codable {
 }
 
 extension String {
+    var isInt: Bool {
+        if let _ = Int(self) {
+            return true
+        }
+        return false
+    }
+    public func startsWithANumber() -> Bool {
+        if !self.isEmpty {
+            let firstChar = self.prefix(1)
+            return String(firstChar).isInt
+        }
+        return false
+    }
+
     public func camelCased(with separator: Character) -> String {
         return split(separator: separator).reduce("") { result, element in
             "\(result)\(result.count > 0 ? String(element.capitalized) : String(element))"
@@ -108,7 +122,8 @@ public enum FontAwesome: String, CaseIterable {
 let sortedKeys = Array(icons.keys).sorted(by: <)
 sortedKeys.forEach { key in
     guard icons[key] != nil else { return }
-    let enumKeyName = key.filteredKeywords().camelCased(with: "-")
+    let safeKey = key.isInt || key == "repeat" || key.startsWithANumber() ? "fa_" + key : key
+    let enumKeyName = safeKey.filteredKeywords().camelCased(with: "-")
     fontAwesomeEnum += """
         case \(enumKeyName) = \"fa-\(key)\"
 
