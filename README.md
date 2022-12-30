@@ -8,7 +8,7 @@
 
 Use Font Awesome in your Swift projects
 
-To see the complete set of 3,978 icons in Font Awesome 5, please check the [FontAwesome.com](http://fontawesome.com/icons/) site.
+To see the complete set of 3,978 icons in Font Awesome 6, please check the [FontAwesome.com](http://fontawesome.com/icons/) site.
 
 ## Examples
 ![](./.github/examples.png)

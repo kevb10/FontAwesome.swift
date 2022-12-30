@@ -26,26 +26,18 @@
 /// An enumaration of FontAwesome icon names.
 // swiftlint:disable file_length type_body_length
 public enum FontAwesome: String, CaseIterable {
-    case 0 = "fa-0"
-    case 1 = "fa-1"
-    case 2 = "fa-2"
-    case 3 = "fa-3"
-    case 4 = "fa-4"
-    case 42Group = "fa-42-group"
-    case 5 = "fa-5"
     case fiveHundredPixels = "fa-500px"
-    case 6 = "fa-6"
-    case 7 = "fa-7"
-    case 8 = "fa-8"
-    case 9 = "fa-9"
-    case a = "fa-a"
     case accessibleIcon = "fa-accessible-icon"
     case accusoft = "fa-accusoft"
+    case acquisitionsIncorporated = "fa-acquisitions-incorporated"
+    case ad = "fa-ad"
     case addressBook = "fa-address-book"
     case addressCard = "fa-address-card"
+    case adjust = "fa-adjust"
     case adn = "fa-adn"
     case adversal = "fa-adversal"
     case affiliatetheme = "fa-affiliatetheme"
+    case airFreshener = "fa-air-freshener"
     case airbnb = "fa-airbnb"
     case algolia = "fa-algolia"
     case alignCenter = "fa-align-center"
@@ -53,24 +45,24 @@ public enum FontAwesome: String, CaseIterable {
     case alignLeft = "fa-align-left"
     case alignRight = "fa-align-right"
     case alipay = "fa-alipay"
+    case allergies = "fa-allergies"
     case amazon = "fa-amazon"
     case amazonPay = "fa-amazon-pay"
+    case ambulance = "fa-ambulance"
+    case americanSignLanguageInterpreting = "fa-american-sign-language-interpreting"
     case amilia = "fa-amilia"
     case anchor = "fa-anchor"
-    case anchorCircleCheck = "fa-anchor-circle-check"
-    case anchorCircleExclamation = "fa-anchor-circle-exclamation"
-    case anchorCircleXmark = "fa-anchor-circle-xmark"
-    case anchorLock = "fa-anchor-lock"
     case android = "fa-android"
     case angellist = "fa-angellist"
+    case angleDoubleDown = "fa-angle-double-down"
+    case angleDoubleLeft = "fa-angle-double-left"
+    case angleDoubleRight = "fa-angle-double-right"
+    case angleDoubleUp = "fa-angle-double-up"
     case angleDown = "fa-angle-down"
     case angleLeft = "fa-angle-left"
     case angleRight = "fa-angle-right"
     case angleUp = "fa-angle-up"
-    case anglesDown = "fa-angles-down"
-    case anglesLeft = "fa-angles-left"
-    case anglesRight = "fa-angles-right"
-    case anglesUp = "fa-angles-up"
+    case angry = "fa-angry"
     case angrycreative = "fa-angrycreative"
     case angular = "fa-angular"
     case ankh = "fa-ankh"
@@ -78,101 +70,58 @@ public enum FontAwesome: String, CaseIterable {
     case appStoreIos = "fa-app-store-ios"
     case apper = "fa-apper"
     case apple = "fa-apple"
+    case appleAlt = "fa-apple-alt"
     case applePay = "fa-apple-pay"
-    case appleWhole = "fa-apple-whole"
+    case archive = "fa-archive"
     case archway = "fa-archway"
+    case arrowAltCircleDown = "fa-arrow-alt-circle-down"
+    case arrowAltCircleLeft = "fa-arrow-alt-circle-left"
+    case arrowAltCircleRight = "fa-arrow-alt-circle-right"
+    case arrowAltCircleUp = "fa-arrow-alt-circle-up"
+    case arrowCircleDown = "fa-arrow-circle-down"
+    case arrowCircleLeft = "fa-arrow-circle-left"
+    case arrowCircleRight = "fa-arrow-circle-right"
+    case arrowCircleUp = "fa-arrow-circle-up"
     case arrowDown = "fa-arrow-down"
-    case arrowDown19 = "fa-arrow-down-1-9"
-    case arrowDown91 = "fa-arrow-down-9-1"
-    case arrowDownAZ = "fa-arrow-down-a-z"
-    case arrowDownLong = "fa-arrow-down-long"
-    case arrowDownShortWide = "fa-arrow-down-short-wide"
-    case arrowDownUpAcrossLine = "fa-arrow-down-up-across-line"
-    case arrowDownUpLock = "fa-arrow-down-up-lock"
-    case arrowDownWideShort = "fa-arrow-down-wide-short"
-    case arrowDownZA = "fa-arrow-down-z-a"
     case arrowLeft = "fa-arrow-left"
-    case arrowLeftLong = "fa-arrow-left-long"
-    case arrowPointer = "fa-arrow-pointer"
     case arrowRight = "fa-arrow-right"
-    case arrowRightArrowLeft = "fa-arrow-right-arrow-left"
-    case arrowRightFromBracket = "fa-arrow-right-from-bracket"
-    case arrowRightLong = "fa-arrow-right-long"
-    case arrowRightToBracket = "fa-arrow-right-to-bracket"
-    case arrowRightToCity = "fa-arrow-right-to-city"
-    case arrowRotateLeft = "fa-arrow-rotate-left"
-    case arrowRotateRight = "fa-arrow-rotate-right"
-    case arrowTrendDown = "fa-arrow-trend-down"
-    case arrowTrendUp = "fa-arrow-trend-up"
-    case arrowTurnDown = "fa-arrow-turn-down"
-    case arrowTurnUp = "fa-arrow-turn-up"
     case arrowUp = "fa-arrow-up"
-    case arrowUp19 = "fa-arrow-up-1-9"
-    case arrowUp91 = "fa-arrow-up-9-1"
-    case arrowUpAZ = "fa-arrow-up-a-z"
-    case arrowUpFromBracket = "fa-arrow-up-from-bracket"
-    case arrowUpFromGroundWater = "fa-arrow-up-from-ground-water"
-    case arrowUpFromWaterPump = "fa-arrow-up-from-water-pump"
-    case arrowUpLong = "fa-arrow-up-long"
-    case arrowUpRightDots = "fa-arrow-up-right-dots"
-    case arrowUpRightFromSquare = "fa-arrow-up-right-from-square"
-    case arrowUpShortWide = "fa-arrow-up-short-wide"
-    case arrowUpWideShort = "fa-arrow-up-wide-short"
-    case arrowUpZA = "fa-arrow-up-z-a"
-    case arrowsDownToLine = "fa-arrows-down-to-line"
-    case arrowsDownToPeople = "fa-arrows-down-to-people"
-    case arrowsLeftRight = "fa-arrows-left-right"
-    case arrowsLeftRightToLine = "fa-arrows-left-right-to-line"
-    case arrowsRotate = "fa-arrows-rotate"
-    case arrowsSpin = "fa-arrows-spin"
-    case arrowsSplitUpAndLeft = "fa-arrows-split-up-and-left"
-    case arrowsToCircle = "fa-arrows-to-circle"
-    case arrowsToDot = "fa-arrows-to-dot"
-    case arrowsToEye = "fa-arrows-to-eye"
-    case arrowsTurnRight = "fa-arrows-turn-right"
-    case arrowsTurnToDots = "fa-arrows-turn-to-dots"
-    case arrowsUpDown = "fa-arrows-up-down"
-    case arrowsUpDownLeftRight = "fa-arrows-up-down-left-right"
-    case arrowsUpToLine = "fa-arrows-up-to-line"
+    case arrowsAlt = "fa-arrows-alt"
+    case arrowsAltH = "fa-arrows-alt-h"
+    case arrowsAltV = "fa-arrows-alt-v"
     case artstation = "fa-artstation"
+    case assistiveListeningSystems = "fa-assistive-listening-systems"
     case asterisk = "fa-asterisk"
     case asymmetrik = "fa-asymmetrik"
     case at = "fa-at"
+    case atlas = "fa-atlas"
     case atlassian = "fa-atlassian"
     case atom = "fa-atom"
     case audible = "fa-audible"
     case audioDescription = "fa-audio-description"
-    case australSign = "fa-austral-sign"
     case autoprefixer = "fa-autoprefixer"
     case avianex = "fa-avianex"
     case aviato = "fa-aviato"
     case award = "fa-award"
     case aws = "fa-aws"
-    case b = "fa-b"
     case baby = "fa-baby"
     case babyCarriage = "fa-baby-carriage"
+    case backspace = "fa-backspace"
     case backward = "fa-backward"
-    case backwardFast = "fa-backward-fast"
-    case backwardStep = "fa-backward-step"
     case bacon = "fa-bacon"
     case bacteria = "fa-bacteria"
     case bacterium = "fa-bacterium"
-    case bagShopping = "fa-bag-shopping"
     case bahai = "fa-bahai"
-    case bahtSign = "fa-baht-sign"
+    case balanceScale = "fa-balance-scale"
+    case balanceScaleLeft = "fa-balance-scale-left"
+    case balanceScaleRight = "fa-balance-scale-right"
     case ban = "fa-ban"
-    case banSmoking = "fa-ban-smoking"
-    case bandage = "fa-bandage"
+    case bandAid = "fa-band-aid"
     case bandcamp = "fa-bandcamp"
-    case bangladeshiTakaSign = "fa-bangladeshi-taka-sign"
     case barcode = "fa-barcode"
     case bars = "fa-bars"
-    case barsProgress = "fa-bars-progress"
-    case barsStaggered = "fa-bars-staggered"
-    case baseball = "fa-baseball"
-    case baseballBatBall = "fa-baseball-bat-ball"
-    case basketShopping = "fa-basket-shopping"
-    case basketball = "fa-basketball"
+    case baseballBall = "fa-baseball-ball"
+    case basketballBall = "fa-basketball-ball"
     case bath = "fa-bath"
     case batteryEmpty = "fa-battery-empty"
     case batteryFull = "fa-battery-full"
@@ -181,26 +130,27 @@ public enum FontAwesome: String, CaseIterable {
     case batteryThreeQuarters = "fa-battery-three-quarters"
     case battleNet = "fa-battle-net"
     case bed = "fa-bed"
-    case bedPulse = "fa-bed-pulse"
-    case beerMugEmpty = "fa-beer-mug-empty"
+    case beer = "fa-beer"
     case behance = "fa-behance"
+    case behanceSquare = "fa-behance-square"
     case bell = "fa-bell"
-    case bellConcierge = "fa-bell-concierge"
     case bellSlash = "fa-bell-slash"
     case bezierCurve = "fa-bezier-curve"
+    case bible = "fa-bible"
     case bicycle = "fa-bicycle"
-    case bilibili = "fa-bilibili"
+    case biking = "fa-biking"
     case bimobject = "fa-bimobject"
     case binoculars = "fa-binoculars"
     case biohazard = "fa-biohazard"
+    case birthdayCake = "fa-birthday-cake"
     case bitbucket = "fa-bitbucket"
     case bitcoin = "fa-bitcoin"
-    case bitcoinSign = "fa-bitcoin-sign"
     case bity = "fa-bity"
     case blackTie = "fa-black-tie"
     case blackberry = "fa-blackberry"
     case blender = "fa-blender"
     case blenderPhone = "fa-blender-phone"
+    case blind = "fa-blind"
     case blog = "fa-blog"
     case blogger = "fa-blogger"
     case bloggerB = "fa-blogger-b"
@@ -208,121 +158,78 @@ public enum FontAwesome: String, CaseIterable {
     case bluetoothB = "fa-bluetooth-b"
     case bold = "fa-bold"
     case bolt = "fa-bolt"
-    case boltLightning = "fa-bolt-lightning"
     case bomb = "fa-bomb"
     case bone = "fa-bone"
     case bong = "fa-bong"
     case book = "fa-book"
-    case bookAtlas = "fa-book-atlas"
-    case bookBible = "fa-book-bible"
-    case bookBookmark = "fa-book-bookmark"
-    case bookJournalWhills = "fa-book-journal-whills"
+    case bookDead = "fa-book-dead"
     case bookMedical = "fa-book-medical"
     case bookOpen = "fa-book-open"
-    case bookOpenReader = "fa-book-open-reader"
-    case bookQuran = "fa-book-quran"
-    case bookSkull = "fa-book-skull"
-    case bookTanakh = "fa-book-tanakh"
+    case bookReader = "fa-book-reader"
     case bookmark = "fa-bookmark"
     case bootstrap = "fa-bootstrap"
     case borderAll = "fa-border-all"
     case borderNone = "fa-border-none"
-    case borderTopLeft = "fa-border-top-left"
-    case boreHole = "fa-bore-hole"
-    case bots = "fa-bots"
-    case bottleDroplet = "fa-bottle-droplet"
-    case bottleWater = "fa-bottle-water"
-    case bowlFood = "fa-bowl-food"
-    case bowlRice = "fa-bowl-rice"
+    case borderStyle = "fa-border-style"
     case bowlingBall = "fa-bowling-ball"
     case box = "fa-box"
-    case boxArchive = "fa-box-archive"
     case boxOpen = "fa-box-open"
     case boxTissue = "fa-box-tissue"
-    case boxesPacking = "fa-boxes-packing"
-    case boxesStacked = "fa-boxes-stacked"
+    case boxes = "fa-boxes"
     case braille = "fa-braille"
     case brain = "fa-brain"
-    case brazilianRealSign = "fa-brazilian-real-sign"
     case breadSlice = "fa-bread-slice"
-    case bridge = "fa-bridge"
-    case bridgeCircleCheck = "fa-bridge-circle-check"
-    case bridgeCircleExclamation = "fa-bridge-circle-exclamation"
-    case bridgeCircleXmark = "fa-bridge-circle-xmark"
-    case bridgeLock = "fa-bridge-lock"
-    case bridgeWater = "fa-bridge-water"
     case briefcase = "fa-briefcase"
     case briefcaseMedical = "fa-briefcase-medical"
+    case broadcastTower = "fa-broadcast-tower"
     case broom = "fa-broom"
-    case broomBall = "fa-broom-ball"
     case brush = "fa-brush"
     case btc = "fa-btc"
-    case bucket = "fa-bucket"
     case buffer = "fa-buffer"
     case bug = "fa-bug"
-    case bugSlash = "fa-bug-slash"
-    case bugs = "fa-bugs"
     case building = "fa-building"
-    case buildingCircleArrowRight = "fa-building-circle-arrow-right"
-    case buildingCircleCheck = "fa-building-circle-check"
-    case buildingCircleExclamation = "fa-building-circle-exclamation"
-    case buildingCircleXmark = "fa-building-circle-xmark"
-    case buildingColumns = "fa-building-columns"
-    case buildingFlag = "fa-building-flag"
-    case buildingLock = "fa-building-lock"
-    case buildingNgo = "fa-building-ngo"
-    case buildingShield = "fa-building-shield"
-    case buildingUn = "fa-building-un"
-    case buildingUser = "fa-building-user"
-    case buildingWheat = "fa-building-wheat"
     case bullhorn = "fa-bullhorn"
     case bullseye = "fa-bullseye"
-    case burger = "fa-burger"
+    case burn = "fa-burn"
     case buromobelexperte = "fa-buromobelexperte"
-    case burst = "fa-burst"
     case bus = "fa-bus"
-    case busSimple = "fa-bus-simple"
+    case busAlt = "fa-bus-alt"
     case businessTime = "fa-business-time"
     case buyNLarge = "fa-buy-n-large"
     case buysellads = "fa-buysellads"
-    case c = "fa-c"
-    case cableCar = "fa-cable-car"
-    case cakeCandles = "fa-cake-candles"
     case calculator = "fa-calculator"
     case calendar = "fa-calendar"
+    case calendarAlt = "fa-calendar-alt"
     case calendarCheck = "fa-calendar-check"
     case calendarDay = "fa-calendar-day"
-    case calendarDays = "fa-calendar-days"
     case calendarMinus = "fa-calendar-minus"
     case calendarPlus = "fa-calendar-plus"
+    case calendarTimes = "fa-calendar-times"
     case calendarWeek = "fa-calendar-week"
-    case calendarXmark = "fa-calendar-xmark"
     case camera = "fa-camera"
     case cameraRetro = "fa-camera-retro"
-    case cameraRotate = "fa-camera-rotate"
     case campground = "fa-campground"
     case canadianMapleLeaf = "fa-canadian-maple-leaf"
     case candyCane = "fa-candy-cane"
     case cannabis = "fa-cannabis"
     case capsules = "fa-capsules"
     case car = "fa-car"
+    case carAlt = "fa-car-alt"
     case carBattery = "fa-car-battery"
-    case carBurst = "fa-car-burst"
-    case carOn = "fa-car-on"
-    case carRear = "fa-car-rear"
+    case carCrash = "fa-car-crash"
     case carSide = "fa-car-side"
-    case carTunnel = "fa-car-tunnel"
     case caravan = "fa-caravan"
     case caretDown = "fa-caret-down"
     case caretLeft = "fa-caret-left"
     case caretRight = "fa-caret-right"
+    case caretSquareDown = "fa-caret-square-down"
+    case caretSquareLeft = "fa-caret-square-left"
+    case caretSquareRight = "fa-caret-square-right"
+    case caretSquareUp = "fa-caret-square-up"
     case caretUp = "fa-caret-up"
     case carrot = "fa-carrot"
     case cartArrowDown = "fa-cart-arrow-down"
-    case cartFlatbed = "fa-cart-flatbed"
-    case cartFlatbedSuitcase = "fa-cart-flatbed-suitcase"
     case cartPlus = "fa-cart-plus"
-    case cartShopping = "fa-cart-shopping"
     case cashRegister = "fa-cash-register"
     case cat = "fa-cat"
     case ccAmazonPay = "fa-cc-amazon-pay"
@@ -335,26 +242,21 @@ public enum FontAwesome: String, CaseIterable {
     case ccPaypal = "fa-cc-paypal"
     case ccStripe = "fa-cc-stripe"
     case ccVisa = "fa-cc-visa"
-    case cediSign = "fa-cedi-sign"
-    case centSign = "fa-cent-sign"
     case centercode = "fa-centercode"
     case centos = "fa-centos"
     case certificate = "fa-certificate"
     case chair = "fa-chair"
     case chalkboard = "fa-chalkboard"
-    case chalkboardUser = "fa-chalkboard-user"
-    case champagneGlasses = "fa-champagne-glasses"
+    case chalkboardTeacher = "fa-chalkboard-teacher"
     case chargingStation = "fa-charging-station"
     case chartArea = "fa-chart-area"
     case chartBar = "fa-chart-bar"
-    case chartColumn = "fa-chart-column"
-    case chartGantt = "fa-chart-gantt"
     case chartLine = "fa-chart-line"
     case chartPie = "fa-chart-pie"
-    case chartSimple = "fa-chart-simple"
     case check = "fa-check"
+    case checkCircle = "fa-check-circle"
     case checkDouble = "fa-check-double"
-    case checkToSlot = "fa-check-to-slot"
+    case checkSquare = "fa-check-square"
     case cheese = "fa-cheese"
     case chess = "fa-chess"
     case chessBishop = "fa-chess-bishop"
@@ -364,103 +266,66 @@ public enum FontAwesome: String, CaseIterable {
     case chessPawn = "fa-chess-pawn"
     case chessQueen = "fa-chess-queen"
     case chessRook = "fa-chess-rook"
+    case chevronCircleDown = "fa-chevron-circle-down"
+    case chevronCircleLeft = "fa-chevron-circle-left"
+    case chevronCircleRight = "fa-chevron-circle-right"
+    case chevronCircleUp = "fa-chevron-circle-up"
     case chevronDown = "fa-chevron-down"
     case chevronLeft = "fa-chevron-left"
     case chevronRight = "fa-chevron-right"
     case chevronUp = "fa-chevron-up"
     case child = "fa-child"
-    case childCombatant = "fa-child-combatant"
-    case childDress = "fa-child-dress"
-    case childReaching = "fa-child-reaching"
-    case children = "fa-children"
     case chrome = "fa-chrome"
     case chromecast = "fa-chromecast"
     case church = "fa-church"
     case circle = "fa-circle"
-    case circleArrowDown = "fa-circle-arrow-down"
-    case circleArrowLeft = "fa-circle-arrow-left"
-    case circleArrowRight = "fa-circle-arrow-right"
-    case circleArrowUp = "fa-circle-arrow-up"
-    case circleCheck = "fa-circle-check"
-    case circleChevronDown = "fa-circle-chevron-down"
-    case circleChevronLeft = "fa-circle-chevron-left"
-    case circleChevronRight = "fa-circle-chevron-right"
-    case circleChevronUp = "fa-circle-chevron-up"
-    case circleDollarToSlot = "fa-circle-dollar-to-slot"
-    case circleDot = "fa-circle-dot"
-    case circleDown = "fa-circle-down"
-    case circleExclamation = "fa-circle-exclamation"
-    case circleH = "fa-circle-h"
-    case circleHalfStroke = "fa-circle-half-stroke"
-    case circleInfo = "fa-circle-info"
-    case circleLeft = "fa-circle-left"
-    case circleMinus = "fa-circle-minus"
-    case circleNodes = "fa-circle-nodes"
     case circleNotch = "fa-circle-notch"
-    case circlePause = "fa-circle-pause"
-    case circlePlay = "fa-circle-play"
-    case circlePlus = "fa-circle-plus"
-    case circleQuestion = "fa-circle-question"
-    case circleRadiation = "fa-circle-radiation"
-    case circleRight = "fa-circle-right"
-    case circleStop = "fa-circle-stop"
-    case circleUp = "fa-circle-up"
-    case circleUser = "fa-circle-user"
-    case circleXmark = "fa-circle-xmark"
     case city = "fa-city"
-    case clapperboard = "fa-clapperboard"
+    case clinicMedical = "fa-clinic-medical"
     case clipboard = "fa-clipboard"
     case clipboardCheck = "fa-clipboard-check"
     case clipboardList = "fa-clipboard-list"
-    case clipboardQuestion = "fa-clipboard-question"
-    case clipboardUser = "fa-clipboard-user"
     case clock = "fa-clock"
-    case clockRotateLeft = "fa-clock-rotate-left"
     case clone = "fa-clone"
     case closedCaptioning = "fa-closed-captioning"
     case cloud = "fa-cloud"
-    case cloudArrowDown = "fa-cloud-arrow-down"
-    case cloudArrowUp = "fa-cloud-arrow-up"
-    case cloudBolt = "fa-cloud-bolt"
+    case cloudDownloadAlt = "fa-cloud-download-alt"
     case cloudMeatball = "fa-cloud-meatball"
     case cloudMoon = "fa-cloud-moon"
     case cloudMoonRain = "fa-cloud-moon-rain"
     case cloudRain = "fa-cloud-rain"
     case cloudShowersHeavy = "fa-cloud-showers-heavy"
-    case cloudShowersWater = "fa-cloud-showers-water"
     case cloudSun = "fa-cloud-sun"
     case cloudSunRain = "fa-cloud-sun-rain"
+    case cloudUploadAlt = "fa-cloud-upload-alt"
     case cloudflare = "fa-cloudflare"
     case cloudscale = "fa-cloudscale"
     case cloudsmith = "fa-cloudsmith"
     case cloudversify = "fa-cloudversify"
-    case clover = "fa-clover"
-    case cmplid = "fa-cmplid"
+    case cocktail = "fa-cocktail"
     case code = "fa-code"
     case codeBranch = "fa-code-branch"
-    case codeCommit = "fa-code-commit"
-    case codeCompare = "fa-code-compare"
-    case codeFork = "fa-code-fork"
-    case codeMerge = "fa-code-merge"
-    case codePullRequest = "fa-code-pull-request"
     case codepen = "fa-codepen"
     case codiepie = "fa-codiepie"
+    case coffee = "fa-coffee"
+    case cog = "fa-cog"
+    case cogs = "fa-cogs"
     case coins = "fa-coins"
-    case colonSign = "fa-colon-sign"
+    case columns = "fa-columns"
     case comment = "fa-comment"
+    case commentAlt = "fa-comment-alt"
     case commentDollar = "fa-comment-dollar"
     case commentDots = "fa-comment-dots"
     case commentMedical = "fa-comment-medical"
     case commentSlash = "fa-comment-slash"
-    case commentSms = "fa-comment-sms"
     case comments = "fa-comments"
     case commentsDollar = "fa-comments-dollar"
     case compactDisc = "fa-compact-disc"
     case compass = "fa-compass"
-    case compassDrafting = "fa-compass-drafting"
     case compress = "fa-compress"
-    case computer = "fa-computer"
-    case computerMouse = "fa-computer-mouse"
+    case compressAlt = "fa-compress-alt"
+    case compressArrowsAlt = "fa-compress-arrows-alt"
+    case conciergeBell = "fa-concierge-bell"
     case confluence = "fa-confluence"
     case connectdevelop = "fa-connectdevelop"
     case contao = "fa-contao"
@@ -470,7 +335,6 @@ public enum FontAwesome: String, CaseIterable {
     case copyright = "fa-copyright"
     case cottonBureau = "fa-cotton-bureau"
     case couch = "fa-couch"
-    case cow = "fa-cow"
     case cpanel = "fa-cpanel"
     case creativeCommons = "fa-creative-commons"
     case creativeCommonsBy = "fa-creative-commons-by"
@@ -489,27 +353,25 @@ public enum FontAwesome: String, CaseIterable {
     case creditCard = "fa-credit-card"
     case criticalRole = "fa-critical-role"
     case crop = "fa-crop"
-    case cropSimple = "fa-crop-simple"
+    case cropAlt = "fa-crop-alt"
     case cross = "fa-cross"
     case crosshairs = "fa-crosshairs"
     case crow = "fa-crow"
     case crown = "fa-crown"
     case crutch = "fa-crutch"
-    case cruzeiroSign = "fa-cruzeiro-sign"
     case css3 = "fa-css3"
     case css3Alt = "fa-css3-alt"
     case cube = "fa-cube"
     case cubes = "fa-cubes"
-    case cubesStacked = "fa-cubes-stacked"
+    case cut = "fa-cut"
     case cuttlefish = "fa-cuttlefish"
-    case d = "fa-d"
     case dAndD = "fa-d-and-d"
     case dAndDBeyond = "fa-d-and-d-beyond"
     case dailymotion = "fa-dailymotion"
     case dashcube = "fa-dashcube"
     case database = "fa-database"
+    case deaf = "fa-deaf"
     case deezer = "fa-deezer"
-    case deleteLeft = "fa-delete-left"
     case delicious = "fa-delicious"
     case democrat = "fa-democrat"
     case deploydog = "fa-deploydog"
@@ -519,12 +381,7 @@ public enum FontAwesome: String, CaseIterable {
     case deviantart = "fa-deviantart"
     case dharmachakra = "fa-dharmachakra"
     case dhl = "fa-dhl"
-    case diagramNext = "fa-diagram-next"
-    case diagramPredecessor = "fa-diagram-predecessor"
-    case diagramProject = "fa-diagram-project"
-    case diagramSuccessor = "fa-diagram-successor"
-    case diamond = "fa-diamond"
-    case diamondTurnRight = "fa-diamond-turn-right"
+    case diagnoses = "fa-diagnoses"
     case diaspora = "fa-diaspora"
     case dice = "fa-dice"
     case diceD20 = "fa-dice-d20"
@@ -537,31 +394,33 @@ public enum FontAwesome: String, CaseIterable {
     case diceTwo = "fa-dice-two"
     case digg = "fa-digg"
     case digitalOcean = "fa-digital-ocean"
+    case digitalTachograph = "fa-digital-tachograph"
+    case directions = "fa-directions"
     case discord = "fa-discord"
     case discourse = "fa-discourse"
     case disease = "fa-disease"
-    case display = "fa-display"
     case divide = "fa-divide"
+    case dizzy = "fa-dizzy"
     case dna = "fa-dna"
     case dochub = "fa-dochub"
     case docker = "fa-docker"
     case dog = "fa-dog"
     case dollarSign = "fa-dollar-sign"
     case dolly = "fa-dolly"
-    case dongSign = "fa-dong-sign"
+    case dollyFlatbed = "fa-dolly-flatbed"
+    case donate = "fa-donate"
     case doorClosed = "fa-door-closed"
     case doorOpen = "fa-door-open"
+    case dotCircle = "fa-dot-circle"
     case dove = "fa-dove"
-    case downLeftAndUpRightToCenter = "fa-down-left-and-up-right-to-center"
-    case downLong = "fa-down-long"
     case download = "fa-download"
     case draft2digital = "fa-draft2digital"
+    case draftingCompass = "fa-drafting-compass"
     case dragon = "fa-dragon"
     case drawPolygon = "fa-draw-polygon"
     case dribbble = "fa-dribbble"
+    case dribbbleSquare = "fa-dribbble-square"
     case dropbox = "fa-dropbox"
-    case droplet = "fa-droplet"
-    case dropletSlash = "fa-droplet-slash"
     case drum = "fa-drum"
     case drumSteelpan = "fa-drum-steelpan"
     case drumstickBite = "fa-drumstick-bite"
@@ -571,32 +430,23 @@ public enum FontAwesome: String, CaseIterable {
     case dumpsterFire = "fa-dumpster-fire"
     case dungeon = "fa-dungeon"
     case dyalog = "fa-dyalog"
-    case e = "fa-e"
-    case earDeaf = "fa-ear-deaf"
-    case earListen = "fa-ear-listen"
     case earlybirds = "fa-earlybirds"
-    case earthAfrica = "fa-earth-africa"
-    case earthAmericas = "fa-earth-americas"
-    case earthAsia = "fa-earth-asia"
-    case earthEurope = "fa-earth-europe"
-    case earthOceania = "fa-earth-oceania"
     case ebay = "fa-ebay"
     case edge = "fa-edge"
     case edgeLegacy = "fa-edge-legacy"
+    case edit = "fa-edit"
     case egg = "fa-egg"
     case eject = "fa-eject"
     case elementor = "fa-elementor"
-    case elevator = "fa-elevator"
-    case ellipsis = "fa-ellipsis"
-    case ellipsisVertical = "fa-ellipsis-vertical"
+    case ellipsisH = "fa-ellipsis-h"
+    case ellipsisV = "fa-ellipsis-v"
     case ello = "fa-ello"
     case ember = "fa-ember"
     case empire = "fa-empire"
     case envelope = "fa-envelope"
-    case envelopeCircleCheck = "fa-envelope-circle-check"
     case envelopeOpen = "fa-envelope-open"
     case envelopeOpenText = "fa-envelope-open-text"
-    case envelopesBulk = "fa-envelopes-bulk"
+    case envelopeSquare = "fa-envelope-square"
     case envira = "fa-envira"
     case equals = "fa-equals"
     case eraser = "fa-eraser"
@@ -606,161 +456,113 @@ public enum FontAwesome: String, CaseIterable {
     case etsy = "fa-etsy"
     case euroSign = "fa-euro-sign"
     case evernote = "fa-evernote"
+    case exchangeAlt = "fa-exchange-alt"
     case exclamation = "fa-exclamation"
+    case exclamationCircle = "fa-exclamation-circle"
+    case exclamationTriangle = "fa-exclamation-triangle"
     case expand = "fa-expand"
+    case expandAlt = "fa-expand-alt"
+    case expandArrowsAlt = "fa-expand-arrows-alt"
     case expeditedssl = "fa-expeditedssl"
-    case explosion = "fa-explosion"
+    case externalLinkAlt = "fa-external-link-alt"
+    case externalLinkSquareAlt = "fa-external-link-square-alt"
     case eye = "fa-eye"
     case eyeDropper = "fa-eye-dropper"
-    case eyeLowVision = "fa-eye-low-vision"
     case eyeSlash = "fa-eye-slash"
-    case f = "fa-f"
-    case faceAngry = "fa-face-angry"
-    case faceDizzy = "fa-face-dizzy"
-    case faceFlushed = "fa-face-flushed"
-    case faceFrown = "fa-face-frown"
-    case faceFrownOpen = "fa-face-frown-open"
-    case faceGrimace = "fa-face-grimace"
-    case faceGrin = "fa-face-grin"
-    case faceGrinBeam = "fa-face-grin-beam"
-    case faceGrinBeamSweat = "fa-face-grin-beam-sweat"
-    case faceGrinHearts = "fa-face-grin-hearts"
-    case faceGrinSquint = "fa-face-grin-squint"
-    case faceGrinSquintTears = "fa-face-grin-squint-tears"
-    case faceGrinStars = "fa-face-grin-stars"
-    case faceGrinTears = "fa-face-grin-tears"
-    case faceGrinTongue = "fa-face-grin-tongue"
-    case faceGrinTongueSquint = "fa-face-grin-tongue-squint"
-    case faceGrinTongueWink = "fa-face-grin-tongue-wink"
-    case faceGrinWide = "fa-face-grin-wide"
-    case faceGrinWink = "fa-face-grin-wink"
-    case faceKiss = "fa-face-kiss"
-    case faceKissBeam = "fa-face-kiss-beam"
-    case faceKissWinkHeart = "fa-face-kiss-wink-heart"
-    case faceLaugh = "fa-face-laugh"
-    case faceLaughBeam = "fa-face-laugh-beam"
-    case faceLaughSquint = "fa-face-laugh-squint"
-    case faceLaughWink = "fa-face-laugh-wink"
-    case faceMeh = "fa-face-meh"
-    case faceMehBlank = "fa-face-meh-blank"
-    case faceRollingEyes = "fa-face-rolling-eyes"
-    case faceSadCry = "fa-face-sad-cry"
-    case faceSadTear = "fa-face-sad-tear"
-    case faceSmile = "fa-face-smile"
-    case faceSmileBeam = "fa-face-smile-beam"
-    case faceSmileWink = "fa-face-smile-wink"
-    case faceSurprise = "fa-face-surprise"
-    case faceTired = "fa-face-tired"
     case facebook = "fa-facebook"
     case facebookF = "fa-facebook-f"
     case facebookMessenger = "fa-facebook-messenger"
+    case facebookSquare = "fa-facebook-square"
     case fan = "fa-fan"
     case fantasyFlightGames = "fa-fantasy-flight-games"
+    case fastBackward = "fa-fast-backward"
+    case fastForward = "fa-fast-forward"
     case faucet = "fa-faucet"
-    case faucetDrip = "fa-faucet-drip"
     case fax = "fa-fax"
     case feather = "fa-feather"
-    case featherPointed = "fa-feather-pointed"
+    case featherAlt = "fa-feather-alt"
     case fedex = "fa-fedex"
     case fedora = "fa-fedora"
-    case ferry = "fa-ferry"
+    case female = "fa-female"
+    case fighterJet = "fa-fighter-jet"
     case figma = "fa-figma"
     case file = "fa-file"
-    case fileArrowDown = "fa-file-arrow-down"
-    case fileArrowUp = "fa-file-arrow-up"
+    case fileAlt = "fa-file-alt"
+    case fileArchive = "fa-file-archive"
     case fileAudio = "fa-file-audio"
-    case fileCircleCheck = "fa-file-circle-check"
-    case fileCircleExclamation = "fa-file-circle-exclamation"
-    case fileCircleMinus = "fa-file-circle-minus"
-    case fileCirclePlus = "fa-file-circle-plus"
-    case fileCircleQuestion = "fa-file-circle-question"
-    case fileCircleXmark = "fa-file-circle-xmark"
     case fileCode = "fa-file-code"
     case fileContract = "fa-file-contract"
     case fileCsv = "fa-file-csv"
+    case fileDownload = "fa-file-download"
     case fileExcel = "fa-file-excel"
     case fileExport = "fa-file-export"
     case fileImage = "fa-file-image"
     case fileImport = "fa-file-import"
     case fileInvoice = "fa-file-invoice"
     case fileInvoiceDollar = "fa-file-invoice-dollar"
-    case fileLines = "fa-file-lines"
     case fileMedical = "fa-file-medical"
+    case fileMedicalAlt = "fa-file-medical-alt"
     case filePdf = "fa-file-pdf"
-    case filePen = "fa-file-pen"
     case filePowerpoint = "fa-file-powerpoint"
     case filePrescription = "fa-file-prescription"
-    case fileShield = "fa-file-shield"
     case fileSignature = "fa-file-signature"
+    case fileUpload = "fa-file-upload"
     case fileVideo = "fa-file-video"
-    case fileWaveform = "fa-file-waveform"
     case fileWord = "fa-file-word"
-    case fileZipper = "fa-file-zipper"
     case fill = "fa-fill"
     case fillDrip = "fa-fill-drip"
     case film = "fa-film"
     case filter = "fa-filter"
-    case filterCircleDollar = "fa-filter-circle-dollar"
-    case filterCircleXmark = "fa-filter-circle-xmark"
     case fingerprint = "fa-fingerprint"
     case fire = "fa-fire"
-    case fireBurner = "fa-fire-burner"
+    case fireAlt = "fa-fire-alt"
     case fireExtinguisher = "fa-fire-extinguisher"
-    case fireFlameCurved = "fa-fire-flame-curved"
-    case fireFlameSimple = "fa-fire-flame-simple"
     case firefox = "fa-firefox"
     case firefoxBrowser = "fa-firefox-browser"
+    case firstAid = "fa-first-aid"
     case firstOrder = "fa-first-order"
     case firstOrderAlt = "fa-first-order-alt"
     case firstdraft = "fa-firstdraft"
     case fish = "fa-fish"
-    case fishFins = "fa-fish-fins"
+    case fistRaised = "fa-fist-raised"
     case flag = "fa-flag"
     case flagCheckered = "fa-flag-checkered"
     case flagUsa = "fa-flag-usa"
     case flask = "fa-flask"
-    case flaskVial = "fa-flask-vial"
     case flickr = "fa-flickr"
     case flipboard = "fa-flipboard"
-    case floppyDisk = "fa-floppy-disk"
-    case florinSign = "fa-florin-sign"
+    case flushed = "fa-flushed"
     case fly = "fa-fly"
     case folder = "fa-folder"
-    case folderClosed = "fa-folder-closed"
     case folderMinus = "fa-folder-minus"
     case folderOpen = "fa-folder-open"
     case folderPlus = "fa-folder-plus"
-    case folderTree = "fa-folder-tree"
     case font = "fa-font"
     case fontAwesome = "fa-font-awesome"
+    case fontAwesomeAlt = "fa-font-awesome-alt"
+    case fontAwesomeFlag = "fa-font-awesome-flag"
+    case fontAwesomeLogoFull = "fa-font-awesome-logo-full"
     case fonticons = "fa-fonticons"
     case fonticonsFi = "fa-fonticons-fi"
-    case football = "fa-football"
+    case footballBall = "fa-football-ball"
     case fortAwesome = "fa-fort-awesome"
     case fortAwesomeAlt = "fa-fort-awesome-alt"
     case forumbee = "fa-forumbee"
     case forward = "fa-forward"
-    case forwardFast = "fa-forward-fast"
-    case forwardStep = "fa-forward-step"
     case foursquare = "fa-foursquare"
-    case francSign = "fa-franc-sign"
     case freeCodeCamp = "fa-free-code-camp"
     case freebsd = "fa-freebsd"
     case frog = "fa-frog"
+    case frown = "fa-frown"
+    case frownOpen = "fa-frown-open"
     case fulcrum = "fa-fulcrum"
+    case funnelDollar = "fa-funnel-dollar"
     case futbol = "fa-futbol"
-    case g = "fa-g"
     case galacticRepublic = "fa-galactic-republic"
     case galacticSenate = "fa-galactic-senate"
     case gamepad = "fa-gamepad"
     case gasPump = "fa-gas-pump"
-    case gauge = "fa-gauge"
-    case gaugeHigh = "fa-gauge-high"
-    case gaugeSimple = "fa-gauge-simple"
-    case gaugeSimpleHigh = "fa-gauge-simple-high"
     case gavel = "fa-gavel"
-    case gear = "fa-gear"
-    case gears = "fa-gears"
     case gem = "fa-gem"
     case genderless = "fa-genderless"
     case getPocket = "fa-get-pocket"
@@ -771,20 +573,27 @@ public enum FontAwesome: String, CaseIterable {
     case gifts = "fa-gifts"
     case git = "fa-git"
     case gitAlt = "fa-git-alt"
+    case gitSquare = "fa-git-square"
     case github = "fa-github"
     case githubAlt = "fa-github-alt"
+    case githubSquare = "fa-github-square"
     case gitkraken = "fa-gitkraken"
     case gitlab = "fa-gitlab"
     case gitter = "fa-gitter"
-    case glassWater = "fa-glass-water"
-    case glassWaterDroplet = "fa-glass-water-droplet"
+    case glassCheers = "fa-glass-cheers"
+    case glassMartini = "fa-glass-martini"
+    case glassMartiniAlt = "fa-glass-martini-alt"
+    case glassWhiskey = "fa-glass-whiskey"
     case glasses = "fa-glasses"
     case glide = "fa-glide"
     case glideG = "fa-glide-g"
     case globe = "fa-globe"
+    case globeAfrica = "fa-globe-africa"
+    case globeAmericas = "fa-globe-americas"
+    case globeAsia = "fa-globe-asia"
+    case globeEurope = "fa-globe-europe"
     case gofore = "fa-gofore"
-    case golang = "fa-golang"
-    case golfBallTee = "fa-golf-ball-tee"
+    case golfBall = "fa-golf-ball"
     case goodreads = "fa-goodreads"
     case goodreadsG = "fa-goodreads-g"
     case google = "fa-google"
@@ -793,6 +602,7 @@ public enum FontAwesome: String, CaseIterable {
     case googlePlay = "fa-google-play"
     case googlePlus = "fa-google-plus"
     case googlePlusG = "fa-google-plus-g"
+    case googlePlusSquare = "fa-google-plus-square"
     case googleWallet = "fa-google-wallet"
     case gopuram = "fa-gopuram"
     case graduationCap = "fa-graduation-cap"
@@ -800,103 +610,98 @@ public enum FontAwesome: String, CaseIterable {
     case grav = "fa-grav"
     case greaterThan = "fa-greater-than"
     case greaterThanEqual = "fa-greater-than-equal"
-    case grip = "fa-grip"
+    case grimace = "fa-grimace"
+    case grin = "fa-grin"
+    case grinAlt = "fa-grin-alt"
+    case grinBeam = "fa-grin-beam"
+    case grinBeamSweat = "fa-grin-beam-sweat"
+    case grinHearts = "fa-grin-hearts"
+    case grinSquint = "fa-grin-squint"
+    case grinSquintTears = "fa-grin-squint-tears"
+    case grinStars = "fa-grin-stars"
+    case grinTears = "fa-grin-tears"
+    case grinTongue = "fa-grin-tongue"
+    case grinTongueSquint = "fa-grin-tongue-squint"
+    case grinTongueWink = "fa-grin-tongue-wink"
+    case grinWink = "fa-grin-wink"
+    case gripHorizontal = "fa-grip-horizontal"
     case gripLines = "fa-grip-lines"
     case gripLinesVertical = "fa-grip-lines-vertical"
     case gripVertical = "fa-grip-vertical"
     case gripfire = "fa-gripfire"
-    case groupArrowsRotate = "fa-group-arrows-rotate"
     case grunt = "fa-grunt"
-    case guaraniSign = "fa-guarani-sign"
     case guilded = "fa-guilded"
     case guitar = "fa-guitar"
     case gulp = "fa-gulp"
-    case gun = "fa-gun"
-    case h = "fa-h"
+    case hSquare = "fa-h-square"
     case hackerNews = "fa-hacker-news"
+    case hackerNewsSquare = "fa-hacker-news-square"
     case hackerrank = "fa-hackerrank"
+    case hamburger = "fa-hamburger"
     case hammer = "fa-hammer"
     case hamsa = "fa-hamsa"
-    case hand = "fa-hand"
-    case handBackFist = "fa-hand-back-fist"
-    case handDots = "fa-hand-dots"
-    case handFist = "fa-hand-fist"
     case handHolding = "fa-hand-holding"
-    case handHoldingDollar = "fa-hand-holding-dollar"
-    case handHoldingDroplet = "fa-hand-holding-droplet"
-    case handHoldingHand = "fa-hand-holding-hand"
     case handHoldingHeart = "fa-hand-holding-heart"
     case handHoldingMedical = "fa-hand-holding-medical"
+    case handHoldingUsd = "fa-hand-holding-usd"
+    case handHoldingWater = "fa-hand-holding-water"
     case handLizard = "fa-hand-lizard"
     case handMiddleFinger = "fa-hand-middle-finger"
+    case handPaper = "fa-hand-paper"
     case handPeace = "fa-hand-peace"
     case handPointDown = "fa-hand-point-down"
     case handPointLeft = "fa-hand-point-left"
     case handPointRight = "fa-hand-point-right"
     case handPointUp = "fa-hand-point-up"
     case handPointer = "fa-hand-pointer"
+    case handRock = "fa-hand-rock"
     case handScissors = "fa-hand-scissors"
     case handSparkles = "fa-hand-sparkles"
     case handSpock = "fa-hand-spock"
-    case handcuffs = "fa-handcuffs"
     case hands = "fa-hands"
-    case handsAslInterpreting = "fa-hands-asl-interpreting"
-    case handsBound = "fa-hands-bound"
-    case handsBubbles = "fa-hands-bubbles"
-    case handsClapping = "fa-hands-clapping"
-    case handsHolding = "fa-hands-holding"
-    case handsHoldingChild = "fa-hands-holding-child"
-    case handsHoldingCircle = "fa-hands-holding-circle"
-    case handsPraying = "fa-hands-praying"
+    case handsHelping = "fa-hands-helping"
+    case handsWash = "fa-hands-wash"
     case handshake = "fa-handshake"
-    case handshakeAngle = "fa-handshake-angle"
-    case handshakeSimple = "fa-handshake-simple"
-    case handshakeSimpleSlash = "fa-handshake-simple-slash"
+    case handshakeAltSlash = "fa-handshake-alt-slash"
     case handshakeSlash = "fa-handshake-slash"
     case hanukiah = "fa-hanukiah"
-    case hardDrive = "fa-hard-drive"
-    case hashnode = "fa-hashnode"
+    case hardHat = "fa-hard-hat"
     case hashtag = "fa-hashtag"
     case hatCowboy = "fa-hat-cowboy"
     case hatCowboySide = "fa-hat-cowboy-side"
     case hatWizard = "fa-hat-wizard"
+    case hdd = "fa-hdd"
     case headSideCough = "fa-head-side-cough"
     case headSideCoughSlash = "fa-head-side-cough-slash"
     case headSideMask = "fa-head-side-mask"
     case headSideVirus = "fa-head-side-virus"
     case heading = "fa-heading"
     case headphones = "fa-headphones"
-    case headphonesSimple = "fa-headphones-simple"
+    case headphonesAlt = "fa-headphones-alt"
     case headset = "fa-headset"
     case heart = "fa-heart"
-    case heartCircleBolt = "fa-heart-circle-bolt"
-    case heartCircleCheck = "fa-heart-circle-check"
-    case heartCircleExclamation = "fa-heart-circle-exclamation"
-    case heartCircleMinus = "fa-heart-circle-minus"
-    case heartCirclePlus = "fa-heart-circle-plus"
-    case heartCircleXmark = "fa-heart-circle-xmark"
-    case heartCrack = "fa-heart-crack"
-    case heartPulse = "fa-heart-pulse"
+    case heartBroken = "fa-heart-broken"
+    case heartbeat = "fa-heartbeat"
     case helicopter = "fa-helicopter"
-    case helicopterSymbol = "fa-helicopter-symbol"
-    case helmetSafety = "fa-helmet-safety"
-    case helmetUn = "fa-helmet-un"
     case highlighter = "fa-highlighter"
-    case hillAvalanche = "fa-hill-avalanche"
-    case hillRockslide = "fa-hill-rockslide"
+    case hiking = "fa-hiking"
     case hippo = "fa-hippo"
     case hips = "fa-hips"
     case hireAHelper = "fa-hire-a-helper"
+    case history = "fa-history"
     case hive = "fa-hive"
     case hockeyPuck = "fa-hockey-puck"
     case hollyBerry = "fa-holly-berry"
+    case home = "fa-home"
     case hooli = "fa-hooli"
     case hornbill = "fa-hornbill"
     case horse = "fa-horse"
     case horseHead = "fa-horse-head"
     case hospital = "fa-hospital"
+    case hospitalAlt = "fa-hospital-alt"
+    case hospitalSymbol = "fa-hospital-symbol"
     case hospitalUser = "fa-hospital-user"
-    case hotTubPerson = "fa-hot-tub-person"
+    case hotTub = "fa-hot-tub"
     case hotdog = "fa-hotdog"
     case hotel = "fa-hotel"
     case hotjar = "fa-hotjar"
@@ -904,56 +709,33 @@ public enum FontAwesome: String, CaseIterable {
     case hourglassEnd = "fa-hourglass-end"
     case hourglassHalf = "fa-hourglass-half"
     case hourglassStart = "fa-hourglass-start"
-    case house = "fa-house"
-    case houseChimney = "fa-house-chimney"
-    case houseChimneyCrack = "fa-house-chimney-crack"
-    case houseChimneyMedical = "fa-house-chimney-medical"
-    case houseChimneyUser = "fa-house-chimney-user"
-    case houseChimneyWindow = "fa-house-chimney-window"
-    case houseCircleCheck = "fa-house-circle-check"
-    case houseCircleExclamation = "fa-house-circle-exclamation"
-    case houseCircleXmark = "fa-house-circle-xmark"
-    case houseCrack = "fa-house-crack"
-    case houseFire = "fa-house-fire"
-    case houseFlag = "fa-house-flag"
-    case houseFloodWater = "fa-house-flood-water"
-    case houseFloodWaterCircleArrowRight = "fa-house-flood-water-circle-arrow-right"
-    case houseLaptop = "fa-house-laptop"
-    case houseLock = "fa-house-lock"
-    case houseMedical = "fa-house-medical"
-    case houseMedicalCircleCheck = "fa-house-medical-circle-check"
-    case houseMedicalCircleExclamation = "fa-house-medical-circle-exclamation"
-    case houseMedicalCircleXmark = "fa-house-medical-circle-xmark"
-    case houseMedicalFlag = "fa-house-medical-flag"
-    case houseSignal = "fa-house-signal"
-    case houseTsunami = "fa-house-tsunami"
+    case houseDamage = "fa-house-damage"
     case houseUser = "fa-house-user"
     case houzz = "fa-houzz"
-    case hryvniaSign = "fa-hryvnia-sign"
+    case hryvnia = "fa-hryvnia"
     case html5 = "fa-html5"
     case hubspot = "fa-hubspot"
-    case hurricane = "fa-hurricane"
-    case i = "fa-i"
     case iCursor = "fa-i-cursor"
     case iceCream = "fa-ice-cream"
     case icicles = "fa-icicles"
     case icons = "fa-icons"
     case idBadge = "fa-id-badge"
     case idCard = "fa-id-card"
-    case idCardClip = "fa-id-card-clip"
+    case idCardAlt = "fa-id-card-alt"
     case ideal = "fa-ideal"
     case igloo = "fa-igloo"
     case image = "fa-image"
-    case imagePortrait = "fa-image-portrait"
     case images = "fa-images"
     case imdb = "fa-imdb"
     case inbox = "fa-inbox"
     case indent = "fa-indent"
-    case indianRupeeSign = "fa-indian-rupee-sign"
     case industry = "fa-industry"
     case infinity = "fa-infinity"
     case info = "fa-info"
+    case infoCircle = "fa-info-circle"
+    case innosoft = "fa-innosoft"
     case instagram = "fa-instagram"
+    case instagramSquare = "fa-instagram-square"
     case instalod = "fa-instalod"
     case intercom = "fa-intercom"
     case internetExplorer = "fa-internet-explorer"
@@ -963,23 +745,18 @@ public enum FontAwesome: String, CaseIterable {
     case itchIo = "fa-itch-io"
     case itunes = "fa-itunes"
     case itunesNote = "fa-itunes-note"
-    case j = "fa-j"
-    case jar = "fa-jar"
-    case jarWheat = "fa-jar-wheat"
     case java = "fa-java"
     case jedi = "fa-jedi"
     case jediOrder = "fa-jedi-order"
     case jenkins = "fa-jenkins"
-    case jetFighter = "fa-jet-fighter"
-    case jetFighterUp = "fa-jet-fighter-up"
     case jira = "fa-jira"
     case joget = "fa-joget"
     case joint = "fa-joint"
     case joomla = "fa-joomla"
+    case journalWhills = "fa-journal-whills"
     case js = "fa-js"
+    case jsSquare = "fa-js-square"
     case jsfiddle = "fa-jsfiddle"
-    case jugDetergent = "fa-jug-detergent"
-    case k = "fa-k"
     case kaaba = "fa-kaaba"
     case kaggle = "fa-kaggle"
     case key = "fa-key"
@@ -989,184 +766,154 @@ public enum FontAwesome: String, CaseIterable {
     case khanda = "fa-khanda"
     case kickstarter = "fa-kickstarter"
     case kickstarterK = "fa-kickstarter-k"
-    case kipSign = "fa-kip-sign"
-    case kitMedical = "fa-kit-medical"
-    case kitchenSet = "fa-kitchen-set"
+    case kiss = "fa-kiss"
+    case kissBeam = "fa-kiss-beam"
+    case kissWinkHeart = "fa-kiss-wink-heart"
     case kiwiBird = "fa-kiwi-bird"
     case korvue = "fa-korvue"
-    case l = "fa-l"
-    case landMineOn = "fa-land-mine-on"
     case landmark = "fa-landmark"
-    case landmarkDome = "fa-landmark-dome"
-    case landmarkFlag = "fa-landmark-flag"
     case language = "fa-language"
     case laptop = "fa-laptop"
     case laptopCode = "fa-laptop-code"
-    case laptopFile = "fa-laptop-file"
+    case laptopHouse = "fa-laptop-house"
     case laptopMedical = "fa-laptop-medical"
     case laravel = "fa-laravel"
-    case lariSign = "fa-lari-sign"
     case lastfm = "fa-lastfm"
+    case lastfmSquare = "fa-lastfm-square"
+    case laugh = "fa-laugh"
+    case laughBeam = "fa-laugh-beam"
+    case laughSquint = "fa-laugh-squint"
+    case laughWink = "fa-laugh-wink"
     case layerGroup = "fa-layer-group"
     case leaf = "fa-leaf"
     case leanpub = "fa-leanpub"
-    case leftLong = "fa-left-long"
-    case leftRight = "fa-left-right"
     case lemon = "fa-lemon"
     case less = "fa-less"
     case lessThan = "fa-less-than"
     case lessThanEqual = "fa-less-than-equal"
+    case levelDownAlt = "fa-level-down-alt"
+    case levelUpAlt = "fa-level-up-alt"
     case lifeRing = "fa-life-ring"
     case lightbulb = "fa-lightbulb"
     case line = "fa-line"
-    case linesLeaning = "fa-lines-leaning"
     case link = "fa-link"
-    case linkSlash = "fa-link-slash"
     case linkedin = "fa-linkedin"
     case linkedinIn = "fa-linkedin-in"
     case linode = "fa-linode"
     case linux = "fa-linux"
     case liraSign = "fa-lira-sign"
     case list = "fa-list"
-    case listCheck = "fa-list-check"
+    case listAlt = "fa-list-alt"
     case listOl = "fa-list-ol"
     case listUl = "fa-list-ul"
-    case litecoinSign = "fa-litecoin-sign"
     case locationArrow = "fa-location-arrow"
-    case locationCrosshairs = "fa-location-crosshairs"
-    case locationDot = "fa-location-dot"
-    case locationPin = "fa-location-pin"
-    case locationPinLock = "fa-location-pin-lock"
     case lock = "fa-lock"
     case lockOpen = "fa-lock-open"
-    case locust = "fa-locust"
+    case longArrowAltDown = "fa-long-arrow-alt-down"
+    case longArrowAltLeft = "fa-long-arrow-alt-left"
+    case longArrowAltRight = "fa-long-arrow-alt-right"
+    case longArrowAltUp = "fa-long-arrow-alt-up"
+    case lowVision = "fa-low-vision"
+    case luggageCart = "fa-luggage-cart"
     case lungs = "fa-lungs"
     case lungsVirus = "fa-lungs-virus"
     case lyft = "fa-lyft"
-    case m = "fa-m"
     case magento = "fa-magento"
+    case magic = "fa-magic"
     case magnet = "fa-magnet"
-    case magnifyingGlass = "fa-magnifying-glass"
-    case magnifyingGlassArrowRight = "fa-magnifying-glass-arrow-right"
-    case magnifyingGlassChart = "fa-magnifying-glass-chart"
-    case magnifyingGlassDollar = "fa-magnifying-glass-dollar"
-    case magnifyingGlassLocation = "fa-magnifying-glass-location"
-    case magnifyingGlassMinus = "fa-magnifying-glass-minus"
-    case magnifyingGlassPlus = "fa-magnifying-glass-plus"
+    case mailBulk = "fa-mail-bulk"
     case mailchimp = "fa-mailchimp"
-    case manatSign = "fa-manat-sign"
+    case male = "fa-male"
     case mandalorian = "fa-mandalorian"
     case map = "fa-map"
-    case mapLocation = "fa-map-location"
-    case mapLocationDot = "fa-map-location-dot"
+    case mapMarked = "fa-map-marked"
+    case mapMarkedAlt = "fa-map-marked-alt"
+    case mapMarker = "fa-map-marker"
+    case mapMarkerAlt = "fa-map-marker-alt"
     case mapPin = "fa-map-pin"
+    case mapSigns = "fa-map-signs"
     case markdown = "fa-markdown"
     case marker = "fa-marker"
     case mars = "fa-mars"
-    case marsAndVenus = "fa-mars-and-venus"
-    case marsAndVenusBurst = "fa-mars-and-venus-burst"
     case marsDouble = "fa-mars-double"
     case marsStroke = "fa-mars-stroke"
-    case marsStrokeRight = "fa-mars-stroke-right"
-    case marsStrokeUp = "fa-mars-stroke-up"
-    case martiniGlass = "fa-martini-glass"
-    case martiniGlassCitrus = "fa-martini-glass-citrus"
-    case martiniGlassEmpty = "fa-martini-glass-empty"
+    case marsStrokeH = "fa-mars-stroke-h"
+    case marsStrokeV = "fa-mars-stroke-v"
     case mask = "fa-mask"
-    case maskFace = "fa-mask-face"
-    case maskVentilator = "fa-mask-ventilator"
-    case masksTheater = "fa-masks-theater"
     case mastodon = "fa-mastodon"
-    case mattressPillow = "fa-mattress-pillow"
     case maxcdn = "fa-maxcdn"
-    case maximize = "fa-maximize"
     case mdb = "fa-mdb"
     case medal = "fa-medal"
     case medapps = "fa-medapps"
     case medium = "fa-medium"
+    case mediumM = "fa-medium-m"
+    case medkit = "fa-medkit"
     case medrt = "fa-medrt"
     case meetup = "fa-meetup"
     case megaport = "fa-megaport"
+    case meh = "fa-meh"
+    case mehBlank = "fa-meh-blank"
+    case mehRollingEyes = "fa-meh-rolling-eyes"
     case memory = "fa-memory"
     case mendeley = "fa-mendeley"
     case menorah = "fa-menorah"
     case mercury = "fa-mercury"
-    case message = "fa-message"
-    case meta = "fa-meta"
     case meteor = "fa-meteor"
     case microblog = "fa-microblog"
     case microchip = "fa-microchip"
     case microphone = "fa-microphone"
-    case microphoneLines = "fa-microphone-lines"
-    case microphoneLinesSlash = "fa-microphone-lines-slash"
+    case microphoneAlt = "fa-microphone-alt"
+    case microphoneAltSlash = "fa-microphone-alt-slash"
     case microphoneSlash = "fa-microphone-slash"
     case microscope = "fa-microscope"
     case microsoft = "fa-microsoft"
-    case millSign = "fa-mill-sign"
-    case minimize = "fa-minimize"
     case minus = "fa-minus"
+    case minusCircle = "fa-minus-circle"
+    case minusSquare = "fa-minus-square"
     case mitten = "fa-mitten"
     case mix = "fa-mix"
     case mixcloud = "fa-mixcloud"
     case mixer = "fa-mixer"
     case mizuni = "fa-mizuni"
     case mobile = "fa-mobile"
-    case mobileButton = "fa-mobile-button"
-    case mobileRetro = "fa-mobile-retro"
-    case mobileScreen = "fa-mobile-screen"
-    case mobileScreenButton = "fa-mobile-screen-button"
+    case mobileAlt = "fa-mobile-alt"
     case modx = "fa-modx"
     case monero = "fa-monero"
     case moneyBill = "fa-money-bill"
-    case moneyBill1 = "fa-money-bill-1"
-    case moneyBill1Wave = "fa-money-bill-1-wave"
-    case moneyBillTransfer = "fa-money-bill-transfer"
-    case moneyBillTrendUp = "fa-money-bill-trend-up"
+    case moneyBillAlt = "fa-money-bill-alt"
     case moneyBillWave = "fa-money-bill-wave"
-    case moneyBillWheat = "fa-money-bill-wheat"
-    case moneyBills = "fa-money-bills"
+    case moneyBillWaveAlt = "fa-money-bill-wave-alt"
     case moneyCheck = "fa-money-check"
-    case moneyCheckDollar = "fa-money-check-dollar"
+    case moneyCheckAlt = "fa-money-check-alt"
     case monument = "fa-monument"
     case moon = "fa-moon"
     case mortarPestle = "fa-mortar-pestle"
     case mosque = "fa-mosque"
-    case mosquito = "fa-mosquito"
-    case mosquitoNet = "fa-mosquito-net"
     case motorcycle = "fa-motorcycle"
-    case mound = "fa-mound"
     case mountain = "fa-mountain"
-    case mountainCity = "fa-mountain-city"
-    case mountainSun = "fa-mountain-sun"
+    case mouse = "fa-mouse"
+    case mousePointer = "fa-mouse-pointer"
     case mugHot = "fa-mug-hot"
-    case mugSaucer = "fa-mug-saucer"
     case music = "fa-music"
-    case n = "fa-n"
-    case nairaSign = "fa-naira-sign"
     case napster = "fa-napster"
     case neos = "fa-neos"
     case networkWired = "fa-network-wired"
     case neuter = "fa-neuter"
     case newspaper = "fa-newspaper"
-    case nfcDirectional = "fa-nfc-directional"
-    case nfcSymbol = "fa-nfc-symbol"
     case nimblr = "fa-nimblr"
     case node = "fa-node"
     case nodeJs = "fa-node-js"
     case notEqual = "fa-not-equal"
-    case notdef = "fa-notdef"
-    case noteSticky = "fa-note-sticky"
     case notesMedical = "fa-notes-medical"
     case npm = "fa-npm"
     case ns8 = "fa-ns8"
     case nutritionix = "fa-nutritionix"
-    case o = "fa-o"
     case objectGroup = "fa-object-group"
     case objectUngroup = "fa-object-ungroup"
     case octopusDeploy = "fa-octopus-deploy"
     case odnoklassniki = "fa-odnoklassniki"
+    case odnoklassnikiSquare = "fa-odnoklassniki-square"
     case oilCan = "fa-oil-can"
-    case oilWell = "fa-oil-well"
     case oldRepublic = "fa-old-republic"
     case om = "fa-om"
     case opencart = "fa-opencart"
@@ -1177,165 +924,116 @@ public enum FontAwesome: String, CaseIterable {
     case osi = "fa-osi"
     case otter = "fa-otter"
     case outdent = "fa-outdent"
-    case p = "fa-p"
-    case padlet = "fa-padlet"
     case page4 = "fa-page4"
     case pagelines = "fa-pagelines"
     case pager = "fa-pager"
+    case paintBrush = "fa-paint-brush"
     case paintRoller = "fa-paint-roller"
-    case paintbrush = "fa-paintbrush"
     case palette = "fa-palette"
     case palfed = "fa-palfed"
     case pallet = "fa-pallet"
-    case panorama = "fa-panorama"
     case paperPlane = "fa-paper-plane"
     case paperclip = "fa-paperclip"
     case parachuteBox = "fa-parachute-box"
     case paragraph = "fa-paragraph"
+    case parking = "fa-parking"
     case passport = "fa-passport"
+    case pastafarianism = "fa-pastafarianism"
     case paste = "fa-paste"
     case patreon = "fa-patreon"
     case pause = "fa-pause"
+    case pauseCircle = "fa-pause-circle"
     case paw = "fa-paw"
     case paypal = "fa-paypal"
     case peace = "fa-peace"
     case pen = "fa-pen"
-    case penClip = "fa-pen-clip"
+    case penAlt = "fa-pen-alt"
     case penFancy = "fa-pen-fancy"
     case penNib = "fa-pen-nib"
-    case penRuler = "fa-pen-ruler"
-    case penToSquare = "fa-pen-to-square"
-    case pencil = "fa-pencil"
+    case penSquare = "fa-pen-square"
+    case pencilAlt = "fa-pencil-alt"
+    case pencilRuler = "fa-pencil-ruler"
+    case pennyArcade = "fa-penny-arcade"
     case peopleArrows = "fa-people-arrows"
-    case peopleCarryBox = "fa-people-carry-box"
-    case peopleGroup = "fa-people-group"
-    case peopleLine = "fa-people-line"
-    case peoplePulling = "fa-people-pulling"
-    case peopleRobbery = "fa-people-robbery"
-    case peopleRoof = "fa-people-roof"
+    case peopleCarry = "fa-people-carry"
     case pepperHot = "fa-pepper-hot"
     case perbyte = "fa-perbyte"
     case percent = "fa-percent"
+    case percentage = "fa-percentage"
     case periscope = "fa-periscope"
-    case person = "fa-person"
-    case personArrowDownToLine = "fa-person-arrow-down-to-line"
-    case personArrowUpFromLine = "fa-person-arrow-up-from-line"
-    case personBiking = "fa-person-biking"
     case personBooth = "fa-person-booth"
-    case personBreastfeeding = "fa-person-breastfeeding"
-    case personBurst = "fa-person-burst"
-    case personCane = "fa-person-cane"
-    case personChalkboard = "fa-person-chalkboard"
-    case personCircleCheck = "fa-person-circle-check"
-    case personCircleExclamation = "fa-person-circle-exclamation"
-    case personCircleMinus = "fa-person-circle-minus"
-    case personCirclePlus = "fa-person-circle-plus"
-    case personCircleQuestion = "fa-person-circle-question"
-    case personCircleXmark = "fa-person-circle-xmark"
-    case personDigging = "fa-person-digging"
-    case personDotsFromLine = "fa-person-dots-from-line"
-    case personDress = "fa-person-dress"
-    case personDressBurst = "fa-person-dress-burst"
-    case personDrowning = "fa-person-drowning"
-    case personFalling = "fa-person-falling"
-    case personFallingBurst = "fa-person-falling-burst"
-    case personHalfDress = "fa-person-half-dress"
-    case personHarassing = "fa-person-harassing"
-    case personHiking = "fa-person-hiking"
-    case personMilitaryPointing = "fa-person-military-pointing"
-    case personMilitaryRifle = "fa-person-military-rifle"
-    case personMilitaryToPerson = "fa-person-military-to-person"
-    case personPraying = "fa-person-praying"
-    case personPregnant = "fa-person-pregnant"
-    case personRays = "fa-person-rays"
-    case personRifle = "fa-person-rifle"
-    case personRunning = "fa-person-running"
-    case personShelter = "fa-person-shelter"
-    case personSkating = "fa-person-skating"
-    case personSkiing = "fa-person-skiing"
-    case personSkiingNordic = "fa-person-skiing-nordic"
-    case personSnowboarding = "fa-person-snowboarding"
-    case personSwimming = "fa-person-swimming"
-    case personThroughWindow = "fa-person-through-window"
-    case personWalking = "fa-person-walking"
-    case personWalkingArrowLoopLeft = "fa-person-walking-arrow-loop-left"
-    case personWalkingArrowRight = "fa-person-walking-arrow-right"
-    case personWalkingDashedLineArrowRight = "fa-person-walking-dashed-line-arrow-right"
-    case personWalkingLuggage = "fa-person-walking-luggage"
-    case personWalkingWithCane = "fa-person-walking-with-cane"
-    case pesetaSign = "fa-peseta-sign"
-    case pesoSign = "fa-peso-sign"
     case phabricator = "fa-phabricator"
     case phoenixFramework = "fa-phoenix-framework"
     case phoenixSquadron = "fa-phoenix-squadron"
     case phone = "fa-phone"
-    case phoneFlip = "fa-phone-flip"
+    case phoneAlt = "fa-phone-alt"
     case phoneSlash = "fa-phone-slash"
+    case phoneSquare = "fa-phone-square"
+    case phoneSquareAlt = "fa-phone-square-alt"
     case phoneVolume = "fa-phone-volume"
-    case photoFilm = "fa-photo-film"
+    case photoVideo = "fa-photo-video"
     case php = "fa-php"
     case piedPiper = "fa-pied-piper"
     case piedPiperAlt = "fa-pied-piper-alt"
     case piedPiperHat = "fa-pied-piper-hat"
     case piedPiperPp = "fa-pied-piper-pp"
+    case piedPiperSquare = "fa-pied-piper-square"
     case piggyBank = "fa-piggy-bank"
     case pills = "fa-pills"
     case pinterest = "fa-pinterest"
     case pinterestP = "fa-pinterest-p"
-    case pix = "fa-pix"
+    case pinterestSquare = "fa-pinterest-square"
     case pizzaSlice = "fa-pizza-slice"
     case placeOfWorship = "fa-place-of-worship"
     case plane = "fa-plane"
     case planeArrival = "fa-plane-arrival"
-    case planeCircleCheck = "fa-plane-circle-check"
-    case planeCircleExclamation = "fa-plane-circle-exclamation"
-    case planeCircleXmark = "fa-plane-circle-xmark"
     case planeDeparture = "fa-plane-departure"
-    case planeLock = "fa-plane-lock"
     case planeSlash = "fa-plane-slash"
-    case planeUp = "fa-plane-up"
-    case plantWilt = "fa-plant-wilt"
-    case plateWheat = "fa-plate-wheat"
     case play = "fa-play"
+    case playCircle = "fa-play-circle"
     case playstation = "fa-playstation"
     case plug = "fa-plug"
-    case plugCircleBolt = "fa-plug-circle-bolt"
-    case plugCircleCheck = "fa-plug-circle-check"
-    case plugCircleExclamation = "fa-plug-circle-exclamation"
-    case plugCircleMinus = "fa-plug-circle-minus"
-    case plugCirclePlus = "fa-plug-circle-plus"
-    case plugCircleXmark = "fa-plug-circle-xmark"
     case plus = "fa-plus"
-    case plusMinus = "fa-plus-minus"
+    case plusCircle = "fa-plus-circle"
+    case plusSquare = "fa-plus-square"
     case podcast = "fa-podcast"
+    case poll = "fa-poll"
+    case pollH = "fa-poll-h"
     case poo = "fa-poo"
     case pooStorm = "fa-poo-storm"
     case poop = "fa-poop"
+    case portrait = "fa-portrait"
+    case poundSign = "fa-pound-sign"
     case powerOff = "fa-power-off"
+    case pray = "fa-pray"
+    case prayingHands = "fa-praying-hands"
     case prescription = "fa-prescription"
     case prescriptionBottle = "fa-prescription-bottle"
-    case prescriptionBottleMedical = "fa-prescription-bottle-medical"
+    case prescriptionBottleAlt = "fa-prescription-bottle-alt"
     case print = "fa-print"
+    case procedures = "fa-procedures"
     case productHunt = "fa-product-hunt"
+    case projectDiagram = "fa-project-diagram"
     case pumpMedical = "fa-pump-medical"
     case pumpSoap = "fa-pump-soap"
     case pushed = "fa-pushed"
     case puzzlePiece = "fa-puzzle-piece"
     case python = "fa-python"
-    case q = "fa-q"
     case qq = "fa-qq"
     case qrcode = "fa-qrcode"
     case question = "fa-question"
+    case questionCircle = "fa-question-circle"
+    case quidditch = "fa-quidditch"
     case quinscape = "fa-quinscape"
     case quora = "fa-quora"
     case quoteLeft = "fa-quote-left"
     case quoteRight = "fa-quote-right"
-    case r = "fa-r"
+    case quran = "fa-quran"
     case rProject = "fa-r-project"
     case radiation = "fa-radiation"
-    case radio = "fa-radio"
+    case radiationAlt = "fa-radiation-alt"
     case rainbow = "fa-rainbow"
-    case rankingStar = "fa-ranking-star"
+    case random = "fa-random"
     case raspberryPi = "fa-raspberry-pi"
     case ravelry = "fa-ravelry"
     case react = "fa-react"
@@ -1344,17 +1042,17 @@ public enum FontAwesome: String, CaseIterable {
     case rebel = "fa-rebel"
     case receipt = "fa-receipt"
     case recordVinyl = "fa-record-vinyl"
-    case rectangleAd = "fa-rectangle-ad"
-    case rectangleList = "fa-rectangle-list"
-    case rectangleXmark = "fa-rectangle-xmark"
     case recycle = "fa-recycle"
     case redRiver = "fa-red-river"
     case reddit = "fa-reddit"
     case redditAlien = "fa-reddit-alien"
+    case redditSquare = "fa-reddit-square"
     case redhat = "fa-redhat"
+    case redo = "fa-redo"
+    case redoAlt = "fa-redo-alt"
     case registered = "fa-registered"
+    case removeFormat = "fa-remove-format"
     case renren = "fa-renren"
-    case repeat = "fa-repeat"
     case reply = "fa-reply"
     case replyAll = "fa-reply-all"
     case replyd = "fa-replyd"
@@ -1365,66 +1063,43 @@ public enum FontAwesome: String, CaseIterable {
     case retweet = "fa-retweet"
     case rev = "fa-rev"
     case ribbon = "fa-ribbon"
-    case rightFromBracket = "fa-right-from-bracket"
-    case rightLeft = "fa-right-left"
-    case rightLong = "fa-right-long"
-    case rightToBracket = "fa-right-to-bracket"
     case ring = "fa-ring"
     case road = "fa-road"
-    case roadBarrier = "fa-road-barrier"
-    case roadBridge = "fa-road-bridge"
-    case roadCircleCheck = "fa-road-circle-check"
-    case roadCircleExclamation = "fa-road-circle-exclamation"
-    case roadCircleXmark = "fa-road-circle-xmark"
-    case roadLock = "fa-road-lock"
-    case roadSpikes = "fa-road-spikes"
     case robot = "fa-robot"
     case rocket = "fa-rocket"
     case rocketchat = "fa-rocketchat"
     case rockrms = "fa-rockrms"
-    case rotate = "fa-rotate"
-    case rotateLeft = "fa-rotate-left"
-    case rotateRight = "fa-rotate-right"
     case route = "fa-route"
     case rss = "fa-rss"
+    case rssSquare = "fa-rss-square"
     case rubleSign = "fa-ruble-sign"
-    case rug = "fa-rug"
     case ruler = "fa-ruler"
     case rulerCombined = "fa-ruler-combined"
     case rulerHorizontal = "fa-ruler-horizontal"
     case rulerVertical = "fa-ruler-vertical"
+    case running = "fa-running"
     case rupeeSign = "fa-rupee-sign"
-    case rupiahSign = "fa-rupiah-sign"
     case rust = "fa-rust"
-    case s = "fa-s"
-    case sackDollar = "fa-sack-dollar"
-    case sackXmark = "fa-sack-xmark"
+    case sadCry = "fa-sad-cry"
+    case sadTear = "fa-sad-tear"
     case safari = "fa-safari"
-    case sailboat = "fa-sailboat"
     case salesforce = "fa-salesforce"
     case sass = "fa-sass"
     case satellite = "fa-satellite"
     case satelliteDish = "fa-satellite-dish"
-    case scaleBalanced = "fa-scale-balanced"
-    case scaleUnbalanced = "fa-scale-unbalanced"
-    case scaleUnbalancedFlip = "fa-scale-unbalanced-flip"
+    case save = "fa-save"
     case schlix = "fa-schlix"
     case school = "fa-school"
-    case schoolCircleCheck = "fa-school-circle-check"
-    case schoolCircleExclamation = "fa-school-circle-exclamation"
-    case schoolCircleXmark = "fa-school-circle-xmark"
-    case schoolFlag = "fa-school-flag"
-    case schoolLock = "fa-school-lock"
-    case scissors = "fa-scissors"
-    case screenpal = "fa-screenpal"
     case screwdriver = "fa-screwdriver"
-    case screwdriverWrench = "fa-screwdriver-wrench"
     case scribd = "fa-scribd"
     case scroll = "fa-scroll"
-    case scrollTorah = "fa-scroll-torah"
     case sdCard = "fa-sd-card"
+    case search = "fa-search"
+    case searchDollar = "fa-search-dollar"
+    case searchLocation = "fa-search-location"
+    case searchMinus = "fa-search-minus"
+    case searchPlus = "fa-search-plus"
     case searchengin = "fa-searchengin"
-    case section = "fa-section"
     case seedling = "fa-seedling"
     case sellcast = "fa-sellcast"
     case sellsy = "fa-sellsy"
@@ -1432,53 +1107,60 @@ public enum FontAwesome: String, CaseIterable {
     case servicestack = "fa-servicestack"
     case shapes = "fa-shapes"
     case share = "fa-share"
-    case shareFromSquare = "fa-share-from-square"
-    case shareNodes = "fa-share-nodes"
-    case sheetPlastic = "fa-sheet-plastic"
+    case shareAlt = "fa-share-alt"
+    case shareAltSquare = "fa-share-alt-square"
+    case shareSquare = "fa-share-square"
     case shekelSign = "fa-shekel-sign"
-    case shield = "fa-shield"
-    case shieldCat = "fa-shield-cat"
-    case shieldDog = "fa-shield-dog"
-    case shieldHalved = "fa-shield-halved"
-    case shieldHeart = "fa-shield-heart"
+    case shieldAlt = "fa-shield-alt"
     case shieldVirus = "fa-shield-virus"
     case ship = "fa-ship"
-    case shirt = "fa-shirt"
+    case shippingFast = "fa-shipping-fast"
     case shirtsinbulk = "fa-shirtsinbulk"
     case shoePrints = "fa-shoe-prints"
-    case shop = "fa-shop"
-    case shopLock = "fa-shop-lock"
-    case shopSlash = "fa-shop-slash"
     case shopify = "fa-shopify"
+    case shoppingBag = "fa-shopping-bag"
+    case shoppingBasket = "fa-shopping-basket"
+    case shoppingCart = "fa-shopping-cart"
     case shopware = "fa-shopware"
     case shower = "fa-shower"
-    case shrimp = "fa-shrimp"
-    case shuffle = "fa-shuffle"
-    case shuttleSpace = "fa-shuttle-space"
-    case signHanging = "fa-sign-hanging"
+    case shuttleVan = "fa-shuttle-van"
+    case sign = "fa-sign"
+    case signInAlt = "fa-sign-in-alt"
+    case signLanguage = "fa-sign-language"
+    case signOutAlt = "fa-sign-out-alt"
     case signal = "fa-signal"
     case signature = "fa-signature"
-    case signsPost = "fa-signs-post"
     case simCard = "fa-sim-card"
     case simplybuilt = "fa-simplybuilt"
     case sink = "fa-sink"
     case sistrix = "fa-sistrix"
     case sitemap = "fa-sitemap"
     case sith = "fa-sith"
-    case sitrox = "fa-sitrox"
+    case skating = "fa-skating"
     case sketch = "fa-sketch"
+    case skiing = "fa-skiing"
+    case skiingNordic = "fa-skiing-nordic"
     case skull = "fa-skull"
     case skullCrossbones = "fa-skull-crossbones"
     case skyatlas = "fa-skyatlas"
     case skype = "fa-skype"
     case slack = "fa-slack"
+    case slackHash = "fa-slack-hash"
     case slash = "fa-slash"
     case sleigh = "fa-sleigh"
-    case sliders = "fa-sliders"
+    case slidersH = "fa-sliders-h"
     case slideshare = "fa-slideshare"
+    case smile = "fa-smile"
+    case smileBeam = "fa-smile-beam"
+    case smileWink = "fa-smile-wink"
     case smog = "fa-smog"
     case smoking = "fa-smoking"
+    case smokingBan = "fa-smoking-ban"
+    case sms = "fa-sms"
     case snapchat = "fa-snapchat"
+    case snapchatGhost = "fa-snapchat-ghost"
+    case snapchatSquare = "fa-snapchat-square"
+    case snowboarding = "fa-snowboarding"
     case snowflake = "fa-snowflake"
     case snowman = "fa-snowman"
     case snowplow = "fa-snowplow"
@@ -1486,101 +1168,65 @@ public enum FontAwesome: String, CaseIterable {
     case socks = "fa-socks"
     case solarPanel = "fa-solar-panel"
     case sort = "fa-sort"
+    case sortAlphaDown = "fa-sort-alpha-down"
+    case sortAlphaDownAlt = "fa-sort-alpha-down-alt"
+    case sortAlphaUp = "fa-sort-alpha-up"
+    case sortAlphaUpAlt = "fa-sort-alpha-up-alt"
+    case sortAmountDown = "fa-sort-amount-down"
+    case sortAmountDownAlt = "fa-sort-amount-down-alt"
+    case sortAmountUp = "fa-sort-amount-up"
+    case sortAmountUpAlt = "fa-sort-amount-up-alt"
     case sortDown = "fa-sort-down"
+    case sortNumericDown = "fa-sort-numeric-down"
+    case sortNumericDownAlt = "fa-sort-numeric-down-alt"
+    case sortNumericUp = "fa-sort-numeric-up"
+    case sortNumericUpAlt = "fa-sort-numeric-up-alt"
     case sortUp = "fa-sort-up"
     case soundcloud = "fa-soundcloud"
     case sourcetree = "fa-sourcetree"
     case spa = "fa-spa"
-    case spaceAwesome = "fa-space-awesome"
-    case spaghettiMonsterFlying = "fa-spaghetti-monster-flying"
+    case spaceShuttle = "fa-space-shuttle"
     case speakap = "fa-speakap"
     case speakerDeck = "fa-speaker-deck"
     case spellCheck = "fa-spell-check"
     case spider = "fa-spider"
     case spinner = "fa-spinner"
     case splotch = "fa-splotch"
-    case spoon = "fa-spoon"
     case spotify = "fa-spotify"
     case sprayCan = "fa-spray-can"
-    case sprayCanSparkles = "fa-spray-can-sparkles"
     case square = "fa-square"
-    case squareArrowUpRight = "fa-square-arrow-up-right"
-    case squareBehance = "fa-square-behance"
-    case squareCaretDown = "fa-square-caret-down"
-    case squareCaretLeft = "fa-square-caret-left"
-    case squareCaretRight = "fa-square-caret-right"
-    case squareCaretUp = "fa-square-caret-up"
-    case squareCheck = "fa-square-check"
-    case squareDribbble = "fa-square-dribbble"
-    case squareEnvelope = "fa-square-envelope"
-    case squareFacebook = "fa-square-facebook"
-    case squareFontAwesome = "fa-square-font-awesome"
-    case squareFontAwesomeStroke = "fa-square-font-awesome-stroke"
     case squareFull = "fa-square-full"
-    case squareGit = "fa-square-git"
-    case squareGithub = "fa-square-github"
-    case squareGitlab = "fa-square-gitlab"
-    case squareGooglePlus = "fa-square-google-plus"
-    case squareH = "fa-square-h"
-    case squareHackerNews = "fa-square-hacker-news"
-    case squareInstagram = "fa-square-instagram"
-    case squareJs = "fa-square-js"
-    case squareLastfm = "fa-square-lastfm"
-    case squareMinus = "fa-square-minus"
-    case squareNfi = "fa-square-nfi"
-    case squareOdnoklassniki = "fa-square-odnoklassniki"
-    case squareParking = "fa-square-parking"
-    case squarePen = "fa-square-pen"
-    case squarePersonConfined = "fa-square-person-confined"
-    case squarePhone = "fa-square-phone"
-    case squarePhoneFlip = "fa-square-phone-flip"
-    case squarePiedPiper = "fa-square-pied-piper"
-    case squarePinterest = "fa-square-pinterest"
-    case squarePlus = "fa-square-plus"
-    case squarePollHorizontal = "fa-square-poll-horizontal"
-    case squarePollVertical = "fa-square-poll-vertical"
-    case squareReddit = "fa-square-reddit"
-    case squareRootVariable = "fa-square-root-variable"
-    case squareRss = "fa-square-rss"
-    case squareShareNodes = "fa-square-share-nodes"
-    case squareSnapchat = "fa-square-snapchat"
-    case squareSteam = "fa-square-steam"
-    case squareTumblr = "fa-square-tumblr"
-    case squareTwitter = "fa-square-twitter"
-    case squareUpRight = "fa-square-up-right"
-    case squareViadeo = "fa-square-viadeo"
-    case squareVimeo = "fa-square-vimeo"
-    case squareVirus = "fa-square-virus"
-    case squareWhatsapp = "fa-square-whatsapp"
-    case squareXing = "fa-square-xing"
-    case squareXmark = "fa-square-xmark"
-    case squareYoutube = "fa-square-youtube"
+    case squareRootAlt = "fa-square-root-alt"
     case squarespace = "fa-squarespace"
     case stackExchange = "fa-stack-exchange"
     case stackOverflow = "fa-stack-overflow"
     case stackpath = "fa-stackpath"
-    case staffSnake = "fa-staff-snake"
-    case stairs = "fa-stairs"
     case stamp = "fa-stamp"
-    case stapler = "fa-stapler"
     case star = "fa-star"
     case starAndCrescent = "fa-star-and-crescent"
     case starHalf = "fa-star-half"
-    case starHalfStroke = "fa-star-half-stroke"
+    case starHalfAlt = "fa-star-half-alt"
     case starOfDavid = "fa-star-of-david"
     case starOfLife = "fa-star-of-life"
     case staylinked = "fa-staylinked"
     case steam = "fa-steam"
+    case steamSquare = "fa-steam-square"
     case steamSymbol = "fa-steam-symbol"
-    case sterlingSign = "fa-sterling-sign"
+    case stepBackward = "fa-step-backward"
+    case stepForward = "fa-step-forward"
     case stethoscope = "fa-stethoscope"
     case stickerMule = "fa-sticker-mule"
+    case stickyNote = "fa-sticky-note"
     case stop = "fa-stop"
+    case stopCircle = "fa-stop-circle"
     case stopwatch = "fa-stopwatch"
     case stopwatch20 = "fa-stopwatch-20"
     case store = "fa-store"
+    case storeAlt = "fa-store-alt"
+    case storeAltSlash = "fa-store-alt-slash"
     case storeSlash = "fa-store-slash"
     case strava = "fa-strava"
+    case stream = "fa-stream"
     case streetView = "fa-street-view"
     case strikethrough = "fa-strikethrough"
     case stripe = "fa-stripe"
@@ -1590,132 +1236,112 @@ public enum FontAwesome: String, CaseIterable {
     case stumbleupon = "fa-stumbleupon"
     case stumbleuponCircle = "fa-stumbleupon-circle"
     case `subscript` = "fa-subscript"
+    case subway = "fa-subway"
     case suitcase = "fa-suitcase"
-    case suitcaseMedical = "fa-suitcase-medical"
     case suitcaseRolling = "fa-suitcase-rolling"
     case sun = "fa-sun"
-    case sunPlantWilt = "fa-sun-plant-wilt"
     case superpowers = "fa-superpowers"
     case superscript = "fa-superscript"
     case supple = "fa-supple"
+    case surprise = "fa-surprise"
     case suse = "fa-suse"
     case swatchbook = "fa-swatchbook"
     case swift = "fa-swift"
+    case swimmer = "fa-swimmer"
+    case swimmingPool = "fa-swimming-pool"
     case symfony = "fa-symfony"
     case synagogue = "fa-synagogue"
+    case sync = "fa-sync"
+    case syncAlt = "fa-sync-alt"
     case syringe = "fa-syringe"
-    case t = "fa-t"
     case table = "fa-table"
-    case tableCells = "fa-table-cells"
-    case tableCellsLarge = "fa-table-cells-large"
-    case tableColumns = "fa-table-columns"
-    case tableList = "fa-table-list"
-    case tableTennisPaddleBall = "fa-table-tennis-paddle-ball"
+    case tableTennis = "fa-table-tennis"
     case tablet = "fa-tablet"
-    case tabletButton = "fa-tablet-button"
-    case tabletScreenButton = "fa-tablet-screen-button"
+    case tabletAlt = "fa-tablet-alt"
     case tablets = "fa-tablets"
-    case tachographDigital = "fa-tachograph-digital"
+    case tachometerAlt = "fa-tachometer-alt"
     case tag = "fa-tag"
     case tags = "fa-tags"
     case tape = "fa-tape"
-    case tarp = "fa-tarp"
-    case tarpDroplet = "fa-tarp-droplet"
+    case tasks = "fa-tasks"
     case taxi = "fa-taxi"
     case teamspeak = "fa-teamspeak"
     case teeth = "fa-teeth"
     case teethOpen = "fa-teeth-open"
     case telegram = "fa-telegram"
-    case temperatureArrowDown = "fa-temperature-arrow-down"
-    case temperatureArrowUp = "fa-temperature-arrow-up"
-    case temperatureEmpty = "fa-temperature-empty"
-    case temperatureFull = "fa-temperature-full"
-    case temperatureHalf = "fa-temperature-half"
+    case telegramPlane = "fa-telegram-plane"
     case temperatureHigh = "fa-temperature-high"
     case temperatureLow = "fa-temperature-low"
-    case temperatureQuarter = "fa-temperature-quarter"
-    case temperatureThreeQuarters = "fa-temperature-three-quarters"
     case tencentWeibo = "fa-tencent-weibo"
-    case tengeSign = "fa-tenge-sign"
-    case tent = "fa-tent"
-    case tentArrowDownToLine = "fa-tent-arrow-down-to-line"
-    case tentArrowLeftRight = "fa-tent-arrow-left-right"
-    case tentArrowTurnLeft = "fa-tent-arrow-turn-left"
-    case tentArrowsDown = "fa-tent-arrows-down"
-    case tents = "fa-tents"
+    case tenge = "fa-tenge"
     case terminal = "fa-terminal"
     case textHeight = "fa-text-height"
-    case textSlash = "fa-text-slash"
     case textWidth = "fa-text-width"
+    case th = "fa-th"
+    case thLarge = "fa-th-large"
+    case thList = "fa-th-list"
     case theRedYeti = "fa-the-red-yeti"
+    case theaterMasks = "fa-theater-masks"
     case themeco = "fa-themeco"
     case themeisle = "fa-themeisle"
     case thermometer = "fa-thermometer"
+    case thermometerEmpty = "fa-thermometer-empty"
+    case thermometerFull = "fa-thermometer-full"
+    case thermometerHalf = "fa-thermometer-half"
+    case thermometerQuarter = "fa-thermometer-quarter"
+    case thermometerThreeQuarters = "fa-thermometer-three-quarters"
     case thinkPeaks = "fa-think-peaks"
     case thumbsDown = "fa-thumbs-down"
     case thumbsUp = "fa-thumbs-up"
     case thumbtack = "fa-thumbtack"
-    case ticket = "fa-ticket"
-    case ticketSimple = "fa-ticket-simple"
+    case ticketAlt = "fa-ticket-alt"
     case tiktok = "fa-tiktok"
-    case timeline = "fa-timeline"
+    case times = "fa-times"
+    case timesCircle = "fa-times-circle"
+    case tint = "fa-tint"
+    case tintSlash = "fa-tint-slash"
+    case tired = "fa-tired"
     case toggleOff = "fa-toggle-off"
     case toggleOn = "fa-toggle-on"
     case toilet = "fa-toilet"
     case toiletPaper = "fa-toilet-paper"
     case toiletPaperSlash = "fa-toilet-paper-slash"
-    case toiletPortable = "fa-toilet-portable"
-    case toiletsPortable = "fa-toilets-portable"
     case toolbox = "fa-toolbox"
+    case tools = "fa-tools"
     case tooth = "fa-tooth"
+    case torah = "fa-torah"
     case toriiGate = "fa-torii-gate"
-    case tornado = "fa-tornado"
-    case towerBroadcast = "fa-tower-broadcast"
-    case towerCell = "fa-tower-cell"
-    case towerObservation = "fa-tower-observation"
     case tractor = "fa-tractor"
     case tradeFederation = "fa-trade-federation"
     case trademark = "fa-trademark"
     case trafficLight = "fa-traffic-light"
     case trailer = "fa-trailer"
     case train = "fa-train"
-    case trainSubway = "fa-train-subway"
-    case trainTram = "fa-train-tram"
+    case tram = "fa-tram"
     case transgender = "fa-transgender"
+    case transgenderAlt = "fa-transgender-alt"
     case trash = "fa-trash"
-    case trashArrowUp = "fa-trash-arrow-up"
-    case trashCan = "fa-trash-can"
-    case trashCanArrowUp = "fa-trash-can-arrow-up"
+    case trashAlt = "fa-trash-alt"
+    case trashRestore = "fa-trash-restore"
+    case trashRestoreAlt = "fa-trash-restore-alt"
     case tree = "fa-tree"
-    case treeCity = "fa-tree-city"
     case trello = "fa-trello"
-    case triangleExclamation = "fa-triangle-exclamation"
+    case tripadvisor = "fa-tripadvisor"
     case trophy = "fa-trophy"
-    case trowel = "fa-trowel"
-    case trowelBricks = "fa-trowel-bricks"
     case truck = "fa-truck"
-    case truckArrowRight = "fa-truck-arrow-right"
-    case truckDroplet = "fa-truck-droplet"
-    case truckFast = "fa-truck-fast"
-    case truckField = "fa-truck-field"
-    case truckFieldUn = "fa-truck-field-un"
-    case truckFront = "fa-truck-front"
-    case truckMedical = "fa-truck-medical"
+    case truckLoading = "fa-truck-loading"
     case truckMonster = "fa-truck-monster"
     case truckMoving = "fa-truck-moving"
     case truckPickup = "fa-truck-pickup"
-    case truckPlane = "fa-truck-plane"
-    case truckRampBox = "fa-truck-ramp-box"
+    case tshirt = "fa-tshirt"
     case tty = "fa-tty"
     case tumblr = "fa-tumblr"
-    case turkishLiraSign = "fa-turkish-lira-sign"
-    case turnDown = "fa-turn-down"
-    case turnUp = "fa-turn-up"
+    case tumblrSquare = "fa-tumblr-square"
     case tv = "fa-tv"
     case twitch = "fa-twitch"
     case twitter = "fa-twitter"
+    case twitterSquare = "fa-twitter-square"
     case typo3 = "fa-typo3"
-    case u = "fa-u"
     case uber = "fa-uber"
     case ubuntu = "fa-ubuntu"
     case uikit = "fa-uikit"
@@ -1724,59 +1350,52 @@ public enum FontAwesome: String, CaseIterable {
     case umbrellaBeach = "fa-umbrella-beach"
     case uncharted = "fa-uncharted"
     case underline = "fa-underline"
+    case undo = "fa-undo"
+    case undoAlt = "fa-undo-alt"
     case uniregistry = "fa-uniregistry"
     case unity = "fa-unity"
     case universalAccess = "fa-universal-access"
+    case university = "fa-university"
+    case unlink = "fa-unlink"
     case unlock = "fa-unlock"
-    case unlockKeyhole = "fa-unlock-keyhole"
+    case unlockAlt = "fa-unlock-alt"
     case unsplash = "fa-unsplash"
     case untappd = "fa-untappd"
-    case upDown = "fa-up-down"
-    case upDownLeftRight = "fa-up-down-left-right"
-    case upLong = "fa-up-long"
-    case upRightAndDownLeftFromCenter = "fa-up-right-and-down-left-from-center"
-    case upRightFromSquare = "fa-up-right-from-square"
     case upload = "fa-upload"
     case ups = "fa-ups"
     case usb = "fa-usb"
     case user = "fa-user"
+    case userAlt = "fa-user-alt"
+    case userAltSlash = "fa-user-alt-slash"
     case userAstronaut = "fa-user-astronaut"
     case userCheck = "fa-user-check"
+    case userCircle = "fa-user-circle"
     case userClock = "fa-user-clock"
-    case userDoctor = "fa-user-doctor"
-    case userGear = "fa-user-gear"
+    case userCog = "fa-user-cog"
+    case userEdit = "fa-user-edit"
+    case userFriends = "fa-user-friends"
     case userGraduate = "fa-user-graduate"
-    case userGroup = "fa-user-group"
     case userInjured = "fa-user-injured"
-    case userLarge = "fa-user-large"
-    case userLargeSlash = "fa-user-large-slash"
     case userLock = "fa-user-lock"
+    case userMd = "fa-user-md"
     case userMinus = "fa-user-minus"
     case userNinja = "fa-user-ninja"
     case userNurse = "fa-user-nurse"
-    case userPen = "fa-user-pen"
     case userPlus = "fa-user-plus"
     case userSecret = "fa-user-secret"
     case userShield = "fa-user-shield"
     case userSlash = "fa-user-slash"
     case userTag = "fa-user-tag"
     case userTie = "fa-user-tie"
-    case userXmark = "fa-user-xmark"
+    case userTimes = "fa-user-times"
     case users = "fa-users"
-    case usersBetweenLines = "fa-users-between-lines"
-    case usersGear = "fa-users-gear"
-    case usersLine = "fa-users-line"
-    case usersRays = "fa-users-rays"
-    case usersRectangle = "fa-users-rectangle"
+    case usersCog = "fa-users-cog"
     case usersSlash = "fa-users-slash"
-    case usersViewfinder = "fa-users-viewfinder"
     case usps = "fa-usps"
     case ussunnah = "fa-ussunnah"
+    case utensilSpoon = "fa-utensil-spoon"
     case utensils = "fa-utensils"
-    case v = "fa-v"
     case vaadin = "fa-vaadin"
-    case vanShuttle = "fa-van-shuttle"
-    case vault = "fa-vault"
     case vectorSquare = "fa-vector-square"
     case venus = "fa-venus"
     case venusDouble = "fa-venus-double"
@@ -1785,68 +1404,58 @@ public enum FontAwesome: String, CaseIterable {
     case vestPatches = "fa-vest-patches"
     case viacoin = "fa-viacoin"
     case viadeo = "fa-viadeo"
+    case viadeoSquare = "fa-viadeo-square"
     case vial = "fa-vial"
-    case vialCircleCheck = "fa-vial-circle-check"
-    case vialVirus = "fa-vial-virus"
     case vials = "fa-vials"
     case viber = "fa-viber"
     case video = "fa-video"
     case videoSlash = "fa-video-slash"
     case vihara = "fa-vihara"
     case vimeo = "fa-vimeo"
+    case vimeoSquare = "fa-vimeo-square"
     case vimeoV = "fa-vimeo-v"
     case vine = "fa-vine"
     case virus = "fa-virus"
-    case virusCovid = "fa-virus-covid"
-    case virusCovidSlash = "fa-virus-covid-slash"
     case virusSlash = "fa-virus-slash"
     case viruses = "fa-viruses"
     case vk = "fa-vk"
     case vnv = "fa-vnv"
     case voicemail = "fa-voicemail"
-    case volcano = "fa-volcano"
-    case volleyball = "fa-volleyball"
-    case volumeHigh = "fa-volume-high"
-    case volumeLow = "fa-volume-low"
+    case volleyballBall = "fa-volleyball-ball"
+    case volumeDown = "fa-volume-down"
+    case volumeMute = "fa-volume-mute"
     case volumeOff = "fa-volume-off"
-    case volumeXmark = "fa-volume-xmark"
+    case volumeUp = "fa-volume-up"
+    case voteYea = "fa-vote-yea"
     case vrCardboard = "fa-vr-cardboard"
     case vuejs = "fa-vuejs"
-    case w = "fa-w"
-    case walkieTalkie = "fa-walkie-talkie"
+    case walking = "fa-walking"
     case wallet = "fa-wallet"
-    case wandMagic = "fa-wand-magic"
-    case wandMagicSparkles = "fa-wand-magic-sparkles"
-    case wandSparkles = "fa-wand-sparkles"
     case warehouse = "fa-warehouse"
     case watchmanMonitoring = "fa-watchman-monitoring"
     case water = "fa-water"
-    case waterLadder = "fa-water-ladder"
     case waveSquare = "fa-wave-square"
     case waze = "fa-waze"
     case weebly = "fa-weebly"
     case weibo = "fa-weibo"
+    case weight = "fa-weight"
     case weightHanging = "fa-weight-hanging"
-    case weightScale = "fa-weight-scale"
     case weixin = "fa-weixin"
     case whatsapp = "fa-whatsapp"
-    case wheatAwn = "fa-wheat-awn"
-    case wheatAwnCircleExclamation = "fa-wheat-awn-circle-exclamation"
+    case whatsappSquare = "fa-whatsapp-square"
     case wheelchair = "fa-wheelchair"
-    case wheelchairMove = "fa-wheelchair-move"
-    case whiskeyGlass = "fa-whiskey-glass"
     case whmcs = "fa-whmcs"
     case wifi = "fa-wifi"
     case wikipediaW = "fa-wikipedia-w"
     case wind = "fa-wind"
+    case windowClose = "fa-window-close"
     case windowMaximize = "fa-window-maximize"
     case windowMinimize = "fa-window-minimize"
     case windowRestore = "fa-window-restore"
     case windows = "fa-windows"
     case wineBottle = "fa-wine-bottle"
     case wineGlass = "fa-wine-glass"
-    case wineGlassEmpty = "fa-wine-glass-empty"
-    case wirsindhandwerk = "fa-wirsindhandwerk"
+    case wineGlassAlt = "fa-wine-glass-alt"
     case wix = "fa-wix"
     case wizardsOfTheCoast = "fa-wizards-of-the-coast"
     case wodu = "fa-wodu"
@@ -1854,19 +1463,15 @@ public enum FontAwesome: String, CaseIterable {
     case wonSign = "fa-won-sign"
     case wordpress = "fa-wordpress"
     case wordpressSimple = "fa-wordpress-simple"
-    case worm = "fa-worm"
     case wpbeginner = "fa-wpbeginner"
     case wpexplorer = "fa-wpexplorer"
     case wpforms = "fa-wpforms"
     case wpressr = "fa-wpressr"
     case wrench = "fa-wrench"
-    case x = "fa-x"
     case xRay = "fa-x-ray"
     case xbox = "fa-xbox"
     case xing = "fa-xing"
-    case xmark = "fa-xmark"
-    case xmarksLines = "fa-xmarks-lines"
-    case y = "fa-y"
+    case xingSquare = "fa-xing-square"
     case yCombinator = "fa-y-combinator"
     case yahoo = "fa-yahoo"
     case yammer = "fa-yammer"
@@ -1878,32 +1483,24 @@ public enum FontAwesome: String, CaseIterable {
     case yinYang = "fa-yin-yang"
     case yoast = "fa-yoast"
     case youtube = "fa-youtube"
-    case z = "fa-z"
+    case youtubeSquare = "fa-youtube-square"
     case zhihu = "fa-zhihu"
 
     /// An unicode code of FontAwesome icon
     public var unicode: String {
         switch self {
-            case .0: return "\u{30}"
-            case .1: return "\u{31}"
-            case .2: return "\u{32}"
-            case .3: return "\u{33}"
-            case .4: return "\u{34}"
-            case .42Group: return "\u{e080}"
-            case .5: return "\u{35}"
             case .fiveHundredPixels: return "\u{f26e}"
-            case .6: return "\u{36}"
-            case .7: return "\u{37}"
-            case .8: return "\u{38}"
-            case .9: return "\u{39}"
-            case .a: return "\u{41}"
             case .accessibleIcon: return "\u{f368}"
             case .accusoft: return "\u{f369}"
+            case .acquisitionsIncorporated: return "\u{f6af}"
+            case .ad: return "\u{f641}"
             case .addressBook: return "\u{f2b9}"
             case .addressCard: return "\u{f2bb}"
+            case .adjust: return "\u{f042}"
             case .adn: return "\u{f170}"
             case .adversal: return "\u{f36a}"
             case .affiliatetheme: return "\u{f36b}"
+            case .airFreshener: return "\u{f5d0}"
             case .airbnb: return "\u{f834}"
             case .algolia: return "\u{f36c}"
             case .alignCenter: return "\u{f037}"
@@ -1911,24 +1508,24 @@ public enum FontAwesome: String, CaseIterable {
             case .alignLeft: return "\u{f036}"
             case .alignRight: return "\u{f038}"
             case .alipay: return "\u{f642}"
+            case .allergies: return "\u{f461}"
             case .amazon: return "\u{f270}"
             case .amazonPay: return "\u{f42c}"
+            case .ambulance: return "\u{f0f9}"
+            case .americanSignLanguageInterpreting: return "\u{f2a3}"
             case .amilia: return "\u{f36d}"
             case .anchor: return "\u{f13d}"
-            case .anchorCircleCheck: return "\u{e4aa}"
-            case .anchorCircleExclamation: return "\u{e4ab}"
-            case .anchorCircleXmark: return "\u{e4ac}"
-            case .anchorLock: return "\u{e4ad}"
             case .android: return "\u{f17b}"
             case .angellist: return "\u{f209}"
+            case .angleDoubleDown: return "\u{f103}"
+            case .angleDoubleLeft: return "\u{f100}"
+            case .angleDoubleRight: return "\u{f101}"
+            case .angleDoubleUp: return "\u{f102}"
             case .angleDown: return "\u{f107}"
             case .angleLeft: return "\u{f104}"
             case .angleRight: return "\u{f105}"
             case .angleUp: return "\u{f106}"
-            case .anglesDown: return "\u{f103}"
-            case .anglesLeft: return "\u{f100}"
-            case .anglesRight: return "\u{f101}"
-            case .anglesUp: return "\u{f102}"
+            case .angry: return "\u{f556}"
             case .angrycreative: return "\u{f36e}"
             case .angular: return "\u{f420}"
             case .ankh: return "\u{f644}"
@@ -1936,101 +1533,58 @@ public enum FontAwesome: String, CaseIterable {
             case .appStoreIos: return "\u{f370}"
             case .apper: return "\u{f371}"
             case .apple: return "\u{f179}"
+            case .appleAlt: return "\u{f5d1}"
             case .applePay: return "\u{f415}"
-            case .appleWhole: return "\u{f5d1}"
+            case .archive: return "\u{f187}"
             case .archway: return "\u{f557}"
+            case .arrowAltCircleDown: return "\u{f358}"
+            case .arrowAltCircleLeft: return "\u{f359}"
+            case .arrowAltCircleRight: return "\u{f35a}"
+            case .arrowAltCircleUp: return "\u{f35b}"
+            case .arrowCircleDown: return "\u{f0ab}"
+            case .arrowCircleLeft: return "\u{f0a8}"
+            case .arrowCircleRight: return "\u{f0a9}"
+            case .arrowCircleUp: return "\u{f0aa}"
             case .arrowDown: return "\u{f063}"
-            case .arrowDown19: return "\u{f162}"
-            case .arrowDown91: return "\u{f886}"
-            case .arrowDownAZ: return "\u{f15d}"
-            case .arrowDownLong: return "\u{f175}"
-            case .arrowDownShortWide: return "\u{f884}"
-            case .arrowDownUpAcrossLine: return "\u{e4af}"
-            case .arrowDownUpLock: return "\u{e4b0}"
-            case .arrowDownWideShort: return "\u{f160}"
-            case .arrowDownZA: return "\u{f881}"
             case .arrowLeft: return "\u{f060}"
-            case .arrowLeftLong: return "\u{f177}"
-            case .arrowPointer: return "\u{f245}"
             case .arrowRight: return "\u{f061}"
-            case .arrowRightArrowLeft: return "\u{f0ec}"
-            case .arrowRightFromBracket: return "\u{f08b}"
-            case .arrowRightLong: return "\u{f178}"
-            case .arrowRightToBracket: return "\u{f090}"
-            case .arrowRightToCity: return "\u{e4b3}"
-            case .arrowRotateLeft: return "\u{f0e2}"
-            case .arrowRotateRight: return "\u{f01e}"
-            case .arrowTrendDown: return "\u{e097}"
-            case .arrowTrendUp: return "\u{e098}"
-            case .arrowTurnDown: return "\u{f149}"
-            case .arrowTurnUp: return "\u{f148}"
             case .arrowUp: return "\u{f062}"
-            case .arrowUp19: return "\u{f163}"
-            case .arrowUp91: return "\u{f887}"
-            case .arrowUpAZ: return "\u{f15e}"
-            case .arrowUpFromBracket: return "\u{e09a}"
-            case .arrowUpFromGroundWater: return "\u{e4b5}"
-            case .arrowUpFromWaterPump: return "\u{e4b6}"
-            case .arrowUpLong: return "\u{f176}"
-            case .arrowUpRightDots: return "\u{e4b7}"
-            case .arrowUpRightFromSquare: return "\u{f08e}"
-            case .arrowUpShortWide: return "\u{f885}"
-            case .arrowUpWideShort: return "\u{f161}"
-            case .arrowUpZA: return "\u{f882}"
-            case .arrowsDownToLine: return "\u{e4b8}"
-            case .arrowsDownToPeople: return "\u{e4b9}"
-            case .arrowsLeftRight: return "\u{f07e}"
-            case .arrowsLeftRightToLine: return "\u{e4ba}"
-            case .arrowsRotate: return "\u{f021}"
-            case .arrowsSpin: return "\u{e4bb}"
-            case .arrowsSplitUpAndLeft: return "\u{e4bc}"
-            case .arrowsToCircle: return "\u{e4bd}"
-            case .arrowsToDot: return "\u{e4be}"
-            case .arrowsToEye: return "\u{e4bf}"
-            case .arrowsTurnRight: return "\u{e4c0}"
-            case .arrowsTurnToDots: return "\u{e4c1}"
-            case .arrowsUpDown: return "\u{f07d}"
-            case .arrowsUpDownLeftRight: return "\u{f047}"
-            case .arrowsUpToLine: return "\u{e4c2}"
+            case .arrowsAlt: return "\u{f0b2}"
+            case .arrowsAltH: return "\u{f337}"
+            case .arrowsAltV: return "\u{f338}"
             case .artstation: return "\u{f77a}"
-            case .asterisk: return "\u{2a}"
+            case .assistiveListeningSystems: return "\u{f2a2}"
+            case .asterisk: return "\u{f069}"
             case .asymmetrik: return "\u{f372}"
-            case .at: return "\u{40}"
+            case .at: return "\u{f1fa}"
+            case .atlas: return "\u{f558}"
             case .atlassian: return "\u{f77b}"
             case .atom: return "\u{f5d2}"
             case .audible: return "\u{f373}"
             case .audioDescription: return "\u{f29e}"
-            case .australSign: return "\u{e0a9}"
             case .autoprefixer: return "\u{f41c}"
             case .avianex: return "\u{f374}"
             case .aviato: return "\u{f421}"
             case .award: return "\u{f559}"
             case .aws: return "\u{f375}"
-            case .b: return "\u{42}"
             case .baby: return "\u{f77c}"
             case .babyCarriage: return "\u{f77d}"
+            case .backspace: return "\u{f55a}"
             case .backward: return "\u{f04a}"
-            case .backwardFast: return "\u{f049}"
-            case .backwardStep: return "\u{f048}"
             case .bacon: return "\u{f7e5}"
             case .bacteria: return "\u{e059}"
             case .bacterium: return "\u{e05a}"
-            case .bagShopping: return "\u{f290}"
             case .bahai: return "\u{f666}"
-            case .bahtSign: return "\u{e0ac}"
+            case .balanceScale: return "\u{f24e}"
+            case .balanceScaleLeft: return "\u{f515}"
+            case .balanceScaleRight: return "\u{f516}"
             case .ban: return "\u{f05e}"
-            case .banSmoking: return "\u{f54d}"
-            case .bandage: return "\u{f462}"
+            case .bandAid: return "\u{f462}"
             case .bandcamp: return "\u{f2d5}"
-            case .bangladeshiTakaSign: return "\u{e2e6}"
             case .barcode: return "\u{f02a}"
             case .bars: return "\u{f0c9}"
-            case .barsProgress: return "\u{f828}"
-            case .barsStaggered: return "\u{f550}"
-            case .baseball: return "\u{f433}"
-            case .baseballBatBall: return "\u{f432}"
-            case .basketShopping: return "\u{f291}"
-            case .basketball: return "\u{f434}"
+            case .baseballBall: return "\u{f433}"
+            case .basketballBall: return "\u{f434}"
             case .bath: return "\u{f2cd}"
             case .batteryEmpty: return "\u{f244}"
             case .batteryFull: return "\u{f240}"
@@ -2039,26 +1593,27 @@ public enum FontAwesome: String, CaseIterable {
             case .batteryThreeQuarters: return "\u{f241}"
             case .battleNet: return "\u{f835}"
             case .bed: return "\u{f236}"
-            case .bedPulse: return "\u{f487}"
-            case .beerMugEmpty: return "\u{f0fc}"
+            case .beer: return "\u{f0fc}"
             case .behance: return "\u{f1b4}"
+            case .behanceSquare: return "\u{f1b5}"
             case .bell: return "\u{f0f3}"
-            case .bellConcierge: return "\u{f562}"
             case .bellSlash: return "\u{f1f6}"
             case .bezierCurve: return "\u{f55b}"
+            case .bible: return "\u{f647}"
             case .bicycle: return "\u{f206}"
-            case .bilibili: return "\u{e3d9}"
+            case .biking: return "\u{f84a}"
             case .bimobject: return "\u{f378}"
             case .binoculars: return "\u{f1e5}"
             case .biohazard: return "\u{f780}"
+            case .birthdayCake: return "\u{f1fd}"
             case .bitbucket: return "\u{f171}"
             case .bitcoin: return "\u{f379}"
-            case .bitcoinSign: return "\u{e0b4}"
             case .bity: return "\u{f37a}"
             case .blackTie: return "\u{f27e}"
             case .blackberry: return "\u{f37b}"
             case .blender: return "\u{f517}"
             case .blenderPhone: return "\u{f6b6}"
+            case .blind: return "\u{f29d}"
             case .blog: return "\u{f781}"
             case .blogger: return "\u{f37c}"
             case .bloggerB: return "\u{f37d}"
@@ -2066,121 +1621,78 @@ public enum FontAwesome: String, CaseIterable {
             case .bluetoothB: return "\u{f294}"
             case .bold: return "\u{f032}"
             case .bolt: return "\u{f0e7}"
-            case .boltLightning: return "\u{e0b7}"
             case .bomb: return "\u{f1e2}"
             case .bone: return "\u{f5d7}"
             case .bong: return "\u{f55c}"
             case .book: return "\u{f02d}"
-            case .bookAtlas: return "\u{f558}"
-            case .bookBible: return "\u{f647}"
-            case .bookBookmark: return "\u{e0bb}"
-            case .bookJournalWhills: return "\u{f66a}"
+            case .bookDead: return "\u{f6b7}"
             case .bookMedical: return "\u{f7e6}"
             case .bookOpen: return "\u{f518}"
-            case .bookOpenReader: return "\u{f5da}"
-            case .bookQuran: return "\u{f687}"
-            case .bookSkull: return "\u{f6b7}"
-            case .bookTanakh: return "\u{f827}"
+            case .bookReader: return "\u{f5da}"
             case .bookmark: return "\u{f02e}"
             case .bootstrap: return "\u{f836}"
             case .borderAll: return "\u{f84c}"
             case .borderNone: return "\u{f850}"
-            case .borderTopLeft: return "\u{f853}"
-            case .boreHole: return "\u{e4c3}"
-            case .bots: return "\u{e340}"
-            case .bottleDroplet: return "\u{e4c4}"
-            case .bottleWater: return "\u{e4c5}"
-            case .bowlFood: return "\u{e4c6}"
-            case .bowlRice: return "\u{e2eb}"
+            case .borderStyle: return "\u{f853}"
             case .bowlingBall: return "\u{f436}"
             case .box: return "\u{f466}"
-            case .boxArchive: return "\u{f187}"
             case .boxOpen: return "\u{f49e}"
             case .boxTissue: return "\u{e05b}"
-            case .boxesPacking: return "\u{e4c7}"
-            case .boxesStacked: return "\u{f468}"
+            case .boxes: return "\u{f468}"
             case .braille: return "\u{f2a1}"
             case .brain: return "\u{f5dc}"
-            case .brazilianRealSign: return "\u{e46c}"
             case .breadSlice: return "\u{f7ec}"
-            case .bridge: return "\u{e4c8}"
-            case .bridgeCircleCheck: return "\u{e4c9}"
-            case .bridgeCircleExclamation: return "\u{e4ca}"
-            case .bridgeCircleXmark: return "\u{e4cb}"
-            case .bridgeLock: return "\u{e4cc}"
-            case .bridgeWater: return "\u{e4ce}"
             case .briefcase: return "\u{f0b1}"
             case .briefcaseMedical: return "\u{f469}"
+            case .broadcastTower: return "\u{f519}"
             case .broom: return "\u{f51a}"
-            case .broomBall: return "\u{f458}"
             case .brush: return "\u{f55d}"
             case .btc: return "\u{f15a}"
-            case .bucket: return "\u{e4cf}"
             case .buffer: return "\u{f837}"
             case .bug: return "\u{f188}"
-            case .bugSlash: return "\u{e490}"
-            case .bugs: return "\u{e4d0}"
             case .building: return "\u{f1ad}"
-            case .buildingCircleArrowRight: return "\u{e4d1}"
-            case .buildingCircleCheck: return "\u{e4d2}"
-            case .buildingCircleExclamation: return "\u{e4d3}"
-            case .buildingCircleXmark: return "\u{e4d4}"
-            case .buildingColumns: return "\u{f19c}"
-            case .buildingFlag: return "\u{e4d5}"
-            case .buildingLock: return "\u{e4d6}"
-            case .buildingNgo: return "\u{e4d7}"
-            case .buildingShield: return "\u{e4d8}"
-            case .buildingUn: return "\u{e4d9}"
-            case .buildingUser: return "\u{e4da}"
-            case .buildingWheat: return "\u{e4db}"
             case .bullhorn: return "\u{f0a1}"
             case .bullseye: return "\u{f140}"
-            case .burger: return "\u{f805}"
+            case .burn: return "\u{f46a}"
             case .buromobelexperte: return "\u{f37f}"
-            case .burst: return "\u{e4dc}"
             case .bus: return "\u{f207}"
-            case .busSimple: return "\u{f55e}"
+            case .busAlt: return "\u{f55e}"
             case .businessTime: return "\u{f64a}"
             case .buyNLarge: return "\u{f8a6}"
             case .buysellads: return "\u{f20d}"
-            case .c: return "\u{43}"
-            case .cableCar: return "\u{f7da}"
-            case .cakeCandles: return "\u{f1fd}"
             case .calculator: return "\u{f1ec}"
             case .calendar: return "\u{f133}"
+            case .calendarAlt: return "\u{f073}"
             case .calendarCheck: return "\u{f274}"
             case .calendarDay: return "\u{f783}"
-            case .calendarDays: return "\u{f073}"
             case .calendarMinus: return "\u{f272}"
             case .calendarPlus: return "\u{f271}"
+            case .calendarTimes: return "\u{f273}"
             case .calendarWeek: return "\u{f784}"
-            case .calendarXmark: return "\u{f273}"
             case .camera: return "\u{f030}"
             case .cameraRetro: return "\u{f083}"
-            case .cameraRotate: return "\u{e0d8}"
             case .campground: return "\u{f6bb}"
             case .canadianMapleLeaf: return "\u{f785}"
             case .candyCane: return "\u{f786}"
             case .cannabis: return "\u{f55f}"
             case .capsules: return "\u{f46b}"
             case .car: return "\u{f1b9}"
+            case .carAlt: return "\u{f5de}"
             case .carBattery: return "\u{f5df}"
-            case .carBurst: return "\u{f5e1}"
-            case .carOn: return "\u{e4dd}"
-            case .carRear: return "\u{f5de}"
+            case .carCrash: return "\u{f5e1}"
             case .carSide: return "\u{f5e4}"
-            case .carTunnel: return "\u{e4de}"
             case .caravan: return "\u{f8ff}"
             case .caretDown: return "\u{f0d7}"
             case .caretLeft: return "\u{f0d9}"
             case .caretRight: return "\u{f0da}"
+            case .caretSquareDown: return "\u{f150}"
+            case .caretSquareLeft: return "\u{f191}"
+            case .caretSquareRight: return "\u{f152}"
+            case .caretSquareUp: return "\u{f151}"
             case .caretUp: return "\u{f0d8}"
             case .carrot: return "\u{f787}"
             case .cartArrowDown: return "\u{f218}"
-            case .cartFlatbed: return "\u{f474}"
-            case .cartFlatbedSuitcase: return "\u{f59d}"
             case .cartPlus: return "\u{f217}"
-            case .cartShopping: return "\u{f07a}"
             case .cashRegister: return "\u{f788}"
             case .cat: return "\u{f6be}"
             case .ccAmazonPay: return "\u{f42d}"
@@ -2193,26 +1705,21 @@ public enum FontAwesome: String, CaseIterable {
             case .ccPaypal: return "\u{f1f4}"
             case .ccStripe: return "\u{f1f5}"
             case .ccVisa: return "\u{f1f0}"
-            case .cediSign: return "\u{e0df}"
-            case .centSign: return "\u{e3f5}"
             case .centercode: return "\u{f380}"
             case .centos: return "\u{f789}"
             case .certificate: return "\u{f0a3}"
             case .chair: return "\u{f6c0}"
             case .chalkboard: return "\u{f51b}"
-            case .chalkboardUser: return "\u{f51c}"
-            case .champagneGlasses: return "\u{f79f}"
+            case .chalkboardTeacher: return "\u{f51c}"
             case .chargingStation: return "\u{f5e7}"
             case .chartArea: return "\u{f1fe}"
             case .chartBar: return "\u{f080}"
-            case .chartColumn: return "\u{e0e3}"
-            case .chartGantt: return "\u{e0e4}"
             case .chartLine: return "\u{f201}"
             case .chartPie: return "\u{f200}"
-            case .chartSimple: return "\u{e473}"
             case .check: return "\u{f00c}"
+            case .checkCircle: return "\u{f058}"
             case .checkDouble: return "\u{f560}"
-            case .checkToSlot: return "\u{f772}"
+            case .checkSquare: return "\u{f14a}"
             case .cheese: return "\u{f7ef}"
             case .chess: return "\u{f439}"
             case .chessBishop: return "\u{f43a}"
@@ -2222,103 +1729,66 @@ public enum FontAwesome: String, CaseIterable {
             case .chessPawn: return "\u{f443}"
             case .chessQueen: return "\u{f445}"
             case .chessRook: return "\u{f447}"
+            case .chevronCircleDown: return "\u{f13a}"
+            case .chevronCircleLeft: return "\u{f137}"
+            case .chevronCircleRight: return "\u{f138}"
+            case .chevronCircleUp: return "\u{f139}"
             case .chevronDown: return "\u{f078}"
             case .chevronLeft: return "\u{f053}"
             case .chevronRight: return "\u{f054}"
             case .chevronUp: return "\u{f077}"
             case .child: return "\u{f1ae}"
-            case .childCombatant: return "\u{e4e0}"
-            case .childDress: return "\u{e59c}"
-            case .childReaching: return "\u{e59d}"
-            case .children: return "\u{e4e1}"
             case .chrome: return "\u{f268}"
             case .chromecast: return "\u{f838}"
             case .church: return "\u{f51d}"
             case .circle: return "\u{f111}"
-            case .circleArrowDown: return "\u{f0ab}"
-            case .circleArrowLeft: return "\u{f0a8}"
-            case .circleArrowRight: return "\u{f0a9}"
-            case .circleArrowUp: return "\u{f0aa}"
-            case .circleCheck: return "\u{f058}"
-            case .circleChevronDown: return "\u{f13a}"
-            case .circleChevronLeft: return "\u{f137}"
-            case .circleChevronRight: return "\u{f138}"
-            case .circleChevronUp: return "\u{f139}"
-            case .circleDollarToSlot: return "\u{f4b9}"
-            case .circleDot: return "\u{f192}"
-            case .circleDown: return "\u{f358}"
-            case .circleExclamation: return "\u{f06a}"
-            case .circleH: return "\u{f47e}"
-            case .circleHalfStroke: return "\u{f042}"
-            case .circleInfo: return "\u{f05a}"
-            case .circleLeft: return "\u{f359}"
-            case .circleMinus: return "\u{f056}"
-            case .circleNodes: return "\u{e4e2}"
             case .circleNotch: return "\u{f1ce}"
-            case .circlePause: return "\u{f28b}"
-            case .circlePlay: return "\u{f144}"
-            case .circlePlus: return "\u{f055}"
-            case .circleQuestion: return "\u{f059}"
-            case .circleRadiation: return "\u{f7ba}"
-            case .circleRight: return "\u{f35a}"
-            case .circleStop: return "\u{f28d}"
-            case .circleUp: return "\u{f35b}"
-            case .circleUser: return "\u{f2bd}"
-            case .circleXmark: return "\u{f057}"
             case .city: return "\u{f64f}"
-            case .clapperboard: return "\u{e131}"
+            case .clinicMedical: return "\u{f7f2}"
             case .clipboard: return "\u{f328}"
             case .clipboardCheck: return "\u{f46c}"
             case .clipboardList: return "\u{f46d}"
-            case .clipboardQuestion: return "\u{e4e3}"
-            case .clipboardUser: return "\u{f7f3}"
             case .clock: return "\u{f017}"
-            case .clockRotateLeft: return "\u{f1da}"
             case .clone: return "\u{f24d}"
             case .closedCaptioning: return "\u{f20a}"
             case .cloud: return "\u{f0c2}"
-            case .cloudArrowDown: return "\u{f0ed}"
-            case .cloudArrowUp: return "\u{f0ee}"
-            case .cloudBolt: return "\u{f76c}"
+            case .cloudDownloadAlt: return "\u{f381}"
             case .cloudMeatball: return "\u{f73b}"
             case .cloudMoon: return "\u{f6c3}"
             case .cloudMoonRain: return "\u{f73c}"
             case .cloudRain: return "\u{f73d}"
             case .cloudShowersHeavy: return "\u{f740}"
-            case .cloudShowersWater: return "\u{e4e4}"
             case .cloudSun: return "\u{f6c4}"
             case .cloudSunRain: return "\u{f743}"
+            case .cloudUploadAlt: return "\u{f382}"
             case .cloudflare: return "\u{e07d}"
             case .cloudscale: return "\u{f383}"
             case .cloudsmith: return "\u{f384}"
             case .cloudversify: return "\u{f385}"
-            case .clover: return "\u{e139}"
-            case .cmplid: return "\u{e360}"
+            case .cocktail: return "\u{f561}"
             case .code: return "\u{f121}"
             case .codeBranch: return "\u{f126}"
-            case .codeCommit: return "\u{f386}"
-            case .codeCompare: return "\u{e13a}"
-            case .codeFork: return "\u{e13b}"
-            case .codeMerge: return "\u{f387}"
-            case .codePullRequest: return "\u{e13c}"
             case .codepen: return "\u{f1cb}"
             case .codiepie: return "\u{f284}"
+            case .coffee: return "\u{f0f4}"
+            case .cog: return "\u{f013}"
+            case .cogs: return "\u{f085}"
             case .coins: return "\u{f51e}"
-            case .colonSign: return "\u{e140}"
+            case .columns: return "\u{f0db}"
             case .comment: return "\u{f075}"
+            case .commentAlt: return "\u{f27a}"
             case .commentDollar: return "\u{f651}"
             case .commentDots: return "\u{f4ad}"
             case .commentMedical: return "\u{f7f5}"
             case .commentSlash: return "\u{f4b3}"
-            case .commentSms: return "\u{f7cd}"
             case .comments: return "\u{f086}"
             case .commentsDollar: return "\u{f653}"
             case .compactDisc: return "\u{f51f}"
             case .compass: return "\u{f14e}"
-            case .compassDrafting: return "\u{f568}"
             case .compress: return "\u{f066}"
-            case .computer: return "\u{e4e5}"
-            case .computerMouse: return "\u{f8cc}"
+            case .compressAlt: return "\u{f422}"
+            case .compressArrowsAlt: return "\u{f78c}"
+            case .conciergeBell: return "\u{f562}"
             case .confluence: return "\u{f78d}"
             case .connectdevelop: return "\u{f20e}"
             case .contao: return "\u{f26d}"
@@ -2328,7 +1798,6 @@ public enum FontAwesome: String, CaseIterable {
             case .copyright: return "\u{f1f9}"
             case .cottonBureau: return "\u{f89e}"
             case .couch: return "\u{f4b8}"
-            case .cow: return "\u{f6c8}"
             case .cpanel: return "\u{f388}"
             case .creativeCommons: return "\u{f25e}"
             case .creativeCommonsBy: return "\u{f4e7}"
@@ -2347,42 +1816,35 @@ public enum FontAwesome: String, CaseIterable {
             case .creditCard: return "\u{f09d}"
             case .criticalRole: return "\u{f6c9}"
             case .crop: return "\u{f125}"
-            case .cropSimple: return "\u{f565}"
+            case .cropAlt: return "\u{f565}"
             case .cross: return "\u{f654}"
             case .crosshairs: return "\u{f05b}"
             case .crow: return "\u{f520}"
             case .crown: return "\u{f521}"
             case .crutch: return "\u{f7f7}"
-            case .cruzeiroSign: return "\u{e152}"
             case .css3: return "\u{f13c}"
             case .css3Alt: return "\u{f38b}"
             case .cube: return "\u{f1b2}"
             case .cubes: return "\u{f1b3}"
-            case .cubesStacked: return "\u{e4e6}"
+            case .cut: return "\u{f0c4}"
             case .cuttlefish: return "\u{f38c}"
-            case .d: return "\u{44}"
             case .dAndD: return "\u{f38d}"
             case .dAndDBeyond: return "\u{f6ca}"
             case .dailymotion: return "\u{e052}"
             case .dashcube: return "\u{f210}"
             case .database: return "\u{f1c0}"
+            case .deaf: return "\u{f2a4}"
             case .deezer: return "\u{e077}"
-            case .deleteLeft: return "\u{f55a}"
             case .delicious: return "\u{f1a5}"
             case .democrat: return "\u{f747}"
             case .deploydog: return "\u{f38e}"
             case .deskpro: return "\u{f38f}"
-            case .desktop: return "\u{f390}"
+            case .desktop: return "\u{f108}"
             case .dev: return "\u{f6cc}"
             case .deviantart: return "\u{f1bd}"
             case .dharmachakra: return "\u{f655}"
             case .dhl: return "\u{f790}"
-            case .diagramNext: return "\u{e476}"
-            case .diagramPredecessor: return "\u{e477}"
-            case .diagramProject: return "\u{f542}"
-            case .diagramSuccessor: return "\u{e47a}"
-            case .diamond: return "\u{f219}"
-            case .diamondTurnRight: return "\u{f5eb}"
+            case .diagnoses: return "\u{f470}"
             case .diaspora: return "\u{f791}"
             case .dice: return "\u{f522}"
             case .diceD20: return "\u{f6cf}"
@@ -2395,31 +1857,33 @@ public enum FontAwesome: String, CaseIterable {
             case .diceTwo: return "\u{f528}"
             case .digg: return "\u{f1a6}"
             case .digitalOcean: return "\u{f391}"
+            case .digitalTachograph: return "\u{f566}"
+            case .directions: return "\u{f5eb}"
             case .discord: return "\u{f392}"
             case .discourse: return "\u{f393}"
             case .disease: return "\u{f7fa}"
-            case .display: return "\u{e163}"
             case .divide: return "\u{f529}"
+            case .dizzy: return "\u{f567}"
             case .dna: return "\u{f471}"
             case .dochub: return "\u{f394}"
             case .docker: return "\u{f395}"
             case .dog: return "\u{f6d3}"
-            case .dollarSign: return "\u{24}"
+            case .dollarSign: return "\u{f155}"
             case .dolly: return "\u{f472}"
-            case .dongSign: return "\u{e169}"
+            case .dollyFlatbed: return "\u{f474}"
+            case .donate: return "\u{f4b9}"
             case .doorClosed: return "\u{f52a}"
             case .doorOpen: return "\u{f52b}"
+            case .dotCircle: return "\u{f192}"
             case .dove: return "\u{f4ba}"
-            case .downLeftAndUpRightToCenter: return "\u{f422}"
-            case .downLong: return "\u{f309}"
             case .download: return "\u{f019}"
             case .draft2digital: return "\u{f396}"
+            case .draftingCompass: return "\u{f568}"
             case .dragon: return "\u{f6d5}"
             case .drawPolygon: return "\u{f5ee}"
             case .dribbble: return "\u{f17d}"
+            case .dribbbleSquare: return "\u{f397}"
             case .dropbox: return "\u{f16b}"
-            case .droplet: return "\u{f043}"
-            case .dropletSlash: return "\u{f5c7}"
             case .drum: return "\u{f569}"
             case .drumSteelpan: return "\u{f56a}"
             case .drumstickBite: return "\u{f6d7}"
@@ -2429,34 +1893,25 @@ public enum FontAwesome: String, CaseIterable {
             case .dumpsterFire: return "\u{f794}"
             case .dungeon: return "\u{f6d9}"
             case .dyalog: return "\u{f399}"
-            case .e: return "\u{45}"
-            case .earDeaf: return "\u{f2a4}"
-            case .earListen: return "\u{f2a2}"
             case .earlybirds: return "\u{f39a}"
-            case .earthAfrica: return "\u{f57c}"
-            case .earthAmericas: return "\u{f57d}"
-            case .earthAsia: return "\u{f57e}"
-            case .earthEurope: return "\u{f7a2}"
-            case .earthOceania: return "\u{e47b}"
             case .ebay: return "\u{f4f4}"
             case .edge: return "\u{f282}"
             case .edgeLegacy: return "\u{e078}"
+            case .edit: return "\u{f044}"
             case .egg: return "\u{f7fb}"
             case .eject: return "\u{f052}"
             case .elementor: return "\u{f430}"
-            case .elevator: return "\u{e16d}"
-            case .ellipsis: return "\u{f141}"
-            case .ellipsisVertical: return "\u{f142}"
+            case .ellipsisH: return "\u{f141}"
+            case .ellipsisV: return "\u{f142}"
             case .ello: return "\u{f5f1}"
             case .ember: return "\u{f423}"
             case .empire: return "\u{f1d1}"
             case .envelope: return "\u{f0e0}"
-            case .envelopeCircleCheck: return "\u{e4e8}"
             case .envelopeOpen: return "\u{f2b6}"
             case .envelopeOpenText: return "\u{f658}"
-            case .envelopesBulk: return "\u{f674}"
+            case .envelopeSquare: return "\u{f199}"
             case .envira: return "\u{f299}"
-            case .equals: return "\u{3d}"
+            case .equals: return "\u{f52c}"
             case .eraser: return "\u{f12d}"
             case .erlang: return "\u{f39d}"
             case .ethereum: return "\u{f42e}"
@@ -2464,161 +1919,113 @@ public enum FontAwesome: String, CaseIterable {
             case .etsy: return "\u{f2d7}"
             case .euroSign: return "\u{f153}"
             case .evernote: return "\u{f839}"
-            case .exclamation: return "\u{21}"
+            case .exchangeAlt: return "\u{f362}"
+            case .exclamation: return "\u{f12a}"
+            case .exclamationCircle: return "\u{f06a}"
+            case .exclamationTriangle: return "\u{f071}"
             case .expand: return "\u{f065}"
+            case .expandAlt: return "\u{f424}"
+            case .expandArrowsAlt: return "\u{f31e}"
             case .expeditedssl: return "\u{f23e}"
-            case .explosion: return "\u{e4e9}"
+            case .externalLinkAlt: return "\u{f35d}"
+            case .externalLinkSquareAlt: return "\u{f360}"
             case .eye: return "\u{f06e}"
             case .eyeDropper: return "\u{f1fb}"
-            case .eyeLowVision: return "\u{f2a8}"
             case .eyeSlash: return "\u{f070}"
-            case .f: return "\u{46}"
-            case .faceAngry: return "\u{f556}"
-            case .faceDizzy: return "\u{f567}"
-            case .faceFlushed: return "\u{f579}"
-            case .faceFrown: return "\u{f119}"
-            case .faceFrownOpen: return "\u{f57a}"
-            case .faceGrimace: return "\u{f57f}"
-            case .faceGrin: return "\u{f580}"
-            case .faceGrinBeam: return "\u{f582}"
-            case .faceGrinBeamSweat: return "\u{f583}"
-            case .faceGrinHearts: return "\u{f584}"
-            case .faceGrinSquint: return "\u{f585}"
-            case .faceGrinSquintTears: return "\u{f586}"
-            case .faceGrinStars: return "\u{f587}"
-            case .faceGrinTears: return "\u{f588}"
-            case .faceGrinTongue: return "\u{f589}"
-            case .faceGrinTongueSquint: return "\u{f58a}"
-            case .faceGrinTongueWink: return "\u{f58b}"
-            case .faceGrinWide: return "\u{f581}"
-            case .faceGrinWink: return "\u{f58c}"
-            case .faceKiss: return "\u{f596}"
-            case .faceKissBeam: return "\u{f597}"
-            case .faceKissWinkHeart: return "\u{f598}"
-            case .faceLaugh: return "\u{f599}"
-            case .faceLaughBeam: return "\u{f59a}"
-            case .faceLaughSquint: return "\u{f59b}"
-            case .faceLaughWink: return "\u{f59c}"
-            case .faceMeh: return "\u{f11a}"
-            case .faceMehBlank: return "\u{f5a4}"
-            case .faceRollingEyes: return "\u{f5a5}"
-            case .faceSadCry: return "\u{f5b3}"
-            case .faceSadTear: return "\u{f5b4}"
-            case .faceSmile: return "\u{f118}"
-            case .faceSmileBeam: return "\u{f5b8}"
-            case .faceSmileWink: return "\u{f4da}"
-            case .faceSurprise: return "\u{f5c2}"
-            case .faceTired: return "\u{f5c8}"
             case .facebook: return "\u{f09a}"
             case .facebookF: return "\u{f39e}"
             case .facebookMessenger: return "\u{f39f}"
+            case .facebookSquare: return "\u{f082}"
             case .fan: return "\u{f863}"
             case .fantasyFlightGames: return "\u{f6dc}"
+            case .fastBackward: return "\u{f049}"
+            case .fastForward: return "\u{f050}"
             case .faucet: return "\u{e005}"
-            case .faucetDrip: return "\u{e006}"
             case .fax: return "\u{f1ac}"
             case .feather: return "\u{f52d}"
-            case .featherPointed: return "\u{f56b}"
+            case .featherAlt: return "\u{f56b}"
             case .fedex: return "\u{f797}"
             case .fedora: return "\u{f798}"
-            case .ferry: return "\u{e4ea}"
+            case .female: return "\u{f182}"
+            case .fighterJet: return "\u{f0fb}"
             case .figma: return "\u{f799}"
             case .file: return "\u{f15b}"
-            case .fileArrowDown: return "\u{f56d}"
-            case .fileArrowUp: return "\u{f574}"
+            case .fileAlt: return "\u{f15c}"
+            case .fileArchive: return "\u{f1c6}"
             case .fileAudio: return "\u{f1c7}"
-            case .fileCircleCheck: return "\u{e5a0}"
-            case .fileCircleExclamation: return "\u{e4eb}"
-            case .fileCircleMinus: return "\u{e4ed}"
-            case .fileCirclePlus: return "\u{e494}"
-            case .fileCircleQuestion: return "\u{e4ef}"
-            case .fileCircleXmark: return "\u{e5a1}"
             case .fileCode: return "\u{f1c9}"
             case .fileContract: return "\u{f56c}"
             case .fileCsv: return "\u{f6dd}"
+            case .fileDownload: return "\u{f56d}"
             case .fileExcel: return "\u{f1c3}"
             case .fileExport: return "\u{f56e}"
             case .fileImage: return "\u{f1c5}"
             case .fileImport: return "\u{f56f}"
             case .fileInvoice: return "\u{f570}"
             case .fileInvoiceDollar: return "\u{f571}"
-            case .fileLines: return "\u{f15c}"
             case .fileMedical: return "\u{f477}"
+            case .fileMedicalAlt: return "\u{f478}"
             case .filePdf: return "\u{f1c1}"
-            case .filePen: return "\u{f31c}"
             case .filePowerpoint: return "\u{f1c4}"
             case .filePrescription: return "\u{f572}"
-            case .fileShield: return "\u{e4f0}"
             case .fileSignature: return "\u{f573}"
+            case .fileUpload: return "\u{f574}"
             case .fileVideo: return "\u{f1c8}"
-            case .fileWaveform: return "\u{f478}"
             case .fileWord: return "\u{f1c2}"
-            case .fileZipper: return "\u{f1c6}"
             case .fill: return "\u{f575}"
             case .fillDrip: return "\u{f576}"
             case .film: return "\u{f008}"
             case .filter: return "\u{f0b0}"
-            case .filterCircleDollar: return "\u{f662}"
-            case .filterCircleXmark: return "\u{e17b}"
             case .fingerprint: return "\u{f577}"
             case .fire: return "\u{f06d}"
-            case .fireBurner: return "\u{e4f1}"
+            case .fireAlt: return "\u{f7e4}"
             case .fireExtinguisher: return "\u{f134}"
-            case .fireFlameCurved: return "\u{f7e4}"
-            case .fireFlameSimple: return "\u{f46a}"
             case .firefox: return "\u{f269}"
             case .firefoxBrowser: return "\u{e007}"
+            case .firstAid: return "\u{f479}"
             case .firstOrder: return "\u{f2b0}"
             case .firstOrderAlt: return "\u{f50a}"
             case .firstdraft: return "\u{f3a1}"
             case .fish: return "\u{f578}"
-            case .fishFins: return "\u{e4f2}"
+            case .fistRaised: return "\u{f6de}"
             case .flag: return "\u{f024}"
             case .flagCheckered: return "\u{f11e}"
             case .flagUsa: return "\u{f74d}"
             case .flask: return "\u{f0c3}"
-            case .flaskVial: return "\u{e4f3}"
             case .flickr: return "\u{f16e}"
             case .flipboard: return "\u{f44d}"
-            case .floppyDisk: return "\u{f0c7}"
-            case .florinSign: return "\u{e184}"
+            case .flushed: return "\u{f579}"
             case .fly: return "\u{f417}"
             case .folder: return "\u{f07b}"
-            case .folderClosed: return "\u{e185}"
             case .folderMinus: return "\u{f65d}"
             case .folderOpen: return "\u{f07c}"
             case .folderPlus: return "\u{f65e}"
-            case .folderTree: return "\u{f802}"
             case .font: return "\u{f031}"
             case .fontAwesome: return "\u{f2b4}"
+            case .fontAwesomeAlt: return "\u{f35c}"
+            case .fontAwesomeFlag: return "\u{f425}"
+            case .fontAwesomeLogoFull: return "\u{f4e6}"
             case .fonticons: return "\u{f280}"
             case .fonticonsFi: return "\u{f3a2}"
-            case .football: return "\u{f44e}"
+            case .footballBall: return "\u{f44e}"
             case .fortAwesome: return "\u{f286}"
             case .fortAwesomeAlt: return "\u{f3a3}"
             case .forumbee: return "\u{f211}"
             case .forward: return "\u{f04e}"
-            case .forwardFast: return "\u{f050}"
-            case .forwardStep: return "\u{f051}"
             case .foursquare: return "\u{f180}"
-            case .francSign: return "\u{e18f}"
             case .freeCodeCamp: return "\u{f2c5}"
             case .freebsd: return "\u{f3a4}"
             case .frog: return "\u{f52e}"
+            case .frown: return "\u{f119}"
+            case .frownOpen: return "\u{f57a}"
             case .fulcrum: return "\u{f50b}"
+            case .funnelDollar: return "\u{f662}"
             case .futbol: return "\u{f1e3}"
-            case .g: return "\u{47}"
             case .galacticRepublic: return "\u{f50c}"
             case .galacticSenate: return "\u{f50d}"
             case .gamepad: return "\u{f11b}"
             case .gasPump: return "\u{f52f}"
-            case .gauge: return "\u{f624}"
-            case .gaugeHigh: return "\u{f625}"
-            case .gaugeSimple: return "\u{f629}"
-            case .gaugeSimpleHigh: return "\u{f62a}"
             case .gavel: return "\u{f0e3}"
-            case .gear: return "\u{f013}"
-            case .gears: return "\u{f085}"
             case .gem: return "\u{f3a5}"
             case .genderless: return "\u{f22d}"
             case .getPocket: return "\u{f265}"
@@ -2629,20 +2036,27 @@ public enum FontAwesome: String, CaseIterable {
             case .gifts: return "\u{f79c}"
             case .git: return "\u{f1d3}"
             case .gitAlt: return "\u{f841}"
+            case .gitSquare: return "\u{f1d2}"
             case .github: return "\u{f09b}"
             case .githubAlt: return "\u{f113}"
+            case .githubSquare: return "\u{f092}"
             case .gitkraken: return "\u{f3a6}"
             case .gitlab: return "\u{f296}"
             case .gitter: return "\u{f426}"
-            case .glassWater: return "\u{e4f4}"
-            case .glassWaterDroplet: return "\u{e4f5}"
+            case .glassCheers: return "\u{f79f}"
+            case .glassMartini: return "\u{f000}"
+            case .glassMartiniAlt: return "\u{f57b}"
+            case .glassWhiskey: return "\u{f7a0}"
             case .glasses: return "\u{f530}"
             case .glide: return "\u{f2a5}"
             case .glideG: return "\u{f2a6}"
             case .globe: return "\u{f0ac}"
+            case .globeAfrica: return "\u{f57c}"
+            case .globeAmericas: return "\u{f57d}"
+            case .globeAsia: return "\u{f57e}"
+            case .globeEurope: return "\u{f7a2}"
             case .gofore: return "\u{f3a7}"
-            case .golang: return "\u{e40f}"
-            case .golfBallTee: return "\u{f450}"
+            case .golfBall: return "\u{f450}"
             case .goodreads: return "\u{f3a8}"
             case .goodreadsG: return "\u{f3a9}"
             case .google: return "\u{f1a0}"
@@ -2651,110 +2065,106 @@ public enum FontAwesome: String, CaseIterable {
             case .googlePlay: return "\u{f3ab}"
             case .googlePlus: return "\u{f2b3}"
             case .googlePlusG: return "\u{f0d5}"
+            case .googlePlusSquare: return "\u{f0d4}"
             case .googleWallet: return "\u{f1ee}"
             case .gopuram: return "\u{f664}"
             case .graduationCap: return "\u{f19d}"
             case .gratipay: return "\u{f184}"
             case .grav: return "\u{f2d6}"
-            case .greaterThan: return "\u{3e}"
+            case .greaterThan: return "\u{f531}"
             case .greaterThanEqual: return "\u{f532}"
-            case .grip: return "\u{f58d}"
+            case .grimace: return "\u{f57f}"
+            case .grin: return "\u{f580}"
+            case .grinAlt: return "\u{f581}"
+            case .grinBeam: return "\u{f582}"
+            case .grinBeamSweat: return "\u{f583}"
+            case .grinHearts: return "\u{f584}"
+            case .grinSquint: return "\u{f585}"
+            case .grinSquintTears: return "\u{f586}"
+            case .grinStars: return "\u{f587}"
+            case .grinTears: return "\u{f588}"
+            case .grinTongue: return "\u{f589}"
+            case .grinTongueSquint: return "\u{f58a}"
+            case .grinTongueWink: return "\u{f58b}"
+            case .grinWink: return "\u{f58c}"
+            case .gripHorizontal: return "\u{f58d}"
             case .gripLines: return "\u{f7a4}"
             case .gripLinesVertical: return "\u{f7a5}"
             case .gripVertical: return "\u{f58e}"
             case .gripfire: return "\u{f3ac}"
-            case .groupArrowsRotate: return "\u{e4f6}"
             case .grunt: return "\u{f3ad}"
-            case .guaraniSign: return "\u{e19a}"
             case .guilded: return "\u{e07e}"
             case .guitar: return "\u{f7a6}"
             case .gulp: return "\u{f3ae}"
-            case .gun: return "\u{e19b}"
-            case .h: return "\u{48}"
+            case .hSquare: return "\u{f0fd}"
             case .hackerNews: return "\u{f1d4}"
+            case .hackerNewsSquare: return "\u{f3af}"
             case .hackerrank: return "\u{f5f7}"
+            case .hamburger: return "\u{f805}"
             case .hammer: return "\u{f6e3}"
             case .hamsa: return "\u{f665}"
-            case .hand: return "\u{f256}"
-            case .handBackFist: return "\u{f255}"
-            case .handDots: return "\u{f461}"
-            case .handFist: return "\u{f6de}"
             case .handHolding: return "\u{f4bd}"
-            case .handHoldingDollar: return "\u{f4c0}"
-            case .handHoldingDroplet: return "\u{f4c1}"
-            case .handHoldingHand: return "\u{e4f7}"
             case .handHoldingHeart: return "\u{f4be}"
             case .handHoldingMedical: return "\u{e05c}"
+            case .handHoldingUsd: return "\u{f4c0}"
+            case .handHoldingWater: return "\u{f4c1}"
             case .handLizard: return "\u{f258}"
             case .handMiddleFinger: return "\u{f806}"
+            case .handPaper: return "\u{f256}"
             case .handPeace: return "\u{f25b}"
             case .handPointDown: return "\u{f0a7}"
             case .handPointLeft: return "\u{f0a5}"
             case .handPointRight: return "\u{f0a4}"
             case .handPointUp: return "\u{f0a6}"
             case .handPointer: return "\u{f25a}"
+            case .handRock: return "\u{f255}"
             case .handScissors: return "\u{f257}"
             case .handSparkles: return "\u{e05d}"
             case .handSpock: return "\u{f259}"
-            case .handcuffs: return "\u{e4f8}"
-            case .hands: return "\u{f2a7}"
-            case .handsAslInterpreting: return "\u{f2a3}"
-            case .handsBound: return "\u{e4f9}"
-            case .handsBubbles: return "\u{e05e}"
-            case .handsClapping: return "\u{e1a8}"
-            case .handsHolding: return "\u{f4c2}"
-            case .handsHoldingChild: return "\u{e4fa}"
-            case .handsHoldingCircle: return "\u{e4fb}"
-            case .handsPraying: return "\u{f684}"
+            case .hands: return "\u{f4c2}"
+            case .handsHelping: return "\u{f4c4}"
+            case .handsWash: return "\u{e05e}"
             case .handshake: return "\u{f2b5}"
-            case .handshakeAngle: return "\u{f4c4}"
-            case .handshakeSimple: return "\u{f4c6}"
-            case .handshakeSimpleSlash: return "\u{e05f}"
+            case .handshakeAltSlash: return "\u{e05f}"
             case .handshakeSlash: return "\u{e060}"
             case .hanukiah: return "\u{f6e6}"
-            case .hardDrive: return "\u{f0a0}"
-            case .hashnode: return "\u{e499}"
-            case .hashtag: return "\u{23}"
+            case .hardHat: return "\u{f807}"
+            case .hashtag: return "\u{f292}"
             case .hatCowboy: return "\u{f8c0}"
             case .hatCowboySide: return "\u{f8c1}"
             case .hatWizard: return "\u{f6e8}"
+            case .hdd: return "\u{f0a0}"
             case .headSideCough: return "\u{e061}"
             case .headSideCoughSlash: return "\u{e062}"
             case .headSideMask: return "\u{e063}"
             case .headSideVirus: return "\u{e064}"
             case .heading: return "\u{f1dc}"
             case .headphones: return "\u{f025}"
-            case .headphonesSimple: return "\u{f58f}"
+            case .headphonesAlt: return "\u{f58f}"
             case .headset: return "\u{f590}"
             case .heart: return "\u{f004}"
-            case .heartCircleBolt: return "\u{e4fc}"
-            case .heartCircleCheck: return "\u{e4fd}"
-            case .heartCircleExclamation: return "\u{e4fe}"
-            case .heartCircleMinus: return "\u{e4ff}"
-            case .heartCirclePlus: return "\u{e500}"
-            case .heartCircleXmark: return "\u{e501}"
-            case .heartCrack: return "\u{f7a9}"
-            case .heartPulse: return "\u{f21e}"
+            case .heartBroken: return "\u{f7a9}"
+            case .heartbeat: return "\u{f21e}"
             case .helicopter: return "\u{f533}"
-            case .helicopterSymbol: return "\u{e502}"
-            case .helmetSafety: return "\u{f807}"
-            case .helmetUn: return "\u{e503}"
             case .highlighter: return "\u{f591}"
-            case .hillAvalanche: return "\u{e507}"
-            case .hillRockslide: return "\u{e508}"
+            case .hiking: return "\u{f6ec}"
             case .hippo: return "\u{f6ed}"
             case .hips: return "\u{f452}"
             case .hireAHelper: return "\u{f3b0}"
+            case .history: return "\u{f1da}"
             case .hive: return "\u{e07f}"
             case .hockeyPuck: return "\u{f453}"
             case .hollyBerry: return "\u{f7aa}"
+            case .home: return "\u{f015}"
             case .hooli: return "\u{f427}"
             case .hornbill: return "\u{f592}"
             case .horse: return "\u{f6f0}"
             case .horseHead: return "\u{f7ab}"
             case .hospital: return "\u{f0f8}"
+            case .hospitalAlt: return "\u{f47d}"
+            case .hospitalSymbol: return "\u{f47e}"
             case .hospitalUser: return "\u{f80d}"
-            case .hotTubPerson: return "\u{f593}"
+            case .hotTub: return "\u{f593}"
             case .hotdog: return "\u{f80f}"
             case .hotel: return "\u{f594}"
             case .hotjar: return "\u{f3b1}"
@@ -2762,56 +2172,33 @@ public enum FontAwesome: String, CaseIterable {
             case .hourglassEnd: return "\u{f253}"
             case .hourglassHalf: return "\u{f252}"
             case .hourglassStart: return "\u{f251}"
-            case .house: return "\u{f015}"
-            case .houseChimney: return "\u{e3af}"
-            case .houseChimneyCrack: return "\u{f6f1}"
-            case .houseChimneyMedical: return "\u{f7f2}"
-            case .houseChimneyUser: return "\u{e065}"
-            case .houseChimneyWindow: return "\u{e00d}"
-            case .houseCircleCheck: return "\u{e509}"
-            case .houseCircleExclamation: return "\u{e50a}"
-            case .houseCircleXmark: return "\u{e50b}"
-            case .houseCrack: return "\u{e3b1}"
-            case .houseFire: return "\u{e50c}"
-            case .houseFlag: return "\u{e50d}"
-            case .houseFloodWater: return "\u{e50e}"
-            case .houseFloodWaterCircleArrowRight: return "\u{e50f}"
-            case .houseLaptop: return "\u{e066}"
-            case .houseLock: return "\u{e510}"
-            case .houseMedical: return "\u{e3b2}"
-            case .houseMedicalCircleCheck: return "\u{e511}"
-            case .houseMedicalCircleExclamation: return "\u{e512}"
-            case .houseMedicalCircleXmark: return "\u{e513}"
-            case .houseMedicalFlag: return "\u{e514}"
-            case .houseSignal: return "\u{e012}"
-            case .houseTsunami: return "\u{e515}"
-            case .houseUser: return "\u{e1b0}"
+            case .houseDamage: return "\u{f6f1}"
+            case .houseUser: return "\u{e065}"
             case .houzz: return "\u{f27c}"
-            case .hryvniaSign: return "\u{f6f2}"
+            case .hryvnia: return "\u{f6f2}"
             case .html5: return "\u{f13b}"
             case .hubspot: return "\u{f3b2}"
-            case .hurricane: return "\u{f751}"
-            case .i: return "\u{49}"
             case .iCursor: return "\u{f246}"
             case .iceCream: return "\u{f810}"
             case .icicles: return "\u{f7ad}"
             case .icons: return "\u{f86d}"
             case .idBadge: return "\u{f2c1}"
             case .idCard: return "\u{f2c2}"
-            case .idCardClip: return "\u{f47f}"
+            case .idCardAlt: return "\u{f47f}"
             case .ideal: return "\u{e013}"
             case .igloo: return "\u{f7ae}"
             case .image: return "\u{f03e}"
-            case .imagePortrait: return "\u{f3e0}"
             case .images: return "\u{f302}"
             case .imdb: return "\u{f2d8}"
             case .inbox: return "\u{f01c}"
             case .indent: return "\u{f03c}"
-            case .indianRupeeSign: return "\u{e1bc}"
             case .industry: return "\u{f275}"
             case .infinity: return "\u{f534}"
             case .info: return "\u{f129}"
+            case .infoCircle: return "\u{f05a}"
+            case .innosoft: return "\u{e080}"
             case .instagram: return "\u{f16d}"
+            case .instagramSquare: return "\u{e055}"
             case .instalod: return "\u{e081}"
             case .intercom: return "\u{f7af}"
             case .internetExplorer: return "\u{f26b}"
@@ -2821,23 +2208,18 @@ public enum FontAwesome: String, CaseIterable {
             case .itchIo: return "\u{f83a}"
             case .itunes: return "\u{f3b4}"
             case .itunesNote: return "\u{f3b5}"
-            case .j: return "\u{4a}"
-            case .jar: return "\u{e516}"
-            case .jarWheat: return "\u{e517}"
             case .java: return "\u{f4e4}"
             case .jedi: return "\u{f669}"
             case .jediOrder: return "\u{f50e}"
             case .jenkins: return "\u{f3b6}"
-            case .jetFighter: return "\u{f0fb}"
-            case .jetFighterUp: return "\u{e518}"
             case .jira: return "\u{f7b1}"
             case .joget: return "\u{f3b7}"
             case .joint: return "\u{f595}"
             case .joomla: return "\u{f1aa}"
+            case .journalWhills: return "\u{f66a}"
             case .js: return "\u{f3b8}"
+            case .jsSquare: return "\u{f3b9}"
             case .jsfiddle: return "\u{f1cc}"
-            case .jugDetergent: return "\u{e519}"
-            case .k: return "\u{4b}"
             case .kaaba: return "\u{f66b}"
             case .kaggle: return "\u{f5fa}"
             case .key: return "\u{f084}"
@@ -2847,184 +2229,154 @@ public enum FontAwesome: String, CaseIterable {
             case .khanda: return "\u{f66d}"
             case .kickstarter: return "\u{f3bb}"
             case .kickstarterK: return "\u{f3bc}"
-            case .kipSign: return "\u{e1c4}"
-            case .kitMedical: return "\u{f479}"
-            case .kitchenSet: return "\u{e51a}"
+            case .kiss: return "\u{f596}"
+            case .kissBeam: return "\u{f597}"
+            case .kissWinkHeart: return "\u{f598}"
             case .kiwiBird: return "\u{f535}"
             case .korvue: return "\u{f42f}"
-            case .l: return "\u{4c}"
-            case .landMineOn: return "\u{e51b}"
             case .landmark: return "\u{f66f}"
-            case .landmarkDome: return "\u{f752}"
-            case .landmarkFlag: return "\u{e51c}"
             case .language: return "\u{f1ab}"
             case .laptop: return "\u{f109}"
             case .laptopCode: return "\u{f5fc}"
-            case .laptopFile: return "\u{e51d}"
+            case .laptopHouse: return "\u{e066}"
             case .laptopMedical: return "\u{f812}"
             case .laravel: return "\u{f3bd}"
-            case .lariSign: return "\u{e1c8}"
             case .lastfm: return "\u{f202}"
+            case .lastfmSquare: return "\u{f203}"
+            case .laugh: return "\u{f599}"
+            case .laughBeam: return "\u{f59a}"
+            case .laughSquint: return "\u{f59b}"
+            case .laughWink: return "\u{f59c}"
             case .layerGroup: return "\u{f5fd}"
             case .leaf: return "\u{f06c}"
             case .leanpub: return "\u{f212}"
-            case .leftLong: return "\u{f30a}"
-            case .leftRight: return "\u{f337}"
             case .lemon: return "\u{f094}"
             case .less: return "\u{f41d}"
-            case .lessThan: return "\u{3c}"
+            case .lessThan: return "\u{f536}"
             case .lessThanEqual: return "\u{f537}"
+            case .levelDownAlt: return "\u{f3be}"
+            case .levelUpAlt: return "\u{f3bf}"
             case .lifeRing: return "\u{f1cd}"
             case .lightbulb: return "\u{f0eb}"
             case .line: return "\u{f3c0}"
-            case .linesLeaning: return "\u{e51e}"
             case .link: return "\u{f0c1}"
-            case .linkSlash: return "\u{f127}"
             case .linkedin: return "\u{f08c}"
             case .linkedinIn: return "\u{f0e1}"
             case .linode: return "\u{f2b8}"
             case .linux: return "\u{f17c}"
             case .liraSign: return "\u{f195}"
             case .list: return "\u{f03a}"
-            case .listCheck: return "\u{f0ae}"
+            case .listAlt: return "\u{f022}"
             case .listOl: return "\u{f0cb}"
             case .listUl: return "\u{f0ca}"
-            case .litecoinSign: return "\u{e1d3}"
             case .locationArrow: return "\u{f124}"
-            case .locationCrosshairs: return "\u{f601}"
-            case .locationDot: return "\u{f3c5}"
-            case .locationPin: return "\u{f041}"
-            case .locationPinLock: return "\u{e51f}"
             case .lock: return "\u{f023}"
             case .lockOpen: return "\u{f3c1}"
-            case .locust: return "\u{e520}"
+            case .longArrowAltDown: return "\u{f309}"
+            case .longArrowAltLeft: return "\u{f30a}"
+            case .longArrowAltRight: return "\u{f30b}"
+            case .longArrowAltUp: return "\u{f30c}"
+            case .lowVision: return "\u{f2a8}"
+            case .luggageCart: return "\u{f59d}"
             case .lungs: return "\u{f604}"
             case .lungsVirus: return "\u{e067}"
             case .lyft: return "\u{f3c3}"
-            case .m: return "\u{4d}"
             case .magento: return "\u{f3c4}"
+            case .magic: return "\u{f0d0}"
             case .magnet: return "\u{f076}"
-            case .magnifyingGlass: return "\u{f002}"
-            case .magnifyingGlassArrowRight: return "\u{e521}"
-            case .magnifyingGlassChart: return "\u{e522}"
-            case .magnifyingGlassDollar: return "\u{f688}"
-            case .magnifyingGlassLocation: return "\u{f689}"
-            case .magnifyingGlassMinus: return "\u{f010}"
-            case .magnifyingGlassPlus: return "\u{f00e}"
+            case .mailBulk: return "\u{f674}"
             case .mailchimp: return "\u{f59e}"
-            case .manatSign: return "\u{e1d5}"
+            case .male: return "\u{f183}"
             case .mandalorian: return "\u{f50f}"
             case .map: return "\u{f279}"
-            case .mapLocation: return "\u{f59f}"
-            case .mapLocationDot: return "\u{f5a0}"
+            case .mapMarked: return "\u{f59f}"
+            case .mapMarkedAlt: return "\u{f5a0}"
+            case .mapMarker: return "\u{f041}"
+            case .mapMarkerAlt: return "\u{f3c5}"
             case .mapPin: return "\u{f276}"
+            case .mapSigns: return "\u{f277}"
             case .markdown: return "\u{f60f}"
             case .marker: return "\u{f5a1}"
             case .mars: return "\u{f222}"
-            case .marsAndVenus: return "\u{f224}"
-            case .marsAndVenusBurst: return "\u{e523}"
             case .marsDouble: return "\u{f227}"
             case .marsStroke: return "\u{f229}"
-            case .marsStrokeRight: return "\u{f22b}"
-            case .marsStrokeUp: return "\u{f22a}"
-            case .martiniGlass: return "\u{f57b}"
-            case .martiniGlassCitrus: return "\u{f561}"
-            case .martiniGlassEmpty: return "\u{f000}"
+            case .marsStrokeH: return "\u{f22b}"
+            case .marsStrokeV: return "\u{f22a}"
             case .mask: return "\u{f6fa}"
-            case .maskFace: return "\u{e1d7}"
-            case .maskVentilator: return "\u{e524}"
-            case .masksTheater: return "\u{f630}"
             case .mastodon: return "\u{f4f6}"
-            case .mattressPillow: return "\u{e525}"
             case .maxcdn: return "\u{f136}"
-            case .maximize: return "\u{f31e}"
             case .mdb: return "\u{f8ca}"
             case .medal: return "\u{f5a2}"
             case .medapps: return "\u{f3c6}"
             case .medium: return "\u{f23a}"
+            case .mediumM: return "\u{f3c7}"
+            case .medkit: return "\u{f0fa}"
             case .medrt: return "\u{f3c8}"
             case .meetup: return "\u{f2e0}"
             case .megaport: return "\u{f5a3}"
+            case .meh: return "\u{f11a}"
+            case .mehBlank: return "\u{f5a4}"
+            case .mehRollingEyes: return "\u{f5a5}"
             case .memory: return "\u{f538}"
             case .mendeley: return "\u{f7b3}"
             case .menorah: return "\u{f676}"
             case .mercury: return "\u{f223}"
-            case .message: return "\u{f27a}"
-            case .meta: return "\u{e49b}"
             case .meteor: return "\u{f753}"
             case .microblog: return "\u{e01a}"
             case .microchip: return "\u{f2db}"
             case .microphone: return "\u{f130}"
-            case .microphoneLines: return "\u{f3c9}"
-            case .microphoneLinesSlash: return "\u{f539}"
+            case .microphoneAlt: return "\u{f3c9}"
+            case .microphoneAltSlash: return "\u{f539}"
             case .microphoneSlash: return "\u{f131}"
             case .microscope: return "\u{f610}"
             case .microsoft: return "\u{f3ca}"
-            case .millSign: return "\u{e1ed}"
-            case .minimize: return "\u{f78c}"
             case .minus: return "\u{f068}"
+            case .minusCircle: return "\u{f056}"
+            case .minusSquare: return "\u{f146}"
             case .mitten: return "\u{f7b5}"
             case .mix: return "\u{f3cb}"
             case .mixcloud: return "\u{f289}"
             case .mixer: return "\u{e056}"
             case .mizuni: return "\u{f3cc}"
-            case .mobile: return "\u{f3ce}"
-            case .mobileButton: return "\u{f10b}"
-            case .mobileRetro: return "\u{e527}"
-            case .mobileScreen: return "\u{f3cf}"
-            case .mobileScreenButton: return "\u{f3cd}"
+            case .mobile: return "\u{f10b}"
+            case .mobileAlt: return "\u{f3cd}"
             case .modx: return "\u{f285}"
             case .monero: return "\u{f3d0}"
             case .moneyBill: return "\u{f0d6}"
-            case .moneyBill1: return "\u{f3d1}"
-            case .moneyBill1Wave: return "\u{f53b}"
-            case .moneyBillTransfer: return "\u{e528}"
-            case .moneyBillTrendUp: return "\u{e529}"
+            case .moneyBillAlt: return "\u{f3d1}"
             case .moneyBillWave: return "\u{f53a}"
-            case .moneyBillWheat: return "\u{e52a}"
-            case .moneyBills: return "\u{e1f3}"
+            case .moneyBillWaveAlt: return "\u{f53b}"
             case .moneyCheck: return "\u{f53c}"
-            case .moneyCheckDollar: return "\u{f53d}"
+            case .moneyCheckAlt: return "\u{f53d}"
             case .monument: return "\u{f5a6}"
             case .moon: return "\u{f186}"
             case .mortarPestle: return "\u{f5a7}"
             case .mosque: return "\u{f678}"
-            case .mosquito: return "\u{e52b}"
-            case .mosquitoNet: return "\u{e52c}"
             case .motorcycle: return "\u{f21c}"
-            case .mound: return "\u{e52d}"
             case .mountain: return "\u{f6fc}"
-            case .mountainCity: return "\u{e52e}"
-            case .mountainSun: return "\u{e52f}"
+            case .mouse: return "\u{f8cc}"
+            case .mousePointer: return "\u{f245}"
             case .mugHot: return "\u{f7b6}"
-            case .mugSaucer: return "\u{f0f4}"
             case .music: return "\u{f001}"
-            case .n: return "\u{4e}"
-            case .nairaSign: return "\u{e1f6}"
             case .napster: return "\u{f3d2}"
             case .neos: return "\u{f612}"
             case .networkWired: return "\u{f6ff}"
             case .neuter: return "\u{f22c}"
             case .newspaper: return "\u{f1ea}"
-            case .nfcDirectional: return "\u{e530}"
-            case .nfcSymbol: return "\u{e531}"
             case .nimblr: return "\u{f5a8}"
             case .node: return "\u{f419}"
             case .nodeJs: return "\u{f3d3}"
             case .notEqual: return "\u{f53e}"
-            case .notdef: return "\u{e1fe}"
-            case .noteSticky: return "\u{f249}"
             case .notesMedical: return "\u{f481}"
             case .npm: return "\u{f3d4}"
             case .ns8: return "\u{f3d5}"
             case .nutritionix: return "\u{f3d6}"
-            case .o: return "\u{4f}"
             case .objectGroup: return "\u{f247}"
             case .objectUngroup: return "\u{f248}"
             case .octopusDeploy: return "\u{e082}"
             case .odnoklassniki: return "\u{f263}"
+            case .odnoklassnikiSquare: return "\u{f264}"
             case .oilCan: return "\u{f613}"
-            case .oilWell: return "\u{e532}"
             case .oldRepublic: return "\u{f510}"
             case .om: return "\u{f679}"
             case .opencart: return "\u{f23d}"
@@ -3035,165 +2387,116 @@ public enum FontAwesome: String, CaseIterable {
             case .osi: return "\u{f41a}"
             case .otter: return "\u{f700}"
             case .outdent: return "\u{f03b}"
-            case .p: return "\u{50}"
-            case .padlet: return "\u{e4a0}"
             case .page4: return "\u{f3d7}"
             case .pagelines: return "\u{f18c}"
             case .pager: return "\u{f815}"
+            case .paintBrush: return "\u{f1fc}"
             case .paintRoller: return "\u{f5aa}"
-            case .paintbrush: return "\u{f1fc}"
             case .palette: return "\u{f53f}"
             case .palfed: return "\u{f3d8}"
             case .pallet: return "\u{f482}"
-            case .panorama: return "\u{e209}"
             case .paperPlane: return "\u{f1d8}"
             case .paperclip: return "\u{f0c6}"
             case .parachuteBox: return "\u{f4cd}"
             case .paragraph: return "\u{f1dd}"
+            case .parking: return "\u{f540}"
             case .passport: return "\u{f5ab}"
+            case .pastafarianism: return "\u{f67b}"
             case .paste: return "\u{f0ea}"
             case .patreon: return "\u{f3d9}"
             case .pause: return "\u{f04c}"
+            case .pauseCircle: return "\u{f28b}"
             case .paw: return "\u{f1b0}"
             case .paypal: return "\u{f1ed}"
             case .peace: return "\u{f67c}"
             case .pen: return "\u{f304}"
-            case .penClip: return "\u{f305}"
+            case .penAlt: return "\u{f305}"
             case .penFancy: return "\u{f5ac}"
             case .penNib: return "\u{f5ad}"
-            case .penRuler: return "\u{f5ae}"
-            case .penToSquare: return "\u{f044}"
-            case .pencil: return "\u{f303}"
+            case .penSquare: return "\u{f14b}"
+            case .pencilAlt: return "\u{f303}"
+            case .pencilRuler: return "\u{f5ae}"
+            case .pennyArcade: return "\u{f704}"
             case .peopleArrows: return "\u{e068}"
-            case .peopleCarryBox: return "\u{f4ce}"
-            case .peopleGroup: return "\u{e533}"
-            case .peopleLine: return "\u{e534}"
-            case .peoplePulling: return "\u{e535}"
-            case .peopleRobbery: return "\u{e536}"
-            case .peopleRoof: return "\u{e537}"
+            case .peopleCarry: return "\u{f4ce}"
             case .pepperHot: return "\u{f816}"
             case .perbyte: return "\u{e083}"
-            case .percent: return "\u{25}"
+            case .percent: return "\u{f295}"
+            case .percentage: return "\u{f541}"
             case .periscope: return "\u{f3da}"
-            case .person: return "\u{f183}"
-            case .personArrowDownToLine: return "\u{e538}"
-            case .personArrowUpFromLine: return "\u{e539}"
-            case .personBiking: return "\u{f84a}"
             case .personBooth: return "\u{f756}"
-            case .personBreastfeeding: return "\u{e53a}"
-            case .personBurst: return "\u{e53b}"
-            case .personCane: return "\u{e53c}"
-            case .personChalkboard: return "\u{e53d}"
-            case .personCircleCheck: return "\u{e53e}"
-            case .personCircleExclamation: return "\u{e53f}"
-            case .personCircleMinus: return "\u{e540}"
-            case .personCirclePlus: return "\u{e541}"
-            case .personCircleQuestion: return "\u{e542}"
-            case .personCircleXmark: return "\u{e543}"
-            case .personDigging: return "\u{f85e}"
-            case .personDotsFromLine: return "\u{f470}"
-            case .personDress: return "\u{f182}"
-            case .personDressBurst: return "\u{e544}"
-            case .personDrowning: return "\u{e545}"
-            case .personFalling: return "\u{e546}"
-            case .personFallingBurst: return "\u{e547}"
-            case .personHalfDress: return "\u{e548}"
-            case .personHarassing: return "\u{e549}"
-            case .personHiking: return "\u{f6ec}"
-            case .personMilitaryPointing: return "\u{e54a}"
-            case .personMilitaryRifle: return "\u{e54b}"
-            case .personMilitaryToPerson: return "\u{e54c}"
-            case .personPraying: return "\u{f683}"
-            case .personPregnant: return "\u{e31e}"
-            case .personRays: return "\u{e54d}"
-            case .personRifle: return "\u{e54e}"
-            case .personRunning: return "\u{f70c}"
-            case .personShelter: return "\u{e54f}"
-            case .personSkating: return "\u{f7c5}"
-            case .personSkiing: return "\u{f7c9}"
-            case .personSkiingNordic: return "\u{f7ca}"
-            case .personSnowboarding: return "\u{f7ce}"
-            case .personSwimming: return "\u{f5c4}"
-            case .personThroughWindow: return "\u{e5a9}"
-            case .personWalking: return "\u{f554}"
-            case .personWalkingArrowLoopLeft: return "\u{e551}"
-            case .personWalkingArrowRight: return "\u{e552}"
-            case .personWalkingDashedLineArrowRight: return "\u{e553}"
-            case .personWalkingLuggage: return "\u{e554}"
-            case .personWalkingWithCane: return "\u{f29d}"
-            case .pesetaSign: return "\u{e221}"
-            case .pesoSign: return "\u{e222}"
             case .phabricator: return "\u{f3db}"
             case .phoenixFramework: return "\u{f3dc}"
             case .phoenixSquadron: return "\u{f511}"
             case .phone: return "\u{f095}"
-            case .phoneFlip: return "\u{f879}"
+            case .phoneAlt: return "\u{f879}"
             case .phoneSlash: return "\u{f3dd}"
+            case .phoneSquare: return "\u{f098}"
+            case .phoneSquareAlt: return "\u{f87b}"
             case .phoneVolume: return "\u{f2a0}"
-            case .photoFilm: return "\u{f87c}"
+            case .photoVideo: return "\u{f87c}"
             case .php: return "\u{f457}"
             case .piedPiper: return "\u{f2ae}"
             case .piedPiperAlt: return "\u{f1a8}"
             case .piedPiperHat: return "\u{f4e5}"
             case .piedPiperPp: return "\u{f1a7}"
+            case .piedPiperSquare: return "\u{e01e}"
             case .piggyBank: return "\u{f4d3}"
             case .pills: return "\u{f484}"
             case .pinterest: return "\u{f0d2}"
             case .pinterestP: return "\u{f231}"
-            case .pix: return "\u{e43a}"
+            case .pinterestSquare: return "\u{f0d3}"
             case .pizzaSlice: return "\u{f818}"
             case .placeOfWorship: return "\u{f67f}"
             case .plane: return "\u{f072}"
             case .planeArrival: return "\u{f5af}"
-            case .planeCircleCheck: return "\u{e555}"
-            case .planeCircleExclamation: return "\u{e556}"
-            case .planeCircleXmark: return "\u{e557}"
             case .planeDeparture: return "\u{f5b0}"
-            case .planeLock: return "\u{e558}"
             case .planeSlash: return "\u{e069}"
-            case .planeUp: return "\u{e22d}"
-            case .plantWilt: return "\u{e5aa}"
-            case .plateWheat: return "\u{e55a}"
             case .play: return "\u{f04b}"
+            case .playCircle: return "\u{f144}"
             case .playstation: return "\u{f3df}"
             case .plug: return "\u{f1e6}"
-            case .plugCircleBolt: return "\u{e55b}"
-            case .plugCircleCheck: return "\u{e55c}"
-            case .plugCircleExclamation: return "\u{e55d}"
-            case .plugCircleMinus: return "\u{e55e}"
-            case .plugCirclePlus: return "\u{e55f}"
-            case .plugCircleXmark: return "\u{e560}"
-            case .plus: return "\u{2b}"
-            case .plusMinus: return "\u{e43c}"
+            case .plus: return "\u{f067}"
+            case .plusCircle: return "\u{f055}"
+            case .plusSquare: return "\u{f0fe}"
             case .podcast: return "\u{f2ce}"
+            case .poll: return "\u{f681}"
+            case .pollH: return "\u{f682}"
             case .poo: return "\u{f2fe}"
             case .pooStorm: return "\u{f75a}"
             case .poop: return "\u{f619}"
+            case .portrait: return "\u{f3e0}"
+            case .poundSign: return "\u{f154}"
             case .powerOff: return "\u{f011}"
+            case .pray: return "\u{f683}"
+            case .prayingHands: return "\u{f684}"
             case .prescription: return "\u{f5b1}"
             case .prescriptionBottle: return "\u{f485}"
-            case .prescriptionBottleMedical: return "\u{f486}"
+            case .prescriptionBottleAlt: return "\u{f486}"
             case .print: return "\u{f02f}"
+            case .procedures: return "\u{f487}"
             case .productHunt: return "\u{f288}"
+            case .projectDiagram: return "\u{f542}"
             case .pumpMedical: return "\u{e06a}"
             case .pumpSoap: return "\u{e06b}"
             case .pushed: return "\u{f3e1}"
             case .puzzlePiece: return "\u{f12e}"
             case .python: return "\u{f3e2}"
-            case .q: return "\u{51}"
             case .qq: return "\u{f1d6}"
             case .qrcode: return "\u{f029}"
-            case .question: return "\u{3f}"
+            case .question: return "\u{f128}"
+            case .questionCircle: return "\u{f059}"
+            case .quidditch: return "\u{f458}"
             case .quinscape: return "\u{f459}"
             case .quora: return "\u{f2c4}"
             case .quoteLeft: return "\u{f10d}"
             case .quoteRight: return "\u{f10e}"
-            case .r: return "\u{52}"
+            case .quran: return "\u{f687}"
             case .rProject: return "\u{f4f7}"
             case .radiation: return "\u{f7b9}"
-            case .radio: return "\u{f8d7}"
+            case .radiationAlt: return "\u{f7ba}"
             case .rainbow: return "\u{f75b}"
-            case .rankingStar: return "\u{e561}"
+            case .random: return "\u{f074}"
             case .raspberryPi: return "\u{f7bb}"
             case .ravelry: return "\u{f2d9}"
             case .react: return "\u{f41b}"
@@ -3202,17 +2505,17 @@ public enum FontAwesome: String, CaseIterable {
             case .rebel: return "\u{f1d0}"
             case .receipt: return "\u{f543}"
             case .recordVinyl: return "\u{f8d9}"
-            case .rectangleAd: return "\u{f641}"
-            case .rectangleList: return "\u{f022}"
-            case .rectangleXmark: return "\u{f410}"
             case .recycle: return "\u{f1b8}"
             case .redRiver: return "\u{f3e3}"
             case .reddit: return "\u{f1a1}"
             case .redditAlien: return "\u{f281}"
+            case .redditSquare: return "\u{f1a2}"
             case .redhat: return "\u{f7bc}"
+            case .redo: return "\u{f01e}"
+            case .redoAlt: return "\u{f2f9}"
             case .registered: return "\u{f25d}"
+            case .removeFormat: return "\u{f87d}"
             case .renren: return "\u{f18b}"
-            case .repeat: return "\u{f363}"
             case .reply: return "\u{f3e5}"
             case .replyAll: return "\u{f122}"
             case .replyd: return "\u{f3e6}"
@@ -3223,66 +2526,43 @@ public enum FontAwesome: String, CaseIterable {
             case .retweet: return "\u{f079}"
             case .rev: return "\u{f5b2}"
             case .ribbon: return "\u{f4d6}"
-            case .rightFromBracket: return "\u{f2f5}"
-            case .rightLeft: return "\u{f362}"
-            case .rightLong: return "\u{f30b}"
-            case .rightToBracket: return "\u{f2f6}"
             case .ring: return "\u{f70b}"
             case .road: return "\u{f018}"
-            case .roadBarrier: return "\u{e562}"
-            case .roadBridge: return "\u{e563}"
-            case .roadCircleCheck: return "\u{e564}"
-            case .roadCircleExclamation: return "\u{e565}"
-            case .roadCircleXmark: return "\u{e566}"
-            case .roadLock: return "\u{e567}"
-            case .roadSpikes: return "\u{e568}"
             case .robot: return "\u{f544}"
             case .rocket: return "\u{f135}"
             case .rocketchat: return "\u{f3e8}"
             case .rockrms: return "\u{f3e9}"
-            case .rotate: return "\u{f2f1}"
-            case .rotateLeft: return "\u{f2ea}"
-            case .rotateRight: return "\u{f2f9}"
             case .route: return "\u{f4d7}"
             case .rss: return "\u{f09e}"
+            case .rssSquare: return "\u{f143}"
             case .rubleSign: return "\u{f158}"
-            case .rug: return "\u{e569}"
             case .ruler: return "\u{f545}"
             case .rulerCombined: return "\u{f546}"
             case .rulerHorizontal: return "\u{f547}"
             case .rulerVertical: return "\u{f548}"
+            case .running: return "\u{f70c}"
             case .rupeeSign: return "\u{f156}"
-            case .rupiahSign: return "\u{e23d}"
             case .rust: return "\u{e07a}"
-            case .s: return "\u{53}"
-            case .sackDollar: return "\u{f81d}"
-            case .sackXmark: return "\u{e56a}"
+            case .sadCry: return "\u{f5b3}"
+            case .sadTear: return "\u{f5b4}"
             case .safari: return "\u{f267}"
-            case .sailboat: return "\u{e445}"
             case .salesforce: return "\u{f83b}"
             case .sass: return "\u{f41e}"
             case .satellite: return "\u{f7bf}"
             case .satelliteDish: return "\u{f7c0}"
-            case .scaleBalanced: return "\u{f24e}"
-            case .scaleUnbalanced: return "\u{f515}"
-            case .scaleUnbalancedFlip: return "\u{f516}"
+            case .save: return "\u{f0c7}"
             case .schlix: return "\u{f3ea}"
             case .school: return "\u{f549}"
-            case .schoolCircleCheck: return "\u{e56b}"
-            case .schoolCircleExclamation: return "\u{e56c}"
-            case .schoolCircleXmark: return "\u{e56d}"
-            case .schoolFlag: return "\u{e56e}"
-            case .schoolLock: return "\u{e56f}"
-            case .scissors: return "\u{f0c4}"
-            case .screenpal: return "\u{e570}"
             case .screwdriver: return "\u{f54a}"
-            case .screwdriverWrench: return "\u{f7d9}"
             case .scribd: return "\u{f28a}"
             case .scroll: return "\u{f70e}"
-            case .scrollTorah: return "\u{f6a0}"
             case .sdCard: return "\u{f7c2}"
+            case .search: return "\u{f002}"
+            case .searchDollar: return "\u{f688}"
+            case .searchLocation: return "\u{f689}"
+            case .searchMinus: return "\u{f010}"
+            case .searchPlus: return "\u{f00e}"
             case .searchengin: return "\u{f3eb}"
-            case .section: return "\u{e447}"
             case .seedling: return "\u{f4d8}"
             case .sellcast: return "\u{f2da}"
             case .sellsy: return "\u{f213}"
@@ -3290,53 +2570,60 @@ public enum FontAwesome: String, CaseIterable {
             case .servicestack: return "\u{f3ec}"
             case .shapes: return "\u{f61f}"
             case .share: return "\u{f064}"
-            case .shareFromSquare: return "\u{f14d}"
-            case .shareNodes: return "\u{f1e0}"
-            case .sheetPlastic: return "\u{e571}"
+            case .shareAlt: return "\u{f1e0}"
+            case .shareAltSquare: return "\u{f1e1}"
+            case .shareSquare: return "\u{f14d}"
             case .shekelSign: return "\u{f20b}"
-            case .shield: return "\u{f132}"
-            case .shieldCat: return "\u{e572}"
-            case .shieldDog: return "\u{e573}"
-            case .shieldHalved: return "\u{f3ed}"
-            case .shieldHeart: return "\u{e574}"
+            case .shieldAlt: return "\u{f3ed}"
             case .shieldVirus: return "\u{e06c}"
             case .ship: return "\u{f21a}"
-            case .shirt: return "\u{f553}"
+            case .shippingFast: return "\u{f48b}"
             case .shirtsinbulk: return "\u{f214}"
             case .shoePrints: return "\u{f54b}"
-            case .shop: return "\u{f54f}"
-            case .shopLock: return "\u{e4a5}"
-            case .shopSlash: return "\u{e070}"
             case .shopify: return "\u{e057}"
+            case .shoppingBag: return "\u{f290}"
+            case .shoppingBasket: return "\u{f291}"
+            case .shoppingCart: return "\u{f07a}"
             case .shopware: return "\u{f5b5}"
             case .shower: return "\u{f2cc}"
-            case .shrimp: return "\u{e448}"
-            case .shuffle: return "\u{f074}"
-            case .shuttleSpace: return "\u{f197}"
-            case .signHanging: return "\u{f4d9}"
+            case .shuttleVan: return "\u{f5b6}"
+            case .sign: return "\u{f4d9}"
+            case .signInAlt: return "\u{f2f6}"
+            case .signLanguage: return "\u{f2a7}"
+            case .signOutAlt: return "\u{f2f5}"
             case .signal: return "\u{f012}"
             case .signature: return "\u{f5b7}"
-            case .signsPost: return "\u{f277}"
             case .simCard: return "\u{f7c4}"
             case .simplybuilt: return "\u{f215}"
             case .sink: return "\u{e06d}"
             case .sistrix: return "\u{f3ee}"
             case .sitemap: return "\u{f0e8}"
             case .sith: return "\u{f512}"
-            case .sitrox: return "\u{e44a}"
+            case .skating: return "\u{f7c5}"
             case .sketch: return "\u{f7c6}"
+            case .skiing: return "\u{f7c9}"
+            case .skiingNordic: return "\u{f7ca}"
             case .skull: return "\u{f54c}"
             case .skullCrossbones: return "\u{f714}"
             case .skyatlas: return "\u{f216}"
             case .skype: return "\u{f17e}"
             case .slack: return "\u{f198}"
+            case .slackHash: return "\u{f3ef}"
             case .slash: return "\u{f715}"
             case .sleigh: return "\u{f7cc}"
-            case .sliders: return "\u{f1de}"
+            case .slidersH: return "\u{f1de}"
             case .slideshare: return "\u{f1e7}"
+            case .smile: return "\u{f118}"
+            case .smileBeam: return "\u{f5b8}"
+            case .smileWink: return "\u{f4da}"
             case .smog: return "\u{f75f}"
             case .smoking: return "\u{f48d}"
+            case .smokingBan: return "\u{f54d}"
+            case .sms: return "\u{f7cd}"
             case .snapchat: return "\u{f2ab}"
+            case .snapchatGhost: return "\u{f2ac}"
+            case .snapchatSquare: return "\u{f2ad}"
+            case .snowboarding: return "\u{f7ce}"
             case .snowflake: return "\u{f2dc}"
             case .snowman: return "\u{f7d0}"
             case .snowplow: return "\u{f7d2}"
@@ -3344,101 +2631,65 @@ public enum FontAwesome: String, CaseIterable {
             case .socks: return "\u{f696}"
             case .solarPanel: return "\u{f5ba}"
             case .sort: return "\u{f0dc}"
+            case .sortAlphaDown: return "\u{f15d}"
+            case .sortAlphaDownAlt: return "\u{f881}"
+            case .sortAlphaUp: return "\u{f15e}"
+            case .sortAlphaUpAlt: return "\u{f882}"
+            case .sortAmountDown: return "\u{f160}"
+            case .sortAmountDownAlt: return "\u{f884}"
+            case .sortAmountUp: return "\u{f161}"
+            case .sortAmountUpAlt: return "\u{f885}"
             case .sortDown: return "\u{f0dd}"
+            case .sortNumericDown: return "\u{f162}"
+            case .sortNumericDownAlt: return "\u{f886}"
+            case .sortNumericUp: return "\u{f163}"
+            case .sortNumericUpAlt: return "\u{f887}"
             case .sortUp: return "\u{f0de}"
             case .soundcloud: return "\u{f1be}"
             case .sourcetree: return "\u{f7d3}"
             case .spa: return "\u{f5bb}"
-            case .spaceAwesome: return "\u{e5ac}"
-            case .spaghettiMonsterFlying: return "\u{f67b}"
+            case .spaceShuttle: return "\u{f197}"
             case .speakap: return "\u{f3f3}"
             case .speakerDeck: return "\u{f83c}"
             case .spellCheck: return "\u{f891}"
             case .spider: return "\u{f717}"
             case .spinner: return "\u{f110}"
             case .splotch: return "\u{f5bc}"
-            case .spoon: return "\u{f2e5}"
             case .spotify: return "\u{f1bc}"
             case .sprayCan: return "\u{f5bd}"
-            case .sprayCanSparkles: return "\u{f5d0}"
             case .square: return "\u{f0c8}"
-            case .squareArrowUpRight: return "\u{f14c}"
-            case .squareBehance: return "\u{f1b5}"
-            case .squareCaretDown: return "\u{f150}"
-            case .squareCaretLeft: return "\u{f191}"
-            case .squareCaretRight: return "\u{f152}"
-            case .squareCaretUp: return "\u{f151}"
-            case .squareCheck: return "\u{f14a}"
-            case .squareDribbble: return "\u{f397}"
-            case .squareEnvelope: return "\u{f199}"
-            case .squareFacebook: return "\u{f082}"
-            case .squareFontAwesome: return "\u{e5ad}"
-            case .squareFontAwesomeStroke: return "\u{f35c}"
             case .squareFull: return "\u{f45c}"
-            case .squareGit: return "\u{f1d2}"
-            case .squareGithub: return "\u{f092}"
-            case .squareGitlab: return "\u{e5ae}"
-            case .squareGooglePlus: return "\u{f0d4}"
-            case .squareH: return "\u{f0fd}"
-            case .squareHackerNews: return "\u{f3af}"
-            case .squareInstagram: return "\u{e055}"
-            case .squareJs: return "\u{f3b9}"
-            case .squareLastfm: return "\u{f203}"
-            case .squareMinus: return "\u{f146}"
-            case .squareNfi: return "\u{e576}"
-            case .squareOdnoklassniki: return "\u{f264}"
-            case .squareParking: return "\u{f540}"
-            case .squarePen: return "\u{f14b}"
-            case .squarePersonConfined: return "\u{e577}"
-            case .squarePhone: return "\u{f098}"
-            case .squarePhoneFlip: return "\u{f87b}"
-            case .squarePiedPiper: return "\u{e01e}"
-            case .squarePinterest: return "\u{f0d3}"
-            case .squarePlus: return "\u{f0fe}"
-            case .squarePollHorizontal: return "\u{f682}"
-            case .squarePollVertical: return "\u{f681}"
-            case .squareReddit: return "\u{f1a2}"
-            case .squareRootVariable: return "\u{f698}"
-            case .squareRss: return "\u{f143}"
-            case .squareShareNodes: return "\u{f1e1}"
-            case .squareSnapchat: return "\u{f2ad}"
-            case .squareSteam: return "\u{f1b7}"
-            case .squareTumblr: return "\u{f174}"
-            case .squareTwitter: return "\u{f081}"
-            case .squareUpRight: return "\u{f360}"
-            case .squareViadeo: return "\u{f2aa}"
-            case .squareVimeo: return "\u{f194}"
-            case .squareVirus: return "\u{e578}"
-            case .squareWhatsapp: return "\u{f40c}"
-            case .squareXing: return "\u{f169}"
-            case .squareXmark: return "\u{f2d3}"
-            case .squareYoutube: return "\u{f431}"
+            case .squareRootAlt: return "\u{f698}"
             case .squarespace: return "\u{f5be}"
             case .stackExchange: return "\u{f18d}"
             case .stackOverflow: return "\u{f16c}"
             case .stackpath: return "\u{f842}"
-            case .staffSnake: return "\u{e579}"
-            case .stairs: return "\u{e289}"
             case .stamp: return "\u{f5bf}"
-            case .stapler: return "\u{e5af}"
             case .star: return "\u{f005}"
             case .starAndCrescent: return "\u{f699}"
             case .starHalf: return "\u{f089}"
-            case .starHalfStroke: return "\u{f5c0}"
+            case .starHalfAlt: return "\u{f5c0}"
             case .starOfDavid: return "\u{f69a}"
             case .starOfLife: return "\u{f621}"
             case .staylinked: return "\u{f3f5}"
             case .steam: return "\u{f1b6}"
+            case .steamSquare: return "\u{f1b7}"
             case .steamSymbol: return "\u{f3f6}"
-            case .sterlingSign: return "\u{f154}"
+            case .stepBackward: return "\u{f048}"
+            case .stepForward: return "\u{f051}"
             case .stethoscope: return "\u{f0f1}"
             case .stickerMule: return "\u{f3f7}"
+            case .stickyNote: return "\u{f249}"
             case .stop: return "\u{f04d}"
+            case .stopCircle: return "\u{f28d}"
             case .stopwatch: return "\u{f2f2}"
             case .stopwatch20: return "\u{e06f}"
             case .store: return "\u{f54e}"
+            case .storeAlt: return "\u{f54f}"
+            case .storeAltSlash: return "\u{e070}"
             case .storeSlash: return "\u{e071}"
             case .strava: return "\u{f428}"
+            case .stream: return "\u{f550}"
             case .streetView: return "\u{f21d}"
             case .strikethrough: return "\u{f0cc}"
             case .stripe: return "\u{f429}"
@@ -3448,132 +2699,112 @@ public enum FontAwesome: String, CaseIterable {
             case .stumbleupon: return "\u{f1a4}"
             case .stumbleuponCircle: return "\u{f1a3}"
             case .`subscript`: return "\u{f12c}"
+            case .subway: return "\u{f239}"
             case .suitcase: return "\u{f0f2}"
-            case .suitcaseMedical: return "\u{f0fa}"
             case .suitcaseRolling: return "\u{f5c1}"
             case .sun: return "\u{f185}"
-            case .sunPlantWilt: return "\u{e57a}"
             case .superpowers: return "\u{f2dd}"
             case .superscript: return "\u{f12b}"
             case .supple: return "\u{f3f9}"
+            case .surprise: return "\u{f5c2}"
             case .suse: return "\u{f7d6}"
             case .swatchbook: return "\u{f5c3}"
             case .swift: return "\u{f8e1}"
+            case .swimmer: return "\u{f5c4}"
+            case .swimmingPool: return "\u{f5c5}"
             case .symfony: return "\u{f83d}"
             case .synagogue: return "\u{f69b}"
+            case .sync: return "\u{f021}"
+            case .syncAlt: return "\u{f2f1}"
             case .syringe: return "\u{f48e}"
-            case .t: return "\u{54}"
             case .table: return "\u{f0ce}"
-            case .tableCells: return "\u{f00a}"
-            case .tableCellsLarge: return "\u{f009}"
-            case .tableColumns: return "\u{f0db}"
-            case .tableList: return "\u{f00b}"
-            case .tableTennisPaddleBall: return "\u{f45d}"
-            case .tablet: return "\u{f3fb}"
-            case .tabletButton: return "\u{f10a}"
-            case .tabletScreenButton: return "\u{f3fa}"
+            case .tableTennis: return "\u{f45d}"
+            case .tablet: return "\u{f10a}"
+            case .tabletAlt: return "\u{f3fa}"
             case .tablets: return "\u{f490}"
-            case .tachographDigital: return "\u{f566}"
+            case .tachometerAlt: return "\u{f3fd}"
             case .tag: return "\u{f02b}"
             case .tags: return "\u{f02c}"
             case .tape: return "\u{f4db}"
-            case .tarp: return "\u{e57b}"
-            case .tarpDroplet: return "\u{e57c}"
+            case .tasks: return "\u{f0ae}"
             case .taxi: return "\u{f1ba}"
             case .teamspeak: return "\u{f4f9}"
             case .teeth: return "\u{f62e}"
             case .teethOpen: return "\u{f62f}"
             case .telegram: return "\u{f2c6}"
-            case .temperatureArrowDown: return "\u{e03f}"
-            case .temperatureArrowUp: return "\u{e040}"
-            case .temperatureEmpty: return "\u{f2cb}"
-            case .temperatureFull: return "\u{f2c7}"
-            case .temperatureHalf: return "\u{f2c9}"
+            case .telegramPlane: return "\u{f3fe}"
             case .temperatureHigh: return "\u{f769}"
             case .temperatureLow: return "\u{f76b}"
-            case .temperatureQuarter: return "\u{f2ca}"
-            case .temperatureThreeQuarters: return "\u{f2c8}"
             case .tencentWeibo: return "\u{f1d5}"
-            case .tengeSign: return "\u{f7d7}"
-            case .tent: return "\u{e57d}"
-            case .tentArrowDownToLine: return "\u{e57e}"
-            case .tentArrowLeftRight: return "\u{e57f}"
-            case .tentArrowTurnLeft: return "\u{e580}"
-            case .tentArrowsDown: return "\u{e581}"
-            case .tents: return "\u{e582}"
+            case .tenge: return "\u{f7d7}"
             case .terminal: return "\u{f120}"
             case .textHeight: return "\u{f034}"
-            case .textSlash: return "\u{f87d}"
             case .textWidth: return "\u{f035}"
+            case .th: return "\u{f00a}"
+            case .thLarge: return "\u{f009}"
+            case .thList: return "\u{f00b}"
             case .theRedYeti: return "\u{f69d}"
+            case .theaterMasks: return "\u{f630}"
             case .themeco: return "\u{f5c6}"
             case .themeisle: return "\u{f2b2}"
             case .thermometer: return "\u{f491}"
+            case .thermometerEmpty: return "\u{f2cb}"
+            case .thermometerFull: return "\u{f2c7}"
+            case .thermometerHalf: return "\u{f2c9}"
+            case .thermometerQuarter: return "\u{f2ca}"
+            case .thermometerThreeQuarters: return "\u{f2c8}"
             case .thinkPeaks: return "\u{f731}"
             case .thumbsDown: return "\u{f165}"
             case .thumbsUp: return "\u{f164}"
             case .thumbtack: return "\u{f08d}"
-            case .ticket: return "\u{f145}"
-            case .ticketSimple: return "\u{f3ff}"
+            case .ticketAlt: return "\u{f3ff}"
             case .tiktok: return "\u{e07b}"
-            case .timeline: return "\u{e29c}"
+            case .times: return "\u{f00d}"
+            case .timesCircle: return "\u{f057}"
+            case .tint: return "\u{f043}"
+            case .tintSlash: return "\u{f5c7}"
+            case .tired: return "\u{f5c8}"
             case .toggleOff: return "\u{f204}"
             case .toggleOn: return "\u{f205}"
             case .toilet: return "\u{f7d8}"
             case .toiletPaper: return "\u{f71e}"
             case .toiletPaperSlash: return "\u{e072}"
-            case .toiletPortable: return "\u{e583}"
-            case .toiletsPortable: return "\u{e584}"
             case .toolbox: return "\u{f552}"
+            case .tools: return "\u{f7d9}"
             case .tooth: return "\u{f5c9}"
+            case .torah: return "\u{f6a0}"
             case .toriiGate: return "\u{f6a1}"
-            case .tornado: return "\u{f76f}"
-            case .towerBroadcast: return "\u{f519}"
-            case .towerCell: return "\u{e585}"
-            case .towerObservation: return "\u{e586}"
             case .tractor: return "\u{f722}"
             case .tradeFederation: return "\u{f513}"
             case .trademark: return "\u{f25c}"
             case .trafficLight: return "\u{f637}"
             case .trailer: return "\u{e041}"
             case .train: return "\u{f238}"
-            case .trainSubway: return "\u{f239}"
-            case .trainTram: return "\u{e5b4}"
-            case .transgender: return "\u{f225}"
+            case .tram: return "\u{f7da}"
+            case .transgender: return "\u{f224}"
+            case .transgenderAlt: return "\u{f225}"
             case .trash: return "\u{f1f8}"
-            case .trashArrowUp: return "\u{f829}"
-            case .trashCan: return "\u{f2ed}"
-            case .trashCanArrowUp: return "\u{f82a}"
+            case .trashAlt: return "\u{f2ed}"
+            case .trashRestore: return "\u{f829}"
+            case .trashRestoreAlt: return "\u{f82a}"
             case .tree: return "\u{f1bb}"
-            case .treeCity: return "\u{e587}"
             case .trello: return "\u{f181}"
-            case .triangleExclamation: return "\u{f071}"
+            case .tripadvisor: return "\u{f262}"
             case .trophy: return "\u{f091}"
-            case .trowel: return "\u{e589}"
-            case .trowelBricks: return "\u{e58a}"
             case .truck: return "\u{f0d1}"
-            case .truckArrowRight: return "\u{e58b}"
-            case .truckDroplet: return "\u{e58c}"
-            case .truckFast: return "\u{f48b}"
-            case .truckField: return "\u{e58d}"
-            case .truckFieldUn: return "\u{e58e}"
-            case .truckFront: return "\u{e2b7}"
-            case .truckMedical: return "\u{f0f9}"
+            case .truckLoading: return "\u{f4de}"
             case .truckMonster: return "\u{f63b}"
             case .truckMoving: return "\u{f4df}"
             case .truckPickup: return "\u{f63c}"
-            case .truckPlane: return "\u{e58f}"
-            case .truckRampBox: return "\u{f4de}"
+            case .tshirt: return "\u{f553}"
             case .tty: return "\u{f1e4}"
             case .tumblr: return "\u{f173}"
-            case .turkishLiraSign: return "\u{e2bb}"
-            case .turnDown: return "\u{f3be}"
-            case .turnUp: return "\u{f3bf}"
+            case .tumblrSquare: return "\u{f174}"
             case .tv: return "\u{f26c}"
             case .twitch: return "\u{f1e8}"
             case .twitter: return "\u{f099}"
+            case .twitterSquare: return "\u{f081}"
             case .typo3: return "\u{f42b}"
-            case .u: return "\u{55}"
             case .uber: return "\u{f402}"
             case .ubuntu: return "\u{f7df}"
             case .uikit: return "\u{f403}"
@@ -3582,59 +2813,52 @@ public enum FontAwesome: String, CaseIterable {
             case .umbrellaBeach: return "\u{f5ca}"
             case .uncharted: return "\u{e084}"
             case .underline: return "\u{f0cd}"
+            case .undo: return "\u{f0e2}"
+            case .undoAlt: return "\u{f2ea}"
             case .uniregistry: return "\u{f404}"
             case .unity: return "\u{e049}"
             case .universalAccess: return "\u{f29a}"
+            case .university: return "\u{f19c}"
+            case .unlink: return "\u{f127}"
             case .unlock: return "\u{f09c}"
-            case .unlockKeyhole: return "\u{f13e}"
+            case .unlockAlt: return "\u{f13e}"
             case .unsplash: return "\u{e07c}"
             case .untappd: return "\u{f405}"
-            case .upDown: return "\u{f338}"
-            case .upDownLeftRight: return "\u{f0b2}"
-            case .upLong: return "\u{f30c}"
-            case .upRightAndDownLeftFromCenter: return "\u{f424}"
-            case .upRightFromSquare: return "\u{f35d}"
             case .upload: return "\u{f093}"
             case .ups: return "\u{f7e0}"
             case .usb: return "\u{f287}"
             case .user: return "\u{f007}"
+            case .userAlt: return "\u{f406}"
+            case .userAltSlash: return "\u{f4fa}"
             case .userAstronaut: return "\u{f4fb}"
             case .userCheck: return "\u{f4fc}"
+            case .userCircle: return "\u{f2bd}"
             case .userClock: return "\u{f4fd}"
-            case .userDoctor: return "\u{f0f0}"
-            case .userGear: return "\u{f4fe}"
+            case .userCog: return "\u{f4fe}"
+            case .userEdit: return "\u{f4ff}"
+            case .userFriends: return "\u{f500}"
             case .userGraduate: return "\u{f501}"
-            case .userGroup: return "\u{f500}"
             case .userInjured: return "\u{f728}"
-            case .userLarge: return "\u{f406}"
-            case .userLargeSlash: return "\u{f4fa}"
             case .userLock: return "\u{f502}"
+            case .userMd: return "\u{f0f0}"
             case .userMinus: return "\u{f503}"
             case .userNinja: return "\u{f504}"
             case .userNurse: return "\u{f82f}"
-            case .userPen: return "\u{f4ff}"
             case .userPlus: return "\u{f234}"
             case .userSecret: return "\u{f21b}"
             case .userShield: return "\u{f505}"
             case .userSlash: return "\u{f506}"
             case .userTag: return "\u{f507}"
             case .userTie: return "\u{f508}"
-            case .userXmark: return "\u{f235}"
+            case .userTimes: return "\u{f235}"
             case .users: return "\u{f0c0}"
-            case .usersBetweenLines: return "\u{e591}"
-            case .usersGear: return "\u{f509}"
-            case .usersLine: return "\u{e592}"
-            case .usersRays: return "\u{e593}"
-            case .usersRectangle: return "\u{e594}"
+            case .usersCog: return "\u{f509}"
             case .usersSlash: return "\u{e073}"
-            case .usersViewfinder: return "\u{e595}"
             case .usps: return "\u{f7e1}"
             case .ussunnah: return "\u{f407}"
+            case .utensilSpoon: return "\u{f2e5}"
             case .utensils: return "\u{f2e7}"
-            case .v: return "\u{56}"
             case .vaadin: return "\u{f408}"
-            case .vanShuttle: return "\u{f5b6}"
-            case .vault: return "\u{e2c5}"
             case .vectorSquare: return "\u{f5cb}"
             case .venus: return "\u{f221}"
             case .venusDouble: return "\u{f226}"
@@ -3643,68 +2867,58 @@ public enum FontAwesome: String, CaseIterable {
             case .vestPatches: return "\u{e086}"
             case .viacoin: return "\u{f237}"
             case .viadeo: return "\u{f2a9}"
+            case .viadeoSquare: return "\u{f2aa}"
             case .vial: return "\u{f492}"
-            case .vialCircleCheck: return "\u{e596}"
-            case .vialVirus: return "\u{e597}"
             case .vials: return "\u{f493}"
             case .viber: return "\u{f409}"
             case .video: return "\u{f03d}"
             case .videoSlash: return "\u{f4e2}"
             case .vihara: return "\u{f6a7}"
             case .vimeo: return "\u{f40a}"
+            case .vimeoSquare: return "\u{f194}"
             case .vimeoV: return "\u{f27d}"
             case .vine: return "\u{f1ca}"
             case .virus: return "\u{e074}"
-            case .virusCovid: return "\u{e4a8}"
-            case .virusCovidSlash: return "\u{e4a9}"
             case .virusSlash: return "\u{e075}"
             case .viruses: return "\u{e076}"
             case .vk: return "\u{f189}"
             case .vnv: return "\u{f40b}"
             case .voicemail: return "\u{f897}"
-            case .volcano: return "\u{f770}"
-            case .volleyball: return "\u{f45f}"
-            case .volumeHigh: return "\u{f028}"
-            case .volumeLow: return "\u{f027}"
+            case .volleyballBall: return "\u{f45f}"
+            case .volumeDown: return "\u{f027}"
+            case .volumeMute: return "\u{f6a9}"
             case .volumeOff: return "\u{f026}"
-            case .volumeXmark: return "\u{f6a9}"
+            case .volumeUp: return "\u{f028}"
+            case .voteYea: return "\u{f772}"
             case .vrCardboard: return "\u{f729}"
             case .vuejs: return "\u{f41f}"
-            case .w: return "\u{57}"
-            case .walkieTalkie: return "\u{f8ef}"
+            case .walking: return "\u{f554}"
             case .wallet: return "\u{f555}"
-            case .wandMagic: return "\u{f0d0}"
-            case .wandMagicSparkles: return "\u{e2ca}"
-            case .wandSparkles: return "\u{f72b}"
             case .warehouse: return "\u{f494}"
             case .watchmanMonitoring: return "\u{e087}"
             case .water: return "\u{f773}"
-            case .waterLadder: return "\u{f5c5}"
             case .waveSquare: return "\u{f83e}"
             case .waze: return "\u{f83f}"
             case .weebly: return "\u{f5cc}"
             case .weibo: return "\u{f18a}"
+            case .weight: return "\u{f496}"
             case .weightHanging: return "\u{f5cd}"
-            case .weightScale: return "\u{f496}"
             case .weixin: return "\u{f1d7}"
             case .whatsapp: return "\u{f232}"
-            case .wheatAwn: return "\u{e2cd}"
-            case .wheatAwnCircleExclamation: return "\u{e598}"
+            case .whatsappSquare: return "\u{f40c}"
             case .wheelchair: return "\u{f193}"
-            case .wheelchairMove: return "\u{e2ce}"
-            case .whiskeyGlass: return "\u{f7a0}"
             case .whmcs: return "\u{f40d}"
             case .wifi: return "\u{f1eb}"
             case .wikipediaW: return "\u{f266}"
             case .wind: return "\u{f72e}"
+            case .windowClose: return "\u{f410}"
             case .windowMaximize: return "\u{f2d0}"
             case .windowMinimize: return "\u{f2d1}"
             case .windowRestore: return "\u{f2d2}"
             case .windows: return "\u{f17a}"
             case .wineBottle: return "\u{f72f}"
             case .wineGlass: return "\u{f4e3}"
-            case .wineGlassEmpty: return "\u{f5ce}"
-            case .wirsindhandwerk: return "\u{e2d0}"
+            case .wineGlassAlt: return "\u{f5ce}"
             case .wix: return "\u{f5cf}"
             case .wizardsOfTheCoast: return "\u{f730}"
             case .wodu: return "\u{e088}"
@@ -3712,19 +2926,15 @@ public enum FontAwesome: String, CaseIterable {
             case .wonSign: return "\u{f159}"
             case .wordpress: return "\u{f19a}"
             case .wordpressSimple: return "\u{f411}"
-            case .worm: return "\u{e599}"
             case .wpbeginner: return "\u{f297}"
             case .wpexplorer: return "\u{f2de}"
             case .wpforms: return "\u{f298}"
             case .wpressr: return "\u{f3e4}"
             case .wrench: return "\u{f0ad}"
-            case .x: return "\u{58}"
             case .xRay: return "\u{f497}"
             case .xbox: return "\u{f412}"
             case .xing: return "\u{f168}"
-            case .xmark: return "\u{f00d}"
-            case .xmarksLines: return "\u{e59a}"
-            case .y: return "\u{59}"
+            case .xingSquare: return "\u{f169}"
             case .yCombinator: return "\u{f23b}"
             case .yahoo: return "\u{f19e}"
             case .yammer: return "\u{f840}"
@@ -3736,7 +2946,7 @@ public enum FontAwesome: String, CaseIterable {
             case .yinYang: return "\u{f6ad}"
             case .yoast: return "\u{f2b1}"
             case .youtube: return "\u{f167}"
-            case .z: return "\u{5a}"
+            case .youtubeSquare: return "\u{f431}"
             case .zhihu: return "\u{f63f}"
             default: return ""
         }
@@ -3745,26 +2955,18 @@ public enum FontAwesome: String, CaseIterable {
     /// Supported styles of each FontAwesome font
     public var supportedStyles: [FontAwesomeStyle] {
         switch self {
-            case .0: return [.solid]
-            case .1: return [.solid]
-            case .2: return [.solid]
-            case .3: return [.solid]
-            case .4: return [.solid]
-            case .42Group: return [.brands]
-            case .5: return [.solid]
             case .fiveHundredPixels: return [.brands]
-            case .6: return [.solid]
-            case .7: return [.solid]
-            case .8: return [.solid]
-            case .9: return [.solid]
-            case .a: return [.solid]
             case .accessibleIcon: return [.brands]
             case .accusoft: return [.brands]
+            case .acquisitionsIncorporated: return [.brands]
+            case .ad: return [.solid]
             case .addressBook: return [.solid, .regular]
             case .addressCard: return [.solid, .regular]
+            case .adjust: return [.solid]
             case .adn: return [.brands]
             case .adversal: return [.brands]
             case .affiliatetheme: return [.brands]
+            case .airFreshener: return [.solid]
             case .airbnb: return [.brands]
             case .algolia: return [.brands]
             case .alignCenter: return [.solid]
@@ -3772,24 +2974,24 @@ public enum FontAwesome: String, CaseIterable {
             case .alignLeft: return [.solid]
             case .alignRight: return [.solid]
             case .alipay: return [.brands]
+            case .allergies: return [.solid]
             case .amazon: return [.brands]
             case .amazonPay: return [.brands]
+            case .ambulance: return [.solid]
+            case .americanSignLanguageInterpreting: return [.solid]
             case .amilia: return [.brands]
             case .anchor: return [.solid]
-            case .anchorCircleCheck: return [.solid]
-            case .anchorCircleExclamation: return [.solid]
-            case .anchorCircleXmark: return [.solid]
-            case .anchorLock: return [.solid]
             case .android: return [.brands]
             case .angellist: return [.brands]
+            case .angleDoubleDown: return [.solid]
+            case .angleDoubleLeft: return [.solid]
+            case .angleDoubleRight: return [.solid]
+            case .angleDoubleUp: return [.solid]
             case .angleDown: return [.solid]
             case .angleLeft: return [.solid]
             case .angleRight: return [.solid]
             case .angleUp: return [.solid]
-            case .anglesDown: return [.solid]
-            case .anglesLeft: return [.solid]
-            case .anglesRight: return [.solid]
-            case .anglesUp: return [.solid]
+            case .angry: return [.solid, .regular]
             case .angrycreative: return [.brands]
             case .angular: return [.brands]
             case .ankh: return [.solid]
@@ -3797,101 +2999,58 @@ public enum FontAwesome: String, CaseIterable {
             case .appStoreIos: return [.brands]
             case .apper: return [.brands]
             case .apple: return [.brands]
+            case .appleAlt: return [.solid]
             case .applePay: return [.brands]
-            case .appleWhole: return [.solid]
+            case .archive: return [.solid]
             case .archway: return [.solid]
+            case .arrowAltCircleDown: return [.solid, .regular]
+            case .arrowAltCircleLeft: return [.solid, .regular]
+            case .arrowAltCircleRight: return [.solid, .regular]
+            case .arrowAltCircleUp: return [.solid, .regular]
+            case .arrowCircleDown: return [.solid]
+            case .arrowCircleLeft: return [.solid]
+            case .arrowCircleRight: return [.solid]
+            case .arrowCircleUp: return [.solid]
             case .arrowDown: return [.solid]
-            case .arrowDown19: return [.solid]
-            case .arrowDown91: return [.solid]
-            case .arrowDownAZ: return [.solid]
-            case .arrowDownLong: return [.solid]
-            case .arrowDownShortWide: return [.solid]
-            case .arrowDownUpAcrossLine: return [.solid]
-            case .arrowDownUpLock: return [.solid]
-            case .arrowDownWideShort: return [.solid]
-            case .arrowDownZA: return [.solid]
             case .arrowLeft: return [.solid]
-            case .arrowLeftLong: return [.solid]
-            case .arrowPointer: return [.solid]
             case .arrowRight: return [.solid]
-            case .arrowRightArrowLeft: return [.solid]
-            case .arrowRightFromBracket: return [.solid]
-            case .arrowRightLong: return [.solid]
-            case .arrowRightToBracket: return [.solid]
-            case .arrowRightToCity: return [.solid]
-            case .arrowRotateLeft: return [.solid]
-            case .arrowRotateRight: return [.solid]
-            case .arrowTrendDown: return [.solid]
-            case .arrowTrendUp: return [.solid]
-            case .arrowTurnDown: return [.solid]
-            case .arrowTurnUp: return [.solid]
             case .arrowUp: return [.solid]
-            case .arrowUp19: return [.solid]
-            case .arrowUp91: return [.solid]
-            case .arrowUpAZ: return [.solid]
-            case .arrowUpFromBracket: return [.solid]
-            case .arrowUpFromGroundWater: return [.solid]
-            case .arrowUpFromWaterPump: return [.solid]
-            case .arrowUpLong: return [.solid]
-            case .arrowUpRightDots: return [.solid]
-            case .arrowUpRightFromSquare: return [.solid]
-            case .arrowUpShortWide: return [.solid]
-            case .arrowUpWideShort: return [.solid]
-            case .arrowUpZA: return [.solid]
-            case .arrowsDownToLine: return [.solid]
-            case .arrowsDownToPeople: return [.solid]
-            case .arrowsLeftRight: return [.solid]
-            case .arrowsLeftRightToLine: return [.solid]
-            case .arrowsRotate: return [.solid]
-            case .arrowsSpin: return [.solid]
-            case .arrowsSplitUpAndLeft: return [.solid]
-            case .arrowsToCircle: return [.solid]
-            case .arrowsToDot: return [.solid]
-            case .arrowsToEye: return [.solid]
-            case .arrowsTurnRight: return [.solid]
-            case .arrowsTurnToDots: return [.solid]
-            case .arrowsUpDown: return [.solid]
-            case .arrowsUpDownLeftRight: return [.solid]
-            case .arrowsUpToLine: return [.solid]
+            case .arrowsAlt: return [.solid]
+            case .arrowsAltH: return [.solid]
+            case .arrowsAltV: return [.solid]
             case .artstation: return [.brands]
+            case .assistiveListeningSystems: return [.solid]
             case .asterisk: return [.solid]
             case .asymmetrik: return [.brands]
             case .at: return [.solid]
+            case .atlas: return [.solid]
             case .atlassian: return [.brands]
             case .atom: return [.solid]
             case .audible: return [.brands]
             case .audioDescription: return [.solid]
-            case .australSign: return [.solid]
             case .autoprefixer: return [.brands]
             case .avianex: return [.brands]
             case .aviato: return [.brands]
             case .award: return [.solid]
             case .aws: return [.brands]
-            case .b: return [.solid]
             case .baby: return [.solid]
             case .babyCarriage: return [.solid]
+            case .backspace: return [.solid]
             case .backward: return [.solid]
-            case .backwardFast: return [.solid]
-            case .backwardStep: return [.solid]
             case .bacon: return [.solid]
             case .bacteria: return [.solid]
             case .bacterium: return [.solid]
-            case .bagShopping: return [.solid]
             case .bahai: return [.solid]
-            case .bahtSign: return [.solid]
+            case .balanceScale: return [.solid]
+            case .balanceScaleLeft: return [.solid]
+            case .balanceScaleRight: return [.solid]
             case .ban: return [.solid]
-            case .banSmoking: return [.solid]
-            case .bandage: return [.solid]
+            case .bandAid: return [.solid]
             case .bandcamp: return [.brands]
-            case .bangladeshiTakaSign: return [.solid]
             case .barcode: return [.solid]
             case .bars: return [.solid]
-            case .barsProgress: return [.solid]
-            case .barsStaggered: return [.solid]
-            case .baseball: return [.solid]
-            case .baseballBatBall: return [.solid]
-            case .basketShopping: return [.solid]
-            case .basketball: return [.solid]
+            case .baseballBall: return [.solid]
+            case .basketballBall: return [.solid]
             case .bath: return [.solid]
             case .batteryEmpty: return [.solid]
             case .batteryFull: return [.solid]
@@ -3900,26 +3059,27 @@ public enum FontAwesome: String, CaseIterable {
             case .batteryThreeQuarters: return [.solid]
             case .battleNet: return [.brands]
             case .bed: return [.solid]
-            case .bedPulse: return [.solid]
-            case .beerMugEmpty: return [.solid]
+            case .beer: return [.solid]
             case .behance: return [.brands]
+            case .behanceSquare: return [.brands]
             case .bell: return [.solid, .regular]
-            case .bellConcierge: return [.solid]
             case .bellSlash: return [.solid, .regular]
             case .bezierCurve: return [.solid]
+            case .bible: return [.solid]
             case .bicycle: return [.solid]
-            case .bilibili: return [.brands]
+            case .biking: return [.solid]
             case .bimobject: return [.brands]
             case .binoculars: return [.solid]
             case .biohazard: return [.solid]
+            case .birthdayCake: return [.solid]
             case .bitbucket: return [.brands]
             case .bitcoin: return [.brands]
-            case .bitcoinSign: return [.solid]
             case .bity: return [.brands]
             case .blackTie: return [.brands]
             case .blackberry: return [.brands]
             case .blender: return [.solid]
             case .blenderPhone: return [.solid]
+            case .blind: return [.solid]
             case .blog: return [.solid]
             case .blogger: return [.brands]
             case .bloggerB: return [.brands]
@@ -3927,121 +3087,78 @@ public enum FontAwesome: String, CaseIterable {
             case .bluetoothB: return [.brands]
             case .bold: return [.solid]
             case .bolt: return [.solid]
-            case .boltLightning: return [.solid]
             case .bomb: return [.solid]
             case .bone: return [.solid]
             case .bong: return [.solid]
             case .book: return [.solid]
-            case .bookAtlas: return [.solid]
-            case .bookBible: return [.solid]
-            case .bookBookmark: return [.solid]
-            case .bookJournalWhills: return [.solid]
+            case .bookDead: return [.solid]
             case .bookMedical: return [.solid]
             case .bookOpen: return [.solid]
-            case .bookOpenReader: return [.solid]
-            case .bookQuran: return [.solid]
-            case .bookSkull: return [.solid]
-            case .bookTanakh: return [.solid]
+            case .bookReader: return [.solid]
             case .bookmark: return [.solid, .regular]
             case .bootstrap: return [.brands]
             case .borderAll: return [.solid]
             case .borderNone: return [.solid]
-            case .borderTopLeft: return [.solid]
-            case .boreHole: return [.solid]
-            case .bots: return [.brands]
-            case .bottleDroplet: return [.solid]
-            case .bottleWater: return [.solid]
-            case .bowlFood: return [.solid]
-            case .bowlRice: return [.solid]
+            case .borderStyle: return [.solid]
             case .bowlingBall: return [.solid]
             case .box: return [.solid]
-            case .boxArchive: return [.solid]
             case .boxOpen: return [.solid]
             case .boxTissue: return [.solid]
-            case .boxesPacking: return [.solid]
-            case .boxesStacked: return [.solid]
+            case .boxes: return [.solid]
             case .braille: return [.solid]
             case .brain: return [.solid]
-            case .brazilianRealSign: return [.solid]
             case .breadSlice: return [.solid]
-            case .bridge: return [.solid]
-            case .bridgeCircleCheck: return [.solid]
-            case .bridgeCircleExclamation: return [.solid]
-            case .bridgeCircleXmark: return [.solid]
-            case .bridgeLock: return [.solid]
-            case .bridgeWater: return [.solid]
             case .briefcase: return [.solid]
             case .briefcaseMedical: return [.solid]
+            case .broadcastTower: return [.solid]
             case .broom: return [.solid]
-            case .broomBall: return [.solid]
             case .brush: return [.solid]
             case .btc: return [.brands]
-            case .bucket: return [.solid]
             case .buffer: return [.brands]
             case .bug: return [.solid]
-            case .bugSlash: return [.solid]
-            case .bugs: return [.solid]
             case .building: return [.solid, .regular]
-            case .buildingCircleArrowRight: return [.solid]
-            case .buildingCircleCheck: return [.solid]
-            case .buildingCircleExclamation: return [.solid]
-            case .buildingCircleXmark: return [.solid]
-            case .buildingColumns: return [.solid]
-            case .buildingFlag: return [.solid]
-            case .buildingLock: return [.solid]
-            case .buildingNgo: return [.solid]
-            case .buildingShield: return [.solid]
-            case .buildingUn: return [.solid]
-            case .buildingUser: return [.solid]
-            case .buildingWheat: return [.solid]
             case .bullhorn: return [.solid]
             case .bullseye: return [.solid]
-            case .burger: return [.solid]
+            case .burn: return [.solid]
             case .buromobelexperte: return [.brands]
-            case .burst: return [.solid]
             case .bus: return [.solid]
-            case .busSimple: return [.solid]
+            case .busAlt: return [.solid]
             case .businessTime: return [.solid]
             case .buyNLarge: return [.brands]
             case .buysellads: return [.brands]
-            case .c: return [.solid]
-            case .cableCar: return [.solid]
-            case .cakeCandles: return [.solid]
             case .calculator: return [.solid]
             case .calendar: return [.solid, .regular]
+            case .calendarAlt: return [.solid, .regular]
             case .calendarCheck: return [.solid, .regular]
             case .calendarDay: return [.solid]
-            case .calendarDays: return [.solid, .regular]
             case .calendarMinus: return [.solid, .regular]
             case .calendarPlus: return [.solid, .regular]
+            case .calendarTimes: return [.solid, .regular]
             case .calendarWeek: return [.solid]
-            case .calendarXmark: return [.solid, .regular]
             case .camera: return [.solid]
             case .cameraRetro: return [.solid]
-            case .cameraRotate: return [.solid]
             case .campground: return [.solid]
             case .canadianMapleLeaf: return [.brands]
             case .candyCane: return [.solid]
             case .cannabis: return [.solid]
             case .capsules: return [.solid]
             case .car: return [.solid]
+            case .carAlt: return [.solid]
             case .carBattery: return [.solid]
-            case .carBurst: return [.solid]
-            case .carOn: return [.solid]
-            case .carRear: return [.solid]
+            case .carCrash: return [.solid]
             case .carSide: return [.solid]
-            case .carTunnel: return [.solid]
             case .caravan: return [.solid]
             case .caretDown: return [.solid]
             case .caretLeft: return [.solid]
             case .caretRight: return [.solid]
+            case .caretSquareDown: return [.solid, .regular]
+            case .caretSquareLeft: return [.solid, .regular]
+            case .caretSquareRight: return [.solid, .regular]
+            case .caretSquareUp: return [.solid, .regular]
             case .caretUp: return [.solid]
             case .carrot: return [.solid]
             case .cartArrowDown: return [.solid]
-            case .cartFlatbed: return [.solid]
-            case .cartFlatbedSuitcase: return [.solid]
             case .cartPlus: return [.solid]
-            case .cartShopping: return [.solid]
             case .cashRegister: return [.solid]
             case .cat: return [.solid]
             case .ccAmazonPay: return [.brands]
@@ -4054,132 +3171,90 @@ public enum FontAwesome: String, CaseIterable {
             case .ccPaypal: return [.brands]
             case .ccStripe: return [.brands]
             case .ccVisa: return [.brands]
-            case .cediSign: return [.solid]
-            case .centSign: return [.solid]
             case .centercode: return [.brands]
             case .centos: return [.brands]
             case .certificate: return [.solid]
             case .chair: return [.solid]
             case .chalkboard: return [.solid]
-            case .chalkboardUser: return [.solid]
-            case .champagneGlasses: return [.solid]
+            case .chalkboardTeacher: return [.solid]
             case .chargingStation: return [.solid]
             case .chartArea: return [.solid]
             case .chartBar: return [.solid, .regular]
-            case .chartColumn: return [.solid]
-            case .chartGantt: return [.solid]
             case .chartLine: return [.solid]
             case .chartPie: return [.solid]
-            case .chartSimple: return [.solid]
             case .check: return [.solid]
+            case .checkCircle: return [.solid, .regular]
             case .checkDouble: return [.solid]
-            case .checkToSlot: return [.solid]
+            case .checkSquare: return [.solid, .regular]
             case .cheese: return [.solid]
             case .chess: return [.solid]
-            case .chessBishop: return [.solid, .regular]
+            case .chessBishop: return [.solid]
             case .chessBoard: return [.solid]
-            case .chessKing: return [.solid, .regular]
-            case .chessKnight: return [.solid, .regular]
-            case .chessPawn: return [.solid, .regular]
-            case .chessQueen: return [.solid, .regular]
-            case .chessRook: return [.solid, .regular]
+            case .chessKing: return [.solid]
+            case .chessKnight: return [.solid]
+            case .chessPawn: return [.solid]
+            case .chessQueen: return [.solid]
+            case .chessRook: return [.solid]
+            case .chevronCircleDown: return [.solid]
+            case .chevronCircleLeft: return [.solid]
+            case .chevronCircleRight: return [.solid]
+            case .chevronCircleUp: return [.solid]
             case .chevronDown: return [.solid]
             case .chevronLeft: return [.solid]
             case .chevronRight: return [.solid]
             case .chevronUp: return [.solid]
             case .child: return [.solid]
-            case .childCombatant: return [.solid]
-            case .childDress: return [.solid]
-            case .childReaching: return [.solid]
-            case .children: return [.solid]
             case .chrome: return [.brands]
             case .chromecast: return [.brands]
             case .church: return [.solid]
             case .circle: return [.solid, .regular]
-            case .circleArrowDown: return [.solid]
-            case .circleArrowLeft: return [.solid]
-            case .circleArrowRight: return [.solid]
-            case .circleArrowUp: return [.solid]
-            case .circleCheck: return [.solid, .regular]
-            case .circleChevronDown: return [.solid]
-            case .circleChevronLeft: return [.solid]
-            case .circleChevronRight: return [.solid]
-            case .circleChevronUp: return [.solid]
-            case .circleDollarToSlot: return [.solid]
-            case .circleDot: return [.solid, .regular]
-            case .circleDown: return [.solid, .regular]
-            case .circleExclamation: return [.solid]
-            case .circleH: return [.solid]
-            case .circleHalfStroke: return [.solid]
-            case .circleInfo: return [.solid]
-            case .circleLeft: return [.solid, .regular]
-            case .circleMinus: return [.solid]
-            case .circleNodes: return [.solid]
             case .circleNotch: return [.solid]
-            case .circlePause: return [.solid, .regular]
-            case .circlePlay: return [.solid, .regular]
-            case .circlePlus: return [.solid]
-            case .circleQuestion: return [.solid, .regular]
-            case .circleRadiation: return [.solid]
-            case .circleRight: return [.solid, .regular]
-            case .circleStop: return [.solid, .regular]
-            case .circleUp: return [.solid, .regular]
-            case .circleUser: return [.solid, .regular]
-            case .circleXmark: return [.solid, .regular]
             case .city: return [.solid]
-            case .clapperboard: return [.solid]
+            case .clinicMedical: return [.solid]
             case .clipboard: return [.solid, .regular]
             case .clipboardCheck: return [.solid]
             case .clipboardList: return [.solid]
-            case .clipboardQuestion: return [.solid]
-            case .clipboardUser: return [.solid]
             case .clock: return [.solid, .regular]
-            case .clockRotateLeft: return [.solid]
             case .clone: return [.solid, .regular]
             case .closedCaptioning: return [.solid, .regular]
             case .cloud: return [.solid]
-            case .cloudArrowDown: return [.solid]
-            case .cloudArrowUp: return [.solid]
-            case .cloudBolt: return [.solid]
+            case .cloudDownloadAlt: return [.solid]
             case .cloudMeatball: return [.solid]
             case .cloudMoon: return [.solid]
             case .cloudMoonRain: return [.solid]
             case .cloudRain: return [.solid]
             case .cloudShowersHeavy: return [.solid]
-            case .cloudShowersWater: return [.solid]
             case .cloudSun: return [.solid]
             case .cloudSunRain: return [.solid]
+            case .cloudUploadAlt: return [.solid]
             case .cloudflare: return [.brands]
             case .cloudscale: return [.brands]
             case .cloudsmith: return [.brands]
             case .cloudversify: return [.brands]
-            case .clover: return [.solid]
-            case .cmplid: return [.brands]
+            case .cocktail: return [.solid]
             case .code: return [.solid]
             case .codeBranch: return [.solid]
-            case .codeCommit: return [.solid]
-            case .codeCompare: return [.solid]
-            case .codeFork: return [.solid]
-            case .codeMerge: return [.solid]
-            case .codePullRequest: return [.solid]
             case .codepen: return [.brands]
             case .codiepie: return [.brands]
+            case .coffee: return [.solid]
+            case .cog: return [.solid]
+            case .cogs: return [.solid]
             case .coins: return [.solid]
-            case .colonSign: return [.solid]
+            case .columns: return [.solid]
             case .comment: return [.solid, .regular]
+            case .commentAlt: return [.solid, .regular]
             case .commentDollar: return [.solid]
             case .commentDots: return [.solid, .regular]
             case .commentMedical: return [.solid]
             case .commentSlash: return [.solid]
-            case .commentSms: return [.solid]
             case .comments: return [.solid, .regular]
             case .commentsDollar: return [.solid]
             case .compactDisc: return [.solid]
             case .compass: return [.solid, .regular]
-            case .compassDrafting: return [.solid]
             case .compress: return [.solid]
-            case .computer: return [.solid]
-            case .computerMouse: return [.solid]
+            case .compressAlt: return [.solid]
+            case .compressArrowsAlt: return [.solid]
+            case .conciergeBell: return [.solid]
             case .confluence: return [.brands]
             case .connectdevelop: return [.brands]
             case .contao: return [.brands]
@@ -4189,7 +3264,6 @@ public enum FontAwesome: String, CaseIterable {
             case .copyright: return [.solid, .regular]
             case .cottonBureau: return [.brands]
             case .couch: return [.solid]
-            case .cow: return [.solid]
             case .cpanel: return [.brands]
             case .creativeCommons: return [.brands]
             case .creativeCommonsBy: return [.brands]
@@ -4208,27 +3282,25 @@ public enum FontAwesome: String, CaseIterable {
             case .creditCard: return [.solid, .regular]
             case .criticalRole: return [.brands]
             case .crop: return [.solid]
-            case .cropSimple: return [.solid]
+            case .cropAlt: return [.solid]
             case .cross: return [.solid]
             case .crosshairs: return [.solid]
             case .crow: return [.solid]
             case .crown: return [.solid]
             case .crutch: return [.solid]
-            case .cruzeiroSign: return [.solid]
             case .css3: return [.brands]
             case .css3Alt: return [.brands]
             case .cube: return [.solid]
             case .cubes: return [.solid]
-            case .cubesStacked: return [.solid]
+            case .cut: return [.solid]
             case .cuttlefish: return [.brands]
-            case .d: return [.solid]
             case .dAndD: return [.brands]
             case .dAndDBeyond: return [.brands]
             case .dailymotion: return [.brands]
             case .dashcube: return [.brands]
             case .database: return [.solid]
+            case .deaf: return [.solid]
             case .deezer: return [.brands]
-            case .deleteLeft: return [.solid]
             case .delicious: return [.brands]
             case .democrat: return [.solid]
             case .deploydog: return [.brands]
@@ -4238,12 +3310,7 @@ public enum FontAwesome: String, CaseIterable {
             case .deviantart: return [.brands]
             case .dharmachakra: return [.solid]
             case .dhl: return [.brands]
-            case .diagramNext: return [.solid]
-            case .diagramPredecessor: return [.solid]
-            case .diagramProject: return [.solid]
-            case .diagramSuccessor: return [.solid]
-            case .diamond: return [.solid]
-            case .diamondTurnRight: return [.solid]
+            case .diagnoses: return [.solid]
             case .diaspora: return [.brands]
             case .dice: return [.solid]
             case .diceD20: return [.solid]
@@ -4256,31 +3323,33 @@ public enum FontAwesome: String, CaseIterable {
             case .diceTwo: return [.solid]
             case .digg: return [.brands]
             case .digitalOcean: return [.brands]
+            case .digitalTachograph: return [.solid]
+            case .directions: return [.solid]
             case .discord: return [.brands]
             case .discourse: return [.brands]
             case .disease: return [.solid]
-            case .display: return [.solid]
             case .divide: return [.solid]
+            case .dizzy: return [.solid, .regular]
             case .dna: return [.solid]
             case .dochub: return [.brands]
             case .docker: return [.brands]
             case .dog: return [.solid]
             case .dollarSign: return [.solid]
             case .dolly: return [.solid]
-            case .dongSign: return [.solid]
+            case .dollyFlatbed: return [.solid]
+            case .donate: return [.solid]
             case .doorClosed: return [.solid]
             case .doorOpen: return [.solid]
+            case .dotCircle: return [.solid, .regular]
             case .dove: return [.solid]
-            case .downLeftAndUpRightToCenter: return [.solid]
-            case .downLong: return [.solid]
             case .download: return [.solid]
             case .draft2digital: return [.brands]
+            case .draftingCompass: return [.solid]
             case .dragon: return [.solid]
             case .drawPolygon: return [.solid]
             case .dribbble: return [.brands]
+            case .dribbbleSquare: return [.brands]
             case .dropbox: return [.brands]
-            case .droplet: return [.solid]
-            case .dropletSlash: return [.solid]
             case .drum: return [.solid]
             case .drumSteelpan: return [.solid]
             case .drumstickBite: return [.solid]
@@ -4290,32 +3359,23 @@ public enum FontAwesome: String, CaseIterable {
             case .dumpsterFire: return [.solid]
             case .dungeon: return [.solid]
             case .dyalog: return [.brands]
-            case .e: return [.solid]
-            case .earDeaf: return [.solid]
-            case .earListen: return [.solid]
             case .earlybirds: return [.brands]
-            case .earthAfrica: return [.solid]
-            case .earthAmericas: return [.solid]
-            case .earthAsia: return [.solid]
-            case .earthEurope: return [.solid]
-            case .earthOceania: return [.solid]
             case .ebay: return [.brands]
             case .edge: return [.brands]
             case .edgeLegacy: return [.brands]
+            case .edit: return [.solid, .regular]
             case .egg: return [.solid]
             case .eject: return [.solid]
             case .elementor: return [.brands]
-            case .elevator: return [.solid]
-            case .ellipsis: return [.solid]
-            case .ellipsisVertical: return [.solid]
+            case .ellipsisH: return [.solid]
+            case .ellipsisV: return [.solid]
             case .ello: return [.brands]
             case .ember: return [.brands]
             case .empire: return [.brands]
             case .envelope: return [.solid, .regular]
-            case .envelopeCircleCheck: return [.solid]
             case .envelopeOpen: return [.solid, .regular]
             case .envelopeOpenText: return [.solid]
-            case .envelopesBulk: return [.solid]
+            case .envelopeSquare: return [.solid]
             case .envira: return [.brands]
             case .equals: return [.solid]
             case .eraser: return [.solid]
@@ -4325,161 +3385,113 @@ public enum FontAwesome: String, CaseIterable {
             case .etsy: return [.brands]
             case .euroSign: return [.solid]
             case .evernote: return [.brands]
+            case .exchangeAlt: return [.solid]
             case .exclamation: return [.solid]
+            case .exclamationCircle: return [.solid]
+            case .exclamationTriangle: return [.solid]
             case .expand: return [.solid]
+            case .expandAlt: return [.solid]
+            case .expandArrowsAlt: return [.solid]
             case .expeditedssl: return [.brands]
-            case .explosion: return [.solid]
+            case .externalLinkAlt: return [.solid]
+            case .externalLinkSquareAlt: return [.solid]
             case .eye: return [.solid, .regular]
             case .eyeDropper: return [.solid]
-            case .eyeLowVision: return [.solid]
             case .eyeSlash: return [.solid, .regular]
-            case .f: return [.solid]
-            case .faceAngry: return [.solid, .regular]
-            case .faceDizzy: return [.solid, .regular]
-            case .faceFlushed: return [.solid, .regular]
-            case .faceFrown: return [.solid, .regular]
-            case .faceFrownOpen: return [.solid, .regular]
-            case .faceGrimace: return [.solid, .regular]
-            case .faceGrin: return [.solid, .regular]
-            case .faceGrinBeam: return [.solid, .regular]
-            case .faceGrinBeamSweat: return [.solid, .regular]
-            case .faceGrinHearts: return [.solid, .regular]
-            case .faceGrinSquint: return [.solid, .regular]
-            case .faceGrinSquintTears: return [.solid, .regular]
-            case .faceGrinStars: return [.solid, .regular]
-            case .faceGrinTears: return [.solid, .regular]
-            case .faceGrinTongue: return [.solid, .regular]
-            case .faceGrinTongueSquint: return [.solid, .regular]
-            case .faceGrinTongueWink: return [.solid, .regular]
-            case .faceGrinWide: return [.solid, .regular]
-            case .faceGrinWink: return [.solid, .regular]
-            case .faceKiss: return [.solid, .regular]
-            case .faceKissBeam: return [.solid, .regular]
-            case .faceKissWinkHeart: return [.solid, .regular]
-            case .faceLaugh: return [.solid, .regular]
-            case .faceLaughBeam: return [.solid, .regular]
-            case .faceLaughSquint: return [.solid, .regular]
-            case .faceLaughWink: return [.solid, .regular]
-            case .faceMeh: return [.solid, .regular]
-            case .faceMehBlank: return [.solid, .regular]
-            case .faceRollingEyes: return [.solid, .regular]
-            case .faceSadCry: return [.solid, .regular]
-            case .faceSadTear: return [.solid, .regular]
-            case .faceSmile: return [.solid, .regular]
-            case .faceSmileBeam: return [.solid, .regular]
-            case .faceSmileWink: return [.solid, .regular]
-            case .faceSurprise: return [.solid, .regular]
-            case .faceTired: return [.solid, .regular]
             case .facebook: return [.brands]
             case .facebookF: return [.brands]
             case .facebookMessenger: return [.brands]
+            case .facebookSquare: return [.brands]
             case .fan: return [.solid]
             case .fantasyFlightGames: return [.brands]
+            case .fastBackward: return [.solid]
+            case .fastForward: return [.solid]
             case .faucet: return [.solid]
-            case .faucetDrip: return [.solid]
             case .fax: return [.solid]
             case .feather: return [.solid]
-            case .featherPointed: return [.solid]
+            case .featherAlt: return [.solid]
             case .fedex: return [.brands]
             case .fedora: return [.brands]
-            case .ferry: return [.solid]
+            case .female: return [.solid]
+            case .fighterJet: return [.solid]
             case .figma: return [.brands]
             case .file: return [.solid, .regular]
-            case .fileArrowDown: return [.solid]
-            case .fileArrowUp: return [.solid]
+            case .fileAlt: return [.solid, .regular]
+            case .fileArchive: return [.solid, .regular]
             case .fileAudio: return [.solid, .regular]
-            case .fileCircleCheck: return [.solid]
-            case .fileCircleExclamation: return [.solid]
-            case .fileCircleMinus: return [.solid]
-            case .fileCirclePlus: return [.solid]
-            case .fileCircleQuestion: return [.solid]
-            case .fileCircleXmark: return [.solid]
             case .fileCode: return [.solid, .regular]
             case .fileContract: return [.solid]
             case .fileCsv: return [.solid]
+            case .fileDownload: return [.solid]
             case .fileExcel: return [.solid, .regular]
             case .fileExport: return [.solid]
             case .fileImage: return [.solid, .regular]
             case .fileImport: return [.solid]
             case .fileInvoice: return [.solid]
             case .fileInvoiceDollar: return [.solid]
-            case .fileLines: return [.solid, .regular]
             case .fileMedical: return [.solid]
+            case .fileMedicalAlt: return [.solid]
             case .filePdf: return [.solid, .regular]
-            case .filePen: return [.solid]
             case .filePowerpoint: return [.solid, .regular]
             case .filePrescription: return [.solid]
-            case .fileShield: return [.solid]
             case .fileSignature: return [.solid]
+            case .fileUpload: return [.solid]
             case .fileVideo: return [.solid, .regular]
-            case .fileWaveform: return [.solid]
             case .fileWord: return [.solid, .regular]
-            case .fileZipper: return [.solid, .regular]
             case .fill: return [.solid]
             case .fillDrip: return [.solid]
             case .film: return [.solid]
             case .filter: return [.solid]
-            case .filterCircleDollar: return [.solid]
-            case .filterCircleXmark: return [.solid]
             case .fingerprint: return [.solid]
             case .fire: return [.solid]
-            case .fireBurner: return [.solid]
+            case .fireAlt: return [.solid]
             case .fireExtinguisher: return [.solid]
-            case .fireFlameCurved: return [.solid]
-            case .fireFlameSimple: return [.solid]
             case .firefox: return [.brands]
             case .firefoxBrowser: return [.brands]
+            case .firstAid: return [.solid]
             case .firstOrder: return [.brands]
             case .firstOrderAlt: return [.brands]
             case .firstdraft: return [.brands]
             case .fish: return [.solid]
-            case .fishFins: return [.solid]
+            case .fistRaised: return [.solid]
             case .flag: return [.solid, .regular]
             case .flagCheckered: return [.solid]
             case .flagUsa: return [.solid]
             case .flask: return [.solid]
-            case .flaskVial: return [.solid]
             case .flickr: return [.brands]
             case .flipboard: return [.brands]
-            case .floppyDisk: return [.solid, .regular]
-            case .florinSign: return [.solid]
+            case .flushed: return [.solid, .regular]
             case .fly: return [.brands]
             case .folder: return [.solid, .regular]
-            case .folderClosed: return [.solid, .regular]
             case .folderMinus: return [.solid]
             case .folderOpen: return [.solid, .regular]
             case .folderPlus: return [.solid]
-            case .folderTree: return [.solid]
             case .font: return [.solid]
-            case .fontAwesome: return [.solid, .regular, .brands]
+            case .fontAwesome: return [.brands]
+            case .fontAwesomeAlt: return [.brands]
+            case .fontAwesomeFlag: return [.brands]
+            case .fontAwesomeLogoFull: return [.regular, .solid, .brands]
             case .fonticons: return [.brands]
             case .fonticonsFi: return [.brands]
-            case .football: return [.solid]
+            case .footballBall: return [.solid]
             case .fortAwesome: return [.brands]
             case .fortAwesomeAlt: return [.brands]
             case .forumbee: return [.brands]
             case .forward: return [.solid]
-            case .forwardFast: return [.solid]
-            case .forwardStep: return [.solid]
             case .foursquare: return [.brands]
-            case .francSign: return [.solid]
             case .freeCodeCamp: return [.brands]
             case .freebsd: return [.brands]
             case .frog: return [.solid]
+            case .frown: return [.solid, .regular]
+            case .frownOpen: return [.solid, .regular]
             case .fulcrum: return [.brands]
+            case .funnelDollar: return [.solid]
             case .futbol: return [.solid, .regular]
-            case .g: return [.solid]
             case .galacticRepublic: return [.brands]
             case .galacticSenate: return [.brands]
             case .gamepad: return [.solid]
             case .gasPump: return [.solid]
-            case .gauge: return [.solid]
-            case .gaugeHigh: return [.solid]
-            case .gaugeSimple: return [.solid]
-            case .gaugeSimpleHigh: return [.solid]
             case .gavel: return [.solid]
-            case .gear: return [.solid]
-            case .gears: return [.solid]
             case .gem: return [.solid, .regular]
             case .genderless: return [.solid]
             case .getPocket: return [.brands]
@@ -4490,20 +3502,27 @@ public enum FontAwesome: String, CaseIterable {
             case .gifts: return [.solid]
             case .git: return [.brands]
             case .gitAlt: return [.brands]
+            case .gitSquare: return [.brands]
             case .github: return [.brands]
             case .githubAlt: return [.brands]
+            case .githubSquare: return [.brands]
             case .gitkraken: return [.brands]
             case .gitlab: return [.brands]
             case .gitter: return [.brands]
-            case .glassWater: return [.solid]
-            case .glassWaterDroplet: return [.solid]
+            case .glassCheers: return [.solid]
+            case .glassMartini: return [.solid]
+            case .glassMartiniAlt: return [.solid]
+            case .glassWhiskey: return [.solid]
             case .glasses: return [.solid]
             case .glide: return [.brands]
             case .glideG: return [.brands]
             case .globe: return [.solid]
+            case .globeAfrica: return [.solid]
+            case .globeAmericas: return [.solid]
+            case .globeAsia: return [.solid]
+            case .globeEurope: return [.solid]
             case .gofore: return [.brands]
-            case .golang: return [.brands]
-            case .golfBallTee: return [.solid]
+            case .golfBall: return [.solid]
             case .goodreads: return [.brands]
             case .goodreadsG: return [.brands]
             case .google: return [.brands]
@@ -4512,6 +3531,7 @@ public enum FontAwesome: String, CaseIterable {
             case .googlePlay: return [.brands]
             case .googlePlus: return [.brands]
             case .googlePlusG: return [.brands]
+            case .googlePlusSquare: return [.brands]
             case .googleWallet: return [.brands]
             case .gopuram: return [.solid]
             case .graduationCap: return [.solid]
@@ -4519,160 +3539,132 @@ public enum FontAwesome: String, CaseIterable {
             case .grav: return [.brands]
             case .greaterThan: return [.solid]
             case .greaterThanEqual: return [.solid]
-            case .grip: return [.solid]
+            case .grimace: return [.solid, .regular]
+            case .grin: return [.solid, .regular]
+            case .grinAlt: return [.solid, .regular]
+            case .grinBeam: return [.solid, .regular]
+            case .grinBeamSweat: return [.solid, .regular]
+            case .grinHearts: return [.solid, .regular]
+            case .grinSquint: return [.solid, .regular]
+            case .grinSquintTears: return [.solid, .regular]
+            case .grinStars: return [.solid, .regular]
+            case .grinTears: return [.solid, .regular]
+            case .grinTongue: return [.solid, .regular]
+            case .grinTongueSquint: return [.solid, .regular]
+            case .grinTongueWink: return [.solid, .regular]
+            case .grinWink: return [.solid, .regular]
+            case .gripHorizontal: return [.solid]
             case .gripLines: return [.solid]
             case .gripLinesVertical: return [.solid]
             case .gripVertical: return [.solid]
             case .gripfire: return [.brands]
-            case .groupArrowsRotate: return [.solid]
             case .grunt: return [.brands]
-            case .guaraniSign: return [.solid]
             case .guilded: return [.brands]
             case .guitar: return [.solid]
             case .gulp: return [.brands]
-            case .gun: return [.solid]
-            case .h: return [.solid]
+            case .hSquare: return [.solid]
             case .hackerNews: return [.brands]
+            case .hackerNewsSquare: return [.brands]
             case .hackerrank: return [.brands]
+            case .hamburger: return [.solid]
             case .hammer: return [.solid]
             case .hamsa: return [.solid]
-            case .hand: return [.solid, .regular]
-            case .handBackFist: return [.solid, .regular]
-            case .handDots: return [.solid]
-            case .handFist: return [.solid]
             case .handHolding: return [.solid]
-            case .handHoldingDollar: return [.solid]
-            case .handHoldingDroplet: return [.solid]
-            case .handHoldingHand: return [.solid]
             case .handHoldingHeart: return [.solid]
             case .handHoldingMedical: return [.solid]
+            case .handHoldingUsd: return [.solid]
+            case .handHoldingWater: return [.solid]
             case .handLizard: return [.solid, .regular]
             case .handMiddleFinger: return [.solid]
+            case .handPaper: return [.solid, .regular]
             case .handPeace: return [.solid, .regular]
             case .handPointDown: return [.solid, .regular]
             case .handPointLeft: return [.solid, .regular]
             case .handPointRight: return [.solid, .regular]
             case .handPointUp: return [.solid, .regular]
             case .handPointer: return [.solid, .regular]
+            case .handRock: return [.solid, .regular]
             case .handScissors: return [.solid, .regular]
             case .handSparkles: return [.solid]
             case .handSpock: return [.solid, .regular]
-            case .handcuffs: return [.solid]
             case .hands: return [.solid]
-            case .handsAslInterpreting: return [.solid]
-            case .handsBound: return [.solid]
-            case .handsBubbles: return [.solid]
-            case .handsClapping: return [.solid]
-            case .handsHolding: return [.solid]
-            case .handsHoldingChild: return [.solid]
-            case .handsHoldingCircle: return [.solid]
-            case .handsPraying: return [.solid]
+            case .handsHelping: return [.solid]
+            case .handsWash: return [.solid]
             case .handshake: return [.solid, .regular]
-            case .handshakeAngle: return [.solid]
-            case .handshakeSimple: return [.solid]
-            case .handshakeSimpleSlash: return [.solid]
+            case .handshakeAltSlash: return [.solid]
             case .handshakeSlash: return [.solid]
             case .hanukiah: return [.solid]
-            case .hardDrive: return [.solid, .regular]
-            case .hashnode: return [.brands]
+            case .hardHat: return [.solid]
             case .hashtag: return [.solid]
             case .hatCowboy: return [.solid]
             case .hatCowboySide: return [.solid]
             case .hatWizard: return [.solid]
+            case .hdd: return [.solid, .regular]
             case .headSideCough: return [.solid]
             case .headSideCoughSlash: return [.solid]
             case .headSideMask: return [.solid]
             case .headSideVirus: return [.solid]
             case .heading: return [.solid]
             case .headphones: return [.solid]
-            case .headphonesSimple: return [.solid]
+            case .headphonesAlt: return [.solid]
             case .headset: return [.solid]
             case .heart: return [.solid, .regular]
-            case .heartCircleBolt: return [.solid]
-            case .heartCircleCheck: return [.solid]
-            case .heartCircleExclamation: return [.solid]
-            case .heartCircleMinus: return [.solid]
-            case .heartCirclePlus: return [.solid]
-            case .heartCircleXmark: return [.solid]
-            case .heartCrack: return [.solid]
-            case .heartPulse: return [.solid]
+            case .heartBroken: return [.solid]
+            case .heartbeat: return [.solid]
             case .helicopter: return [.solid]
-            case .helicopterSymbol: return [.solid]
-            case .helmetSafety: return [.solid]
-            case .helmetUn: return [.solid]
             case .highlighter: return [.solid]
-            case .hillAvalanche: return [.solid]
-            case .hillRockslide: return [.solid]
+            case .hiking: return [.solid]
             case .hippo: return [.solid]
             case .hips: return [.brands]
             case .hireAHelper: return [.brands]
+            case .history: return [.solid]
             case .hive: return [.brands]
             case .hockeyPuck: return [.solid]
             case .hollyBerry: return [.solid]
+            case .home: return [.solid]
             case .hooli: return [.brands]
             case .hornbill: return [.brands]
             case .horse: return [.solid]
             case .horseHead: return [.solid]
             case .hospital: return [.solid, .regular]
+            case .hospitalAlt: return [.solid]
+            case .hospitalSymbol: return [.solid]
             case .hospitalUser: return [.solid]
-            case .hotTubPerson: return [.solid]
+            case .hotTub: return [.solid]
             case .hotdog: return [.solid]
             case .hotel: return [.solid]
             case .hotjar: return [.brands]
             case .hourglass: return [.solid, .regular]
             case .hourglassEnd: return [.solid]
-            case .hourglassHalf: return [.solid, .regular]
+            case .hourglassHalf: return [.solid]
             case .hourglassStart: return [.solid]
-            case .house: return [.solid]
-            case .houseChimney: return [.solid]
-            case .houseChimneyCrack: return [.solid]
-            case .houseChimneyMedical: return [.solid]
-            case .houseChimneyUser: return [.solid]
-            case .houseChimneyWindow: return [.solid]
-            case .houseCircleCheck: return [.solid]
-            case .houseCircleExclamation: return [.solid]
-            case .houseCircleXmark: return [.solid]
-            case .houseCrack: return [.solid]
-            case .houseFire: return [.solid]
-            case .houseFlag: return [.solid]
-            case .houseFloodWater: return [.solid]
-            case .houseFloodWaterCircleArrowRight: return [.solid]
-            case .houseLaptop: return [.solid]
-            case .houseLock: return [.solid]
-            case .houseMedical: return [.solid]
-            case .houseMedicalCircleCheck: return [.solid]
-            case .houseMedicalCircleExclamation: return [.solid]
-            case .houseMedicalCircleXmark: return [.solid]
-            case .houseMedicalFlag: return [.solid]
-            case .houseSignal: return [.solid]
-            case .houseTsunami: return [.solid]
+            case .houseDamage: return [.solid]
             case .houseUser: return [.solid]
             case .houzz: return [.brands]
-            case .hryvniaSign: return [.solid]
+            case .hryvnia: return [.solid]
             case .html5: return [.brands]
             case .hubspot: return [.brands]
-            case .hurricane: return [.solid]
-            case .i: return [.solid]
             case .iCursor: return [.solid]
             case .iceCream: return [.solid]
             case .icicles: return [.solid]
             case .icons: return [.solid]
             case .idBadge: return [.solid, .regular]
             case .idCard: return [.solid, .regular]
-            case .idCardClip: return [.solid]
+            case .idCardAlt: return [.solid]
             case .ideal: return [.brands]
             case .igloo: return [.solid]
             case .image: return [.solid, .regular]
-            case .imagePortrait: return [.solid]
             case .images: return [.solid, .regular]
             case .imdb: return [.brands]
             case .inbox: return [.solid]
             case .indent: return [.solid]
-            case .indianRupeeSign: return [.solid]
             case .industry: return [.solid]
             case .infinity: return [.solid]
             case .info: return [.solid]
+            case .infoCircle: return [.solid]
+            case .innosoft: return [.brands]
             case .instagram: return [.brands]
+            case .instagramSquare: return [.brands]
             case .instalod: return [.brands]
             case .intercom: return [.brands]
             case .internetExplorer: return [.brands]
@@ -4682,23 +3674,18 @@ public enum FontAwesome: String, CaseIterable {
             case .itchIo: return [.brands]
             case .itunes: return [.brands]
             case .itunesNote: return [.brands]
-            case .j: return [.solid]
-            case .jar: return [.solid]
-            case .jarWheat: return [.solid]
             case .java: return [.brands]
             case .jedi: return [.solid]
             case .jediOrder: return [.brands]
             case .jenkins: return [.brands]
-            case .jetFighter: return [.solid]
-            case .jetFighterUp: return [.solid]
             case .jira: return [.brands]
             case .joget: return [.brands]
             case .joint: return [.solid]
             case .joomla: return [.brands]
+            case .journalWhills: return [.solid]
             case .js: return [.brands]
+            case .jsSquare: return [.brands]
             case .jsfiddle: return [.brands]
-            case .jugDetergent: return [.solid]
-            case .k: return [.solid]
             case .kaaba: return [.solid]
             case .kaggle: return [.brands]
             case .key: return [.solid]
@@ -4708,184 +3695,154 @@ public enum FontAwesome: String, CaseIterable {
             case .khanda: return [.solid]
             case .kickstarter: return [.brands]
             case .kickstarterK: return [.brands]
-            case .kipSign: return [.solid]
-            case .kitMedical: return [.solid]
-            case .kitchenSet: return [.solid]
+            case .kiss: return [.solid, .regular]
+            case .kissBeam: return [.solid, .regular]
+            case .kissWinkHeart: return [.solid, .regular]
             case .kiwiBird: return [.solid]
             case .korvue: return [.brands]
-            case .l: return [.solid]
-            case .landMineOn: return [.solid]
             case .landmark: return [.solid]
-            case .landmarkDome: return [.solid]
-            case .landmarkFlag: return [.solid]
             case .language: return [.solid]
             case .laptop: return [.solid]
             case .laptopCode: return [.solid]
-            case .laptopFile: return [.solid]
+            case .laptopHouse: return [.solid]
             case .laptopMedical: return [.solid]
             case .laravel: return [.brands]
-            case .lariSign: return [.solid]
             case .lastfm: return [.brands]
+            case .lastfmSquare: return [.brands]
+            case .laugh: return [.solid, .regular]
+            case .laughBeam: return [.solid, .regular]
+            case .laughSquint: return [.solid, .regular]
+            case .laughWink: return [.solid, .regular]
             case .layerGroup: return [.solid]
             case .leaf: return [.solid]
             case .leanpub: return [.brands]
-            case .leftLong: return [.solid]
-            case .leftRight: return [.solid]
             case .lemon: return [.solid, .regular]
             case .less: return [.brands]
             case .lessThan: return [.solid]
             case .lessThanEqual: return [.solid]
+            case .levelDownAlt: return [.solid]
+            case .levelUpAlt: return [.solid]
             case .lifeRing: return [.solid, .regular]
             case .lightbulb: return [.solid, .regular]
             case .line: return [.brands]
-            case .linesLeaning: return [.solid]
             case .link: return [.solid]
-            case .linkSlash: return [.solid]
             case .linkedin: return [.brands]
             case .linkedinIn: return [.brands]
             case .linode: return [.brands]
             case .linux: return [.brands]
             case .liraSign: return [.solid]
             case .list: return [.solid]
-            case .listCheck: return [.solid]
+            case .listAlt: return [.solid, .regular]
             case .listOl: return [.solid]
             case .listUl: return [.solid]
-            case .litecoinSign: return [.solid]
             case .locationArrow: return [.solid]
-            case .locationCrosshairs: return [.solid]
-            case .locationDot: return [.solid]
-            case .locationPin: return [.solid]
-            case .locationPinLock: return [.solid]
             case .lock: return [.solid]
             case .lockOpen: return [.solid]
-            case .locust: return [.solid]
+            case .longArrowAltDown: return [.solid]
+            case .longArrowAltLeft: return [.solid]
+            case .longArrowAltRight: return [.solid]
+            case .longArrowAltUp: return [.solid]
+            case .lowVision: return [.solid]
+            case .luggageCart: return [.solid]
             case .lungs: return [.solid]
             case .lungsVirus: return [.solid]
             case .lyft: return [.brands]
-            case .m: return [.solid]
             case .magento: return [.brands]
+            case .magic: return [.solid]
             case .magnet: return [.solid]
-            case .magnifyingGlass: return [.solid]
-            case .magnifyingGlassArrowRight: return [.solid]
-            case .magnifyingGlassChart: return [.solid]
-            case .magnifyingGlassDollar: return [.solid]
-            case .magnifyingGlassLocation: return [.solid]
-            case .magnifyingGlassMinus: return [.solid]
-            case .magnifyingGlassPlus: return [.solid]
+            case .mailBulk: return [.solid]
             case .mailchimp: return [.brands]
-            case .manatSign: return [.solid]
+            case .male: return [.solid]
             case .mandalorian: return [.brands]
             case .map: return [.solid, .regular]
-            case .mapLocation: return [.solid]
-            case .mapLocationDot: return [.solid]
+            case .mapMarked: return [.solid]
+            case .mapMarkedAlt: return [.solid]
+            case .mapMarker: return [.solid]
+            case .mapMarkerAlt: return [.solid]
             case .mapPin: return [.solid]
+            case .mapSigns: return [.solid]
             case .markdown: return [.brands]
             case .marker: return [.solid]
             case .mars: return [.solid]
-            case .marsAndVenus: return [.solid]
-            case .marsAndVenusBurst: return [.solid]
             case .marsDouble: return [.solid]
             case .marsStroke: return [.solid]
-            case .marsStrokeRight: return [.solid]
-            case .marsStrokeUp: return [.solid]
-            case .martiniGlass: return [.solid]
-            case .martiniGlassCitrus: return [.solid]
-            case .martiniGlassEmpty: return [.solid]
+            case .marsStrokeH: return [.solid]
+            case .marsStrokeV: return [.solid]
             case .mask: return [.solid]
-            case .maskFace: return [.solid]
-            case .maskVentilator: return [.solid]
-            case .masksTheater: return [.solid]
             case .mastodon: return [.brands]
-            case .mattressPillow: return [.solid]
             case .maxcdn: return [.brands]
-            case .maximize: return [.solid]
             case .mdb: return [.brands]
             case .medal: return [.solid]
             case .medapps: return [.brands]
             case .medium: return [.brands]
+            case .mediumM: return [.brands]
+            case .medkit: return [.solid]
             case .medrt: return [.brands]
             case .meetup: return [.brands]
             case .megaport: return [.brands]
+            case .meh: return [.solid, .regular]
+            case .mehBlank: return [.solid, .regular]
+            case .mehRollingEyes: return [.solid, .regular]
             case .memory: return [.solid]
             case .mendeley: return [.brands]
             case .menorah: return [.solid]
             case .mercury: return [.solid]
-            case .message: return [.solid, .regular]
-            case .meta: return [.brands]
             case .meteor: return [.solid]
             case .microblog: return [.brands]
             case .microchip: return [.solid]
             case .microphone: return [.solid]
-            case .microphoneLines: return [.solid]
-            case .microphoneLinesSlash: return [.solid]
+            case .microphoneAlt: return [.solid]
+            case .microphoneAltSlash: return [.solid]
             case .microphoneSlash: return [.solid]
             case .microscope: return [.solid]
             case .microsoft: return [.brands]
-            case .millSign: return [.solid]
-            case .minimize: return [.solid]
             case .minus: return [.solid]
+            case .minusCircle: return [.solid]
+            case .minusSquare: return [.solid, .regular]
             case .mitten: return [.solid]
             case .mix: return [.brands]
             case .mixcloud: return [.brands]
             case .mixer: return [.brands]
             case .mizuni: return [.brands]
             case .mobile: return [.solid]
-            case .mobileButton: return [.solid]
-            case .mobileRetro: return [.solid]
-            case .mobileScreen: return [.solid]
-            case .mobileScreenButton: return [.solid]
+            case .mobileAlt: return [.solid]
             case .modx: return [.brands]
             case .monero: return [.brands]
             case .moneyBill: return [.solid]
-            case .moneyBill1: return [.solid, .regular]
-            case .moneyBill1Wave: return [.solid]
-            case .moneyBillTransfer: return [.solid]
-            case .moneyBillTrendUp: return [.solid]
+            case .moneyBillAlt: return [.solid, .regular]
             case .moneyBillWave: return [.solid]
-            case .moneyBillWheat: return [.solid]
-            case .moneyBills: return [.solid]
+            case .moneyBillWaveAlt: return [.solid]
             case .moneyCheck: return [.solid]
-            case .moneyCheckDollar: return [.solid]
+            case .moneyCheckAlt: return [.solid]
             case .monument: return [.solid]
             case .moon: return [.solid, .regular]
             case .mortarPestle: return [.solid]
             case .mosque: return [.solid]
-            case .mosquito: return [.solid]
-            case .mosquitoNet: return [.solid]
             case .motorcycle: return [.solid]
-            case .mound: return [.solid]
             case .mountain: return [.solid]
-            case .mountainCity: return [.solid]
-            case .mountainSun: return [.solid]
+            case .mouse: return [.solid]
+            case .mousePointer: return [.solid]
             case .mugHot: return [.solid]
-            case .mugSaucer: return [.solid]
             case .music: return [.solid]
-            case .n: return [.solid]
-            case .nairaSign: return [.solid]
             case .napster: return [.brands]
             case .neos: return [.brands]
             case .networkWired: return [.solid]
             case .neuter: return [.solid]
             case .newspaper: return [.solid, .regular]
-            case .nfcDirectional: return [.brands]
-            case .nfcSymbol: return [.brands]
             case .nimblr: return [.brands]
             case .node: return [.brands]
             case .nodeJs: return [.brands]
             case .notEqual: return [.solid]
-            case .notdef: return [.solid]
-            case .noteSticky: return [.solid, .regular]
             case .notesMedical: return [.solid]
             case .npm: return [.brands]
             case .ns8: return [.brands]
             case .nutritionix: return [.brands]
-            case .o: return [.solid]
             case .objectGroup: return [.solid, .regular]
             case .objectUngroup: return [.solid, .regular]
             case .octopusDeploy: return [.brands]
             case .odnoklassniki: return [.brands]
+            case .odnoklassnikiSquare: return [.brands]
             case .oilCan: return [.solid]
-            case .oilWell: return [.solid]
             case .oldRepublic: return [.brands]
             case .om: return [.solid]
             case .opencart: return [.brands]
@@ -4896,165 +3853,116 @@ public enum FontAwesome: String, CaseIterable {
             case .osi: return [.brands]
             case .otter: return [.solid]
             case .outdent: return [.solid]
-            case .p: return [.solid]
-            case .padlet: return [.brands]
             case .page4: return [.brands]
             case .pagelines: return [.brands]
             case .pager: return [.solid]
+            case .paintBrush: return [.solid]
             case .paintRoller: return [.solid]
-            case .paintbrush: return [.solid]
             case .palette: return [.solid]
             case .palfed: return [.brands]
             case .pallet: return [.solid]
-            case .panorama: return [.solid]
             case .paperPlane: return [.solid, .regular]
             case .paperclip: return [.solid]
             case .parachuteBox: return [.solid]
             case .paragraph: return [.solid]
+            case .parking: return [.solid]
             case .passport: return [.solid]
-            case .paste: return [.solid, .regular]
+            case .pastafarianism: return [.solid]
+            case .paste: return [.solid]
             case .patreon: return [.brands]
             case .pause: return [.solid]
+            case .pauseCircle: return [.solid, .regular]
             case .paw: return [.solid]
             case .paypal: return [.brands]
             case .peace: return [.solid]
             case .pen: return [.solid]
-            case .penClip: return [.solid]
+            case .penAlt: return [.solid]
             case .penFancy: return [.solid]
             case .penNib: return [.solid]
-            case .penRuler: return [.solid]
-            case .penToSquare: return [.solid, .regular]
-            case .pencil: return [.solid]
+            case .penSquare: return [.solid]
+            case .pencilAlt: return [.solid]
+            case .pencilRuler: return [.solid]
+            case .pennyArcade: return [.brands]
             case .peopleArrows: return [.solid]
-            case .peopleCarryBox: return [.solid]
-            case .peopleGroup: return [.solid]
-            case .peopleLine: return [.solid]
-            case .peoplePulling: return [.solid]
-            case .peopleRobbery: return [.solid]
-            case .peopleRoof: return [.solid]
+            case .peopleCarry: return [.solid]
             case .pepperHot: return [.solid]
             case .perbyte: return [.brands]
             case .percent: return [.solid]
+            case .percentage: return [.solid]
             case .periscope: return [.brands]
-            case .person: return [.solid]
-            case .personArrowDownToLine: return [.solid]
-            case .personArrowUpFromLine: return [.solid]
-            case .personBiking: return [.solid]
             case .personBooth: return [.solid]
-            case .personBreastfeeding: return [.solid]
-            case .personBurst: return [.solid]
-            case .personCane: return [.solid]
-            case .personChalkboard: return [.solid]
-            case .personCircleCheck: return [.solid]
-            case .personCircleExclamation: return [.solid]
-            case .personCircleMinus: return [.solid]
-            case .personCirclePlus: return [.solid]
-            case .personCircleQuestion: return [.solid]
-            case .personCircleXmark: return [.solid]
-            case .personDigging: return [.solid]
-            case .personDotsFromLine: return [.solid]
-            case .personDress: return [.solid]
-            case .personDressBurst: return [.solid]
-            case .personDrowning: return [.solid]
-            case .personFalling: return [.solid]
-            case .personFallingBurst: return [.solid]
-            case .personHalfDress: return [.solid]
-            case .personHarassing: return [.solid]
-            case .personHiking: return [.solid]
-            case .personMilitaryPointing: return [.solid]
-            case .personMilitaryRifle: return [.solid]
-            case .personMilitaryToPerson: return [.solid]
-            case .personPraying: return [.solid]
-            case .personPregnant: return [.solid]
-            case .personRays: return [.solid]
-            case .personRifle: return [.solid]
-            case .personRunning: return [.solid]
-            case .personShelter: return [.solid]
-            case .personSkating: return [.solid]
-            case .personSkiing: return [.solid]
-            case .personSkiingNordic: return [.solid]
-            case .personSnowboarding: return [.solid]
-            case .personSwimming: return [.solid]
-            case .personThroughWindow: return [.solid]
-            case .personWalking: return [.solid]
-            case .personWalkingArrowLoopLeft: return [.solid]
-            case .personWalkingArrowRight: return [.solid]
-            case .personWalkingDashedLineArrowRight: return [.solid]
-            case .personWalkingLuggage: return [.solid]
-            case .personWalkingWithCane: return [.solid]
-            case .pesetaSign: return [.solid]
-            case .pesoSign: return [.solid]
             case .phabricator: return [.brands]
             case .phoenixFramework: return [.brands]
             case .phoenixSquadron: return [.brands]
             case .phone: return [.solid]
-            case .phoneFlip: return [.solid]
+            case .phoneAlt: return [.solid]
             case .phoneSlash: return [.solid]
+            case .phoneSquare: return [.solid]
+            case .phoneSquareAlt: return [.solid]
             case .phoneVolume: return [.solid]
-            case .photoFilm: return [.solid]
+            case .photoVideo: return [.solid]
             case .php: return [.brands]
             case .piedPiper: return [.brands]
             case .piedPiperAlt: return [.brands]
             case .piedPiperHat: return [.brands]
             case .piedPiperPp: return [.brands]
+            case .piedPiperSquare: return [.brands]
             case .piggyBank: return [.solid]
             case .pills: return [.solid]
             case .pinterest: return [.brands]
             case .pinterestP: return [.brands]
-            case .pix: return [.brands]
+            case .pinterestSquare: return [.brands]
             case .pizzaSlice: return [.solid]
             case .placeOfWorship: return [.solid]
             case .plane: return [.solid]
             case .planeArrival: return [.solid]
-            case .planeCircleCheck: return [.solid]
-            case .planeCircleExclamation: return [.solid]
-            case .planeCircleXmark: return [.solid]
             case .planeDeparture: return [.solid]
-            case .planeLock: return [.solid]
             case .planeSlash: return [.solid]
-            case .planeUp: return [.solid]
-            case .plantWilt: return [.solid]
-            case .plateWheat: return [.solid]
             case .play: return [.solid]
+            case .playCircle: return [.solid, .regular]
             case .playstation: return [.brands]
             case .plug: return [.solid]
-            case .plugCircleBolt: return [.solid]
-            case .plugCircleCheck: return [.solid]
-            case .plugCircleExclamation: return [.solid]
-            case .plugCircleMinus: return [.solid]
-            case .plugCirclePlus: return [.solid]
-            case .plugCircleXmark: return [.solid]
             case .plus: return [.solid]
-            case .plusMinus: return [.solid]
+            case .plusCircle: return [.solid]
+            case .plusSquare: return [.solid, .regular]
             case .podcast: return [.solid]
+            case .poll: return [.solid]
+            case .pollH: return [.solid]
             case .poo: return [.solid]
             case .pooStorm: return [.solid]
             case .poop: return [.solid]
+            case .portrait: return [.solid]
+            case .poundSign: return [.solid]
             case .powerOff: return [.solid]
+            case .pray: return [.solid]
+            case .prayingHands: return [.solid]
             case .prescription: return [.solid]
             case .prescriptionBottle: return [.solid]
-            case .prescriptionBottleMedical: return [.solid]
+            case .prescriptionBottleAlt: return [.solid]
             case .print: return [.solid]
+            case .procedures: return [.solid]
             case .productHunt: return [.brands]
+            case .projectDiagram: return [.solid]
             case .pumpMedical: return [.solid]
             case .pumpSoap: return [.solid]
             case .pushed: return [.brands]
             case .puzzlePiece: return [.solid]
             case .python: return [.brands]
-            case .q: return [.solid]
             case .qq: return [.brands]
             case .qrcode: return [.solid]
             case .question: return [.solid]
+            case .questionCircle: return [.solid, .regular]
+            case .quidditch: return [.solid]
             case .quinscape: return [.brands]
             case .quora: return [.brands]
             case .quoteLeft: return [.solid]
             case .quoteRight: return [.solid]
-            case .r: return [.solid]
+            case .quran: return [.solid]
             case .rProject: return [.brands]
             case .radiation: return [.solid]
-            case .radio: return [.solid]
+            case .radiationAlt: return [.solid]
             case .rainbow: return [.solid]
-            case .rankingStar: return [.solid]
+            case .random: return [.solid]
             case .raspberryPi: return [.brands]
             case .ravelry: return [.brands]
             case .react: return [.brands]
@@ -5063,17 +3971,17 @@ public enum FontAwesome: String, CaseIterable {
             case .rebel: return [.brands]
             case .receipt: return [.solid]
             case .recordVinyl: return [.solid]
-            case .rectangleAd: return [.solid]
-            case .rectangleList: return [.solid, .regular]
-            case .rectangleXmark: return [.solid, .regular]
             case .recycle: return [.solid]
             case .redRiver: return [.brands]
             case .reddit: return [.brands]
             case .redditAlien: return [.brands]
+            case .redditSquare: return [.brands]
             case .redhat: return [.brands]
+            case .redo: return [.solid]
+            case .redoAlt: return [.solid]
             case .registered: return [.solid, .regular]
+            case .removeFormat: return [.solid]
             case .renren: return [.brands]
-            case .repeat: return [.solid]
             case .reply: return [.solid]
             case .replyAll: return [.solid]
             case .replyd: return [.brands]
@@ -5084,66 +3992,43 @@ public enum FontAwesome: String, CaseIterable {
             case .retweet: return [.solid]
             case .rev: return [.brands]
             case .ribbon: return [.solid]
-            case .rightFromBracket: return [.solid]
-            case .rightLeft: return [.solid]
-            case .rightLong: return [.solid]
-            case .rightToBracket: return [.solid]
             case .ring: return [.solid]
             case .road: return [.solid]
-            case .roadBarrier: return [.solid]
-            case .roadBridge: return [.solid]
-            case .roadCircleCheck: return [.solid]
-            case .roadCircleExclamation: return [.solid]
-            case .roadCircleXmark: return [.solid]
-            case .roadLock: return [.solid]
-            case .roadSpikes: return [.solid]
             case .robot: return [.solid]
             case .rocket: return [.solid]
             case .rocketchat: return [.brands]
             case .rockrms: return [.brands]
-            case .rotate: return [.solid]
-            case .rotateLeft: return [.solid]
-            case .rotateRight: return [.solid]
             case .route: return [.solid]
             case .rss: return [.solid]
+            case .rssSquare: return [.solid]
             case .rubleSign: return [.solid]
-            case .rug: return [.solid]
             case .ruler: return [.solid]
             case .rulerCombined: return [.solid]
             case .rulerHorizontal: return [.solid]
             case .rulerVertical: return [.solid]
+            case .running: return [.solid]
             case .rupeeSign: return [.solid]
-            case .rupiahSign: return [.solid]
             case .rust: return [.brands]
-            case .s: return [.solid]
-            case .sackDollar: return [.solid]
-            case .sackXmark: return [.solid]
+            case .sadCry: return [.solid, .regular]
+            case .sadTear: return [.solid, .regular]
             case .safari: return [.brands]
-            case .sailboat: return [.solid]
             case .salesforce: return [.brands]
             case .sass: return [.brands]
             case .satellite: return [.solid]
             case .satelliteDish: return [.solid]
-            case .scaleBalanced: return [.solid]
-            case .scaleUnbalanced: return [.solid]
-            case .scaleUnbalancedFlip: return [.solid]
+            case .save: return [.solid, .regular]
             case .schlix: return [.brands]
             case .school: return [.solid]
-            case .schoolCircleCheck: return [.solid]
-            case .schoolCircleExclamation: return [.solid]
-            case .schoolCircleXmark: return [.solid]
-            case .schoolFlag: return [.solid]
-            case .schoolLock: return [.solid]
-            case .scissors: return [.solid]
-            case .screenpal: return [.brands]
             case .screwdriver: return [.solid]
-            case .screwdriverWrench: return [.solid]
             case .scribd: return [.brands]
             case .scroll: return [.solid]
-            case .scrollTorah: return [.solid]
             case .sdCard: return [.solid]
+            case .search: return [.solid]
+            case .searchDollar: return [.solid]
+            case .searchLocation: return [.solid]
+            case .searchMinus: return [.solid]
+            case .searchPlus: return [.solid]
             case .searchengin: return [.brands]
-            case .section: return [.solid]
             case .seedling: return [.solid]
             case .sellcast: return [.brands]
             case .sellsy: return [.brands]
@@ -5151,53 +4036,60 @@ public enum FontAwesome: String, CaseIterable {
             case .servicestack: return [.brands]
             case .shapes: return [.solid]
             case .share: return [.solid]
-            case .shareFromSquare: return [.solid, .regular]
-            case .shareNodes: return [.solid]
-            case .sheetPlastic: return [.solid]
+            case .shareAlt: return [.solid]
+            case .shareAltSquare: return [.solid]
+            case .shareSquare: return [.solid, .regular]
             case .shekelSign: return [.solid]
-            case .shield: return [.solid]
-            case .shieldCat: return [.solid]
-            case .shieldDog: return [.solid]
-            case .shieldHalved: return [.solid]
-            case .shieldHeart: return [.solid]
+            case .shieldAlt: return [.solid]
             case .shieldVirus: return [.solid]
             case .ship: return [.solid]
-            case .shirt: return [.solid]
+            case .shippingFast: return [.solid]
             case .shirtsinbulk: return [.brands]
             case .shoePrints: return [.solid]
-            case .shop: return [.solid]
-            case .shopLock: return [.solid]
-            case .shopSlash: return [.solid]
             case .shopify: return [.brands]
+            case .shoppingBag: return [.solid]
+            case .shoppingBasket: return [.solid]
+            case .shoppingCart: return [.solid]
             case .shopware: return [.brands]
             case .shower: return [.solid]
-            case .shrimp: return [.solid]
-            case .shuffle: return [.solid]
-            case .shuttleSpace: return [.solid]
-            case .signHanging: return [.solid]
+            case .shuttleVan: return [.solid]
+            case .sign: return [.solid]
+            case .signInAlt: return [.solid]
+            case .signLanguage: return [.solid]
+            case .signOutAlt: return [.solid]
             case .signal: return [.solid]
             case .signature: return [.solid]
-            case .signsPost: return [.solid]
             case .simCard: return [.solid]
             case .simplybuilt: return [.brands]
             case .sink: return [.solid]
             case .sistrix: return [.brands]
             case .sitemap: return [.solid]
             case .sith: return [.brands]
-            case .sitrox: return [.brands]
+            case .skating: return [.solid]
             case .sketch: return [.brands]
+            case .skiing: return [.solid]
+            case .skiingNordic: return [.solid]
             case .skull: return [.solid]
             case .skullCrossbones: return [.solid]
             case .skyatlas: return [.brands]
             case .skype: return [.brands]
             case .slack: return [.brands]
+            case .slackHash: return [.brands]
             case .slash: return [.solid]
             case .sleigh: return [.solid]
-            case .sliders: return [.solid]
+            case .slidersH: return [.solid]
             case .slideshare: return [.brands]
+            case .smile: return [.solid, .regular]
+            case .smileBeam: return [.solid, .regular]
+            case .smileWink: return [.solid, .regular]
             case .smog: return [.solid]
             case .smoking: return [.solid]
+            case .smokingBan: return [.solid]
+            case .sms: return [.solid]
             case .snapchat: return [.brands]
+            case .snapchatGhost: return [.brands]
+            case .snapchatSquare: return [.brands]
+            case .snowboarding: return [.solid]
             case .snowflake: return [.solid, .regular]
             case .snowman: return [.solid]
             case .snowplow: return [.solid]
@@ -5205,101 +4097,65 @@ public enum FontAwesome: String, CaseIterable {
             case .socks: return [.solid]
             case .solarPanel: return [.solid]
             case .sort: return [.solid]
+            case .sortAlphaDown: return [.solid]
+            case .sortAlphaDownAlt: return [.solid]
+            case .sortAlphaUp: return [.solid]
+            case .sortAlphaUpAlt: return [.solid]
+            case .sortAmountDown: return [.solid]
+            case .sortAmountDownAlt: return [.solid]
+            case .sortAmountUp: return [.solid]
+            case .sortAmountUpAlt: return [.solid]
             case .sortDown: return [.solid]
+            case .sortNumericDown: return [.solid]
+            case .sortNumericDownAlt: return [.solid]
+            case .sortNumericUp: return [.solid]
+            case .sortNumericUpAlt: return [.solid]
             case .sortUp: return [.solid]
             case .soundcloud: return [.brands]
             case .sourcetree: return [.brands]
             case .spa: return [.solid]
-            case .spaceAwesome: return [.brands]
-            case .spaghettiMonsterFlying: return [.solid]
+            case .spaceShuttle: return [.solid]
             case .speakap: return [.brands]
             case .speakerDeck: return [.brands]
             case .spellCheck: return [.solid]
             case .spider: return [.solid]
             case .spinner: return [.solid]
             case .splotch: return [.solid]
-            case .spoon: return [.solid]
             case .spotify: return [.brands]
             case .sprayCan: return [.solid]
-            case .sprayCanSparkles: return [.solid]
             case .square: return [.solid, .regular]
-            case .squareArrowUpRight: return [.solid]
-            case .squareBehance: return [.brands]
-            case .squareCaretDown: return [.solid, .regular]
-            case .squareCaretLeft: return [.solid, .regular]
-            case .squareCaretRight: return [.solid, .regular]
-            case .squareCaretUp: return [.solid, .regular]
-            case .squareCheck: return [.solid, .regular]
-            case .squareDribbble: return [.brands]
-            case .squareEnvelope: return [.solid]
-            case .squareFacebook: return [.brands]
-            case .squareFontAwesome: return [.brands]
-            case .squareFontAwesomeStroke: return [.brands]
-            case .squareFull: return [.solid, .regular]
-            case .squareGit: return [.brands]
-            case .squareGithub: return [.brands]
-            case .squareGitlab: return [.brands]
-            case .squareGooglePlus: return [.brands]
-            case .squareH: return [.solid]
-            case .squareHackerNews: return [.brands]
-            case .squareInstagram: return [.brands]
-            case .squareJs: return [.brands]
-            case .squareLastfm: return [.brands]
-            case .squareMinus: return [.solid, .regular]
-            case .squareNfi: return [.solid]
-            case .squareOdnoklassniki: return [.brands]
-            case .squareParking: return [.solid]
-            case .squarePen: return [.solid]
-            case .squarePersonConfined: return [.solid]
-            case .squarePhone: return [.solid]
-            case .squarePhoneFlip: return [.solid]
-            case .squarePiedPiper: return [.brands]
-            case .squarePinterest: return [.brands]
-            case .squarePlus: return [.solid, .regular]
-            case .squarePollHorizontal: return [.solid]
-            case .squarePollVertical: return [.solid]
-            case .squareReddit: return [.brands]
-            case .squareRootVariable: return [.solid]
-            case .squareRss: return [.solid]
-            case .squareShareNodes: return [.solid]
-            case .squareSnapchat: return [.brands]
-            case .squareSteam: return [.brands]
-            case .squareTumblr: return [.brands]
-            case .squareTwitter: return [.brands]
-            case .squareUpRight: return [.solid]
-            case .squareViadeo: return [.brands]
-            case .squareVimeo: return [.brands]
-            case .squareVirus: return [.solid]
-            case .squareWhatsapp: return [.brands]
-            case .squareXing: return [.brands]
-            case .squareXmark: return [.solid]
-            case .squareYoutube: return [.brands]
+            case .squareFull: return [.solid]
+            case .squareRootAlt: return [.solid]
             case .squarespace: return [.brands]
             case .stackExchange: return [.brands]
             case .stackOverflow: return [.brands]
             case .stackpath: return [.brands]
-            case .staffSnake: return [.solid]
-            case .stairs: return [.solid]
             case .stamp: return [.solid]
-            case .stapler: return [.solid]
             case .star: return [.solid, .regular]
             case .starAndCrescent: return [.solid]
             case .starHalf: return [.solid, .regular]
-            case .starHalfStroke: return [.solid, .regular]
+            case .starHalfAlt: return [.solid]
             case .starOfDavid: return [.solid]
             case .starOfLife: return [.solid]
             case .staylinked: return [.brands]
             case .steam: return [.brands]
+            case .steamSquare: return [.brands]
             case .steamSymbol: return [.brands]
-            case .sterlingSign: return [.solid]
+            case .stepBackward: return [.solid]
+            case .stepForward: return [.solid]
             case .stethoscope: return [.solid]
             case .stickerMule: return [.brands]
+            case .stickyNote: return [.solid, .regular]
             case .stop: return [.solid]
+            case .stopCircle: return [.solid, .regular]
             case .stopwatch: return [.solid]
             case .stopwatch20: return [.solid]
             case .store: return [.solid]
+            case .storeAlt: return [.solid]
+            case .storeAltSlash: return [.solid]
             case .storeSlash: return [.solid]
             case .strava: return [.brands]
+            case .stream: return [.solid]
             case .streetView: return [.solid]
             case .strikethrough: return [.solid]
             case .stripe: return [.brands]
@@ -5309,132 +4165,112 @@ public enum FontAwesome: String, CaseIterable {
             case .stumbleupon: return [.brands]
             case .stumbleuponCircle: return [.brands]
             case .`subscript`: return [.solid]
+            case .subway: return [.solid]
             case .suitcase: return [.solid]
-            case .suitcaseMedical: return [.solid]
             case .suitcaseRolling: return [.solid]
             case .sun: return [.solid, .regular]
-            case .sunPlantWilt: return [.solid]
             case .superpowers: return [.brands]
             case .superscript: return [.solid]
             case .supple: return [.brands]
+            case .surprise: return [.solid, .regular]
             case .suse: return [.brands]
             case .swatchbook: return [.solid]
             case .swift: return [.brands]
+            case .swimmer: return [.solid]
+            case .swimmingPool: return [.solid]
             case .symfony: return [.brands]
             case .synagogue: return [.solid]
+            case .sync: return [.solid]
+            case .syncAlt: return [.solid]
             case .syringe: return [.solid]
-            case .t: return [.solid]
             case .table: return [.solid]
-            case .tableCells: return [.solid]
-            case .tableCellsLarge: return [.solid]
-            case .tableColumns: return [.solid]
-            case .tableList: return [.solid]
-            case .tableTennisPaddleBall: return [.solid]
+            case .tableTennis: return [.solid]
             case .tablet: return [.solid]
-            case .tabletButton: return [.solid]
-            case .tabletScreenButton: return [.solid]
+            case .tabletAlt: return [.solid]
             case .tablets: return [.solid]
-            case .tachographDigital: return [.solid]
+            case .tachometerAlt: return [.solid]
             case .tag: return [.solid]
             case .tags: return [.solid]
             case .tape: return [.solid]
-            case .tarp: return [.solid]
-            case .tarpDroplet: return [.solid]
+            case .tasks: return [.solid]
             case .taxi: return [.solid]
             case .teamspeak: return [.brands]
             case .teeth: return [.solid]
             case .teethOpen: return [.solid]
             case .telegram: return [.brands]
-            case .temperatureArrowDown: return [.solid]
-            case .temperatureArrowUp: return [.solid]
-            case .temperatureEmpty: return [.solid]
-            case .temperatureFull: return [.solid]
-            case .temperatureHalf: return [.solid]
+            case .telegramPlane: return [.brands]
             case .temperatureHigh: return [.solid]
             case .temperatureLow: return [.solid]
-            case .temperatureQuarter: return [.solid]
-            case .temperatureThreeQuarters: return [.solid]
             case .tencentWeibo: return [.brands]
-            case .tengeSign: return [.solid]
-            case .tent: return [.solid]
-            case .tentArrowDownToLine: return [.solid]
-            case .tentArrowLeftRight: return [.solid]
-            case .tentArrowTurnLeft: return [.solid]
-            case .tentArrowsDown: return [.solid]
-            case .tents: return [.solid]
+            case .tenge: return [.solid]
             case .terminal: return [.solid]
             case .textHeight: return [.solid]
-            case .textSlash: return [.solid]
             case .textWidth: return [.solid]
+            case .th: return [.solid]
+            case .thLarge: return [.solid]
+            case .thList: return [.solid]
             case .theRedYeti: return [.brands]
+            case .theaterMasks: return [.solid]
             case .themeco: return [.brands]
             case .themeisle: return [.brands]
             case .thermometer: return [.solid]
+            case .thermometerEmpty: return [.solid]
+            case .thermometerFull: return [.solid]
+            case .thermometerHalf: return [.solid]
+            case .thermometerQuarter: return [.solid]
+            case .thermometerThreeQuarters: return [.solid]
             case .thinkPeaks: return [.brands]
             case .thumbsDown: return [.solid, .regular]
             case .thumbsUp: return [.solid, .regular]
             case .thumbtack: return [.solid]
-            case .ticket: return [.solid]
-            case .ticketSimple: return [.solid]
+            case .ticketAlt: return [.solid]
             case .tiktok: return [.brands]
-            case .timeline: return [.solid]
+            case .times: return [.solid]
+            case .timesCircle: return [.solid, .regular]
+            case .tint: return [.solid]
+            case .tintSlash: return [.solid]
+            case .tired: return [.solid, .regular]
             case .toggleOff: return [.solid]
             case .toggleOn: return [.solid]
             case .toilet: return [.solid]
             case .toiletPaper: return [.solid]
             case .toiletPaperSlash: return [.solid]
-            case .toiletPortable: return [.solid]
-            case .toiletsPortable: return [.solid]
             case .toolbox: return [.solid]
+            case .tools: return [.solid]
             case .tooth: return [.solid]
+            case .torah: return [.solid]
             case .toriiGate: return [.solid]
-            case .tornado: return [.solid]
-            case .towerBroadcast: return [.solid]
-            case .towerCell: return [.solid]
-            case .towerObservation: return [.solid]
             case .tractor: return [.solid]
             case .tradeFederation: return [.brands]
             case .trademark: return [.solid]
             case .trafficLight: return [.solid]
             case .trailer: return [.solid]
             case .train: return [.solid]
-            case .trainSubway: return [.solid]
-            case .trainTram: return [.solid]
+            case .tram: return [.solid]
             case .transgender: return [.solid]
+            case .transgenderAlt: return [.solid]
             case .trash: return [.solid]
-            case .trashArrowUp: return [.solid]
-            case .trashCan: return [.solid, .regular]
-            case .trashCanArrowUp: return [.solid]
+            case .trashAlt: return [.solid, .regular]
+            case .trashRestore: return [.solid]
+            case .trashRestoreAlt: return [.solid]
             case .tree: return [.solid]
-            case .treeCity: return [.solid]
             case .trello: return [.brands]
-            case .triangleExclamation: return [.solid]
+            case .tripadvisor: return [.brands]
             case .trophy: return [.solid]
-            case .trowel: return [.solid]
-            case .trowelBricks: return [.solid]
             case .truck: return [.solid]
-            case .truckArrowRight: return [.solid]
-            case .truckDroplet: return [.solid]
-            case .truckFast: return [.solid]
-            case .truckField: return [.solid]
-            case .truckFieldUn: return [.solid]
-            case .truckFront: return [.solid]
-            case .truckMedical: return [.solid]
+            case .truckLoading: return [.solid]
             case .truckMonster: return [.solid]
             case .truckMoving: return [.solid]
             case .truckPickup: return [.solid]
-            case .truckPlane: return [.solid]
-            case .truckRampBox: return [.solid]
+            case .tshirt: return [.solid]
             case .tty: return [.solid]
             case .tumblr: return [.brands]
-            case .turkishLiraSign: return [.solid]
-            case .turnDown: return [.solid]
-            case .turnUp: return [.solid]
+            case .tumblrSquare: return [.brands]
             case .tv: return [.solid]
             case .twitch: return [.brands]
             case .twitter: return [.brands]
+            case .twitterSquare: return [.brands]
             case .typo3: return [.brands]
-            case .u: return [.solid]
             case .uber: return [.brands]
             case .ubuntu: return [.brands]
             case .uikit: return [.brands]
@@ -5443,59 +4279,52 @@ public enum FontAwesome: String, CaseIterable {
             case .umbrellaBeach: return [.solid]
             case .uncharted: return [.brands]
             case .underline: return [.solid]
+            case .undo: return [.solid]
+            case .undoAlt: return [.solid]
             case .uniregistry: return [.brands]
             case .unity: return [.brands]
             case .universalAccess: return [.solid]
+            case .university: return [.solid]
+            case .unlink: return [.solid]
             case .unlock: return [.solid]
-            case .unlockKeyhole: return [.solid]
+            case .unlockAlt: return [.solid]
             case .unsplash: return [.brands]
             case .untappd: return [.brands]
-            case .upDown: return [.solid]
-            case .upDownLeftRight: return [.solid]
-            case .upLong: return [.solid]
-            case .upRightAndDownLeftFromCenter: return [.solid]
-            case .upRightFromSquare: return [.solid]
             case .upload: return [.solid]
             case .ups: return [.brands]
             case .usb: return [.brands]
             case .user: return [.solid, .regular]
+            case .userAlt: return [.solid]
+            case .userAltSlash: return [.solid]
             case .userAstronaut: return [.solid]
             case .userCheck: return [.solid]
+            case .userCircle: return [.solid, .regular]
             case .userClock: return [.solid]
-            case .userDoctor: return [.solid]
-            case .userGear: return [.solid]
+            case .userCog: return [.solid]
+            case .userEdit: return [.solid]
+            case .userFriends: return [.solid]
             case .userGraduate: return [.solid]
-            case .userGroup: return [.solid]
             case .userInjured: return [.solid]
-            case .userLarge: return [.solid]
-            case .userLargeSlash: return [.solid]
             case .userLock: return [.solid]
+            case .userMd: return [.solid]
             case .userMinus: return [.solid]
             case .userNinja: return [.solid]
             case .userNurse: return [.solid]
-            case .userPen: return [.solid]
             case .userPlus: return [.solid]
             case .userSecret: return [.solid]
             case .userShield: return [.solid]
             case .userSlash: return [.solid]
             case .userTag: return [.solid]
             case .userTie: return [.solid]
-            case .userXmark: return [.solid]
+            case .userTimes: return [.solid]
             case .users: return [.solid]
-            case .usersBetweenLines: return [.solid]
-            case .usersGear: return [.solid]
-            case .usersLine: return [.solid]
-            case .usersRays: return [.solid]
-            case .usersRectangle: return [.solid]
+            case .usersCog: return [.solid]
             case .usersSlash: return [.solid]
-            case .usersViewfinder: return [.solid]
             case .usps: return [.brands]
             case .ussunnah: return [.brands]
+            case .utensilSpoon: return [.solid]
             case .utensils: return [.solid]
-            case .v: return [.solid]
             case .vaadin: return [.brands]
-            case .vanShuttle: return [.solid]
-            case .vault: return [.solid]
             case .vectorSquare: return [.solid]
             case .venus: return [.solid]
             case .venusDouble: return [.solid]
@@ -5504,68 +4333,58 @@ public enum FontAwesome: String, CaseIterable {
             case .vestPatches: return [.solid]
             case .viacoin: return [.brands]
             case .viadeo: return [.brands]
+            case .viadeoSquare: return [.brands]
             case .vial: return [.solid]
-            case .vialCircleCheck: return [.solid]
-            case .vialVirus: return [.solid]
             case .vials: return [.solid]
             case .viber: return [.brands]
             case .video: return [.solid]
             case .videoSlash: return [.solid]
             case .vihara: return [.solid]
             case .vimeo: return [.brands]
+            case .vimeoSquare: return [.brands]
             case .vimeoV: return [.brands]
             case .vine: return [.brands]
             case .virus: return [.solid]
-            case .virusCovid: return [.solid]
-            case .virusCovidSlash: return [.solid]
             case .virusSlash: return [.solid]
             case .viruses: return [.solid]
             case .vk: return [.brands]
             case .vnv: return [.brands]
             case .voicemail: return [.solid]
-            case .volcano: return [.solid]
-            case .volleyball: return [.solid]
-            case .volumeHigh: return [.solid]
-            case .volumeLow: return [.solid]
+            case .volleyballBall: return [.solid]
+            case .volumeDown: return [.solid]
+            case .volumeMute: return [.solid]
             case .volumeOff: return [.solid]
-            case .volumeXmark: return [.solid]
+            case .volumeUp: return [.solid]
+            case .voteYea: return [.solid]
             case .vrCardboard: return [.solid]
             case .vuejs: return [.brands]
-            case .w: return [.solid]
-            case .walkieTalkie: return [.solid]
+            case .walking: return [.solid]
             case .wallet: return [.solid]
-            case .wandMagic: return [.solid]
-            case .wandMagicSparkles: return [.solid]
-            case .wandSparkles: return [.solid]
             case .warehouse: return [.solid]
             case .watchmanMonitoring: return [.brands]
             case .water: return [.solid]
-            case .waterLadder: return [.solid]
             case .waveSquare: return [.solid]
             case .waze: return [.brands]
             case .weebly: return [.brands]
             case .weibo: return [.brands]
+            case .weight: return [.solid]
             case .weightHanging: return [.solid]
-            case .weightScale: return [.solid]
             case .weixin: return [.brands]
             case .whatsapp: return [.brands]
-            case .wheatAwn: return [.solid]
-            case .wheatAwnCircleExclamation: return [.solid]
+            case .whatsappSquare: return [.brands]
             case .wheelchair: return [.solid]
-            case .wheelchairMove: return [.solid]
-            case .whiskeyGlass: return [.solid]
             case .whmcs: return [.brands]
             case .wifi: return [.solid]
             case .wikipediaW: return [.brands]
             case .wind: return [.solid]
+            case .windowClose: return [.solid, .regular]
             case .windowMaximize: return [.solid, .regular]
             case .windowMinimize: return [.solid, .regular]
             case .windowRestore: return [.solid, .regular]
             case .windows: return [.brands]
             case .wineBottle: return [.solid]
             case .wineGlass: return [.solid]
-            case .wineGlassEmpty: return [.solid]
-            case .wirsindhandwerk: return [.brands]
+            case .wineGlassAlt: return [.solid]
             case .wix: return [.brands]
             case .wizardsOfTheCoast: return [.brands]
             case .wodu: return [.brands]
@@ -5573,19 +4392,15 @@ public enum FontAwesome: String, CaseIterable {
             case .wonSign: return [.solid]
             case .wordpress: return [.brands]
             case .wordpressSimple: return [.brands]
-            case .worm: return [.solid]
             case .wpbeginner: return [.brands]
             case .wpexplorer: return [.brands]
             case .wpforms: return [.brands]
             case .wpressr: return [.brands]
             case .wrench: return [.solid]
-            case .x: return [.solid]
             case .xRay: return [.solid]
             case .xbox: return [.brands]
             case .xing: return [.brands]
-            case .xmark: return [.solid]
-            case .xmarksLines: return [.solid]
-            case .y: return [.solid]
+            case .xingSquare: return [.brands]
             case .yCombinator: return [.brands]
             case .yahoo: return [.brands]
             case .yammer: return [.brands]
@@ -5597,7 +4412,7 @@ public enum FontAwesome: String, CaseIterable {
             case .yinYang: return [.solid]
             case .yoast: return [.brands]
             case .youtube: return [.brands]
-            case .z: return [.solid]
+            case .youtubeSquare: return [.brands]
             case .zhihu: return [.brands]
             default: return []
         }
@@ -5606,10 +4421,10 @@ public enum FontAwesome: String, CaseIterable {
 
 /// An enumaration of FontAwesome Brands icon names
 public enum FontAwesomeBrands: String {
-    case 42Group = "fa-42-group"
     case fiveHundredPixels = "fa-500px"
     case accessibleIcon = "fa-accessible-icon"
     case accusoft = "fa-accusoft"
+    case acquisitionsIncorporated = "fa-acquisitions-incorporated"
     case adn = "fa-adn"
     case adversal = "fa-adversal"
     case affiliatetheme = "fa-affiliatetheme"
@@ -5639,7 +4454,7 @@ public enum FontAwesomeBrands: String {
     case bandcamp = "fa-bandcamp"
     case battleNet = "fa-battle-net"
     case behance = "fa-behance"
-    case bilibili = "fa-bilibili"
+    case behanceSquare = "fa-behance-square"
     case bimobject = "fa-bimobject"
     case bitbucket = "fa-bitbucket"
     case bitcoin = "fa-bitcoin"
@@ -5651,7 +4466,6 @@ public enum FontAwesomeBrands: String {
     case bluetooth = "fa-bluetooth"
     case bluetoothB = "fa-bluetooth-b"
     case bootstrap = "fa-bootstrap"
-    case bots = "fa-bots"
     case btc = "fa-btc"
     case buffer = "fa-buffer"
     case buromobelexperte = "fa-buromobelexperte"
@@ -5676,7 +4490,6 @@ public enum FontAwesomeBrands: String {
     case cloudscale = "fa-cloudscale"
     case cloudsmith = "fa-cloudsmith"
     case cloudversify = "fa-cloudversify"
-    case cmplid = "fa-cmplid"
     case codepen = "fa-codepen"
     case codiepie = "fa-codiepie"
     case confluence = "fa-confluence"
@@ -5722,6 +4535,7 @@ public enum FontAwesomeBrands: String {
     case docker = "fa-docker"
     case draft2digital = "fa-draft2digital"
     case dribbble = "fa-dribbble"
+    case dribbbleSquare = "fa-dribbble-square"
     case dropbox = "fa-dropbox"
     case drupal = "fa-drupal"
     case dyalog = "fa-dyalog"
@@ -5742,6 +4556,7 @@ public enum FontAwesomeBrands: String {
     case facebook = "fa-facebook"
     case facebookF = "fa-facebook-f"
     case facebookMessenger = "fa-facebook-messenger"
+    case facebookSquare = "fa-facebook-square"
     case fantasyFlightGames = "fa-fantasy-flight-games"
     case fedex = "fa-fedex"
     case fedora = "fa-fedora"
@@ -5755,6 +4570,9 @@ public enum FontAwesomeBrands: String {
     case flipboard = "fa-flipboard"
     case fly = "fa-fly"
     case fontAwesome = "fa-font-awesome"
+    case fontAwesomeAlt = "fa-font-awesome-alt"
+    case fontAwesomeFlag = "fa-font-awesome-flag"
+    case fontAwesomeLogoFull = "fa-font-awesome-logo-full"
     case fonticons = "fa-fonticons"
     case fonticonsFi = "fa-fonticons-fi"
     case fortAwesome = "fa-fort-awesome"
@@ -5771,15 +4589,16 @@ public enum FontAwesomeBrands: String {
     case ggCircle = "fa-gg-circle"
     case git = "fa-git"
     case gitAlt = "fa-git-alt"
+    case gitSquare = "fa-git-square"
     case github = "fa-github"
     case githubAlt = "fa-github-alt"
+    case githubSquare = "fa-github-square"
     case gitkraken = "fa-gitkraken"
     case gitlab = "fa-gitlab"
     case gitter = "fa-gitter"
     case glide = "fa-glide"
     case glideG = "fa-glide-g"
     case gofore = "fa-gofore"
-    case golang = "fa-golang"
     case goodreads = "fa-goodreads"
     case goodreadsG = "fa-goodreads-g"
     case google = "fa-google"
@@ -5788,6 +4607,7 @@ public enum FontAwesomeBrands: String {
     case googlePlay = "fa-google-play"
     case googlePlus = "fa-google-plus"
     case googlePlusG = "fa-google-plus-g"
+    case googlePlusSquare = "fa-google-plus-square"
     case googleWallet = "fa-google-wallet"
     case gratipay = "fa-gratipay"
     case grav = "fa-grav"
@@ -5796,8 +4616,8 @@ public enum FontAwesomeBrands: String {
     case guilded = "fa-guilded"
     case gulp = "fa-gulp"
     case hackerNews = "fa-hacker-news"
+    case hackerNewsSquare = "fa-hacker-news-square"
     case hackerrank = "fa-hackerrank"
-    case hashnode = "fa-hashnode"
     case hips = "fa-hips"
     case hireAHelper = "fa-hire-a-helper"
     case hive = "fa-hive"
@@ -5809,7 +4629,9 @@ public enum FontAwesomeBrands: String {
     case hubspot = "fa-hubspot"
     case ideal = "fa-ideal"
     case imdb = "fa-imdb"
+    case innosoft = "fa-innosoft"
     case instagram = "fa-instagram"
+    case instagramSquare = "fa-instagram-square"
     case instalod = "fa-instalod"
     case intercom = "fa-intercom"
     case internetExplorer = "fa-internet-explorer"
@@ -5825,6 +4647,7 @@ public enum FontAwesomeBrands: String {
     case joget = "fa-joget"
     case joomla = "fa-joomla"
     case js = "fa-js"
+    case jsSquare = "fa-js-square"
     case jsfiddle = "fa-jsfiddle"
     case kaggle = "fa-kaggle"
     case keybase = "fa-keybase"
@@ -5834,6 +4657,7 @@ public enum FontAwesomeBrands: String {
     case korvue = "fa-korvue"
     case laravel = "fa-laravel"
     case lastfm = "fa-lastfm"
+    case lastfmSquare = "fa-lastfm-square"
     case leanpub = "fa-leanpub"
     case less = "fa-less"
     case line = "fa-line"
@@ -5851,11 +4675,11 @@ public enum FontAwesomeBrands: String {
     case mdb = "fa-mdb"
     case medapps = "fa-medapps"
     case medium = "fa-medium"
+    case mediumM = "fa-medium-m"
     case medrt = "fa-medrt"
     case meetup = "fa-meetup"
     case megaport = "fa-megaport"
     case mendeley = "fa-mendeley"
-    case meta = "fa-meta"
     case microblog = "fa-microblog"
     case microsoft = "fa-microsoft"
     case mix = "fa-mix"
@@ -5866,8 +4690,6 @@ public enum FontAwesomeBrands: String {
     case monero = "fa-monero"
     case napster = "fa-napster"
     case neos = "fa-neos"
-    case nfcDirectional = "fa-nfc-directional"
-    case nfcSymbol = "fa-nfc-symbol"
     case nimblr = "fa-nimblr"
     case node = "fa-node"
     case nodeJs = "fa-node-js"
@@ -5876,6 +4698,7 @@ public enum FontAwesomeBrands: String {
     case nutritionix = "fa-nutritionix"
     case octopusDeploy = "fa-octopus-deploy"
     case odnoklassniki = "fa-odnoklassniki"
+    case odnoklassnikiSquare = "fa-odnoklassniki-square"
     case oldRepublic = "fa-old-republic"
     case opencart = "fa-opencart"
     case openid = "fa-openid"
@@ -5883,12 +4706,12 @@ public enum FontAwesomeBrands: String {
     case optinMonster = "fa-optin-monster"
     case orcid = "fa-orcid"
     case osi = "fa-osi"
-    case padlet = "fa-padlet"
     case page4 = "fa-page4"
     case pagelines = "fa-pagelines"
     case palfed = "fa-palfed"
     case patreon = "fa-patreon"
     case paypal = "fa-paypal"
+    case pennyArcade = "fa-penny-arcade"
     case perbyte = "fa-perbyte"
     case periscope = "fa-periscope"
     case phabricator = "fa-phabricator"
@@ -5899,9 +4722,10 @@ public enum FontAwesomeBrands: String {
     case piedPiperAlt = "fa-pied-piper-alt"
     case piedPiperHat = "fa-pied-piper-hat"
     case piedPiperPp = "fa-pied-piper-pp"
+    case piedPiperSquare = "fa-pied-piper-square"
     case pinterest = "fa-pinterest"
     case pinterestP = "fa-pinterest-p"
-    case pix = "fa-pix"
+    case pinterestSquare = "fa-pinterest-square"
     case playstation = "fa-playstation"
     case productHunt = "fa-product-hunt"
     case pushed = "fa-pushed"
@@ -5919,6 +4743,7 @@ public enum FontAwesomeBrands: String {
     case redRiver = "fa-red-river"
     case reddit = "fa-reddit"
     case redditAlien = "fa-reddit-alien"
+    case redditSquare = "fa-reddit-square"
     case redhat = "fa-redhat"
     case renren = "fa-renren"
     case replyd = "fa-replyd"
@@ -5932,7 +4757,6 @@ public enum FontAwesomeBrands: String {
     case salesforce = "fa-salesforce"
     case sass = "fa-sass"
     case schlix = "fa-schlix"
-    case screenpal = "fa-screenpal"
     case scribd = "fa-scribd"
     case searchengin = "fa-searchengin"
     case sellcast = "fa-sellcast"
@@ -5944,51 +4768,27 @@ public enum FontAwesomeBrands: String {
     case simplybuilt = "fa-simplybuilt"
     case sistrix = "fa-sistrix"
     case sith = "fa-sith"
-    case sitrox = "fa-sitrox"
     case sketch = "fa-sketch"
     case skyatlas = "fa-skyatlas"
     case skype = "fa-skype"
     case slack = "fa-slack"
+    case slackHash = "fa-slack-hash"
     case slideshare = "fa-slideshare"
     case snapchat = "fa-snapchat"
+    case snapchatGhost = "fa-snapchat-ghost"
+    case snapchatSquare = "fa-snapchat-square"
     case soundcloud = "fa-soundcloud"
     case sourcetree = "fa-sourcetree"
-    case spaceAwesome = "fa-space-awesome"
     case speakap = "fa-speakap"
     case speakerDeck = "fa-speaker-deck"
     case spotify = "fa-spotify"
-    case squareBehance = "fa-square-behance"
-    case squareDribbble = "fa-square-dribbble"
-    case squareFacebook = "fa-square-facebook"
-    case squareFontAwesome = "fa-square-font-awesome"
-    case squareFontAwesomeStroke = "fa-square-font-awesome-stroke"
-    case squareGit = "fa-square-git"
-    case squareGithub = "fa-square-github"
-    case squareGitlab = "fa-square-gitlab"
-    case squareGooglePlus = "fa-square-google-plus"
-    case squareHackerNews = "fa-square-hacker-news"
-    case squareInstagram = "fa-square-instagram"
-    case squareJs = "fa-square-js"
-    case squareLastfm = "fa-square-lastfm"
-    case squareOdnoklassniki = "fa-square-odnoklassniki"
-    case squarePiedPiper = "fa-square-pied-piper"
-    case squarePinterest = "fa-square-pinterest"
-    case squareReddit = "fa-square-reddit"
-    case squareSnapchat = "fa-square-snapchat"
-    case squareSteam = "fa-square-steam"
-    case squareTumblr = "fa-square-tumblr"
-    case squareTwitter = "fa-square-twitter"
-    case squareViadeo = "fa-square-viadeo"
-    case squareVimeo = "fa-square-vimeo"
-    case squareWhatsapp = "fa-square-whatsapp"
-    case squareXing = "fa-square-xing"
-    case squareYoutube = "fa-square-youtube"
     case squarespace = "fa-squarespace"
     case stackExchange = "fa-stack-exchange"
     case stackOverflow = "fa-stack-overflow"
     case stackpath = "fa-stackpath"
     case staylinked = "fa-staylinked"
     case steam = "fa-steam"
+    case steamSquare = "fa-steam-square"
     case steamSymbol = "fa-steam-symbol"
     case stickerMule = "fa-sticker-mule"
     case strava = "fa-strava"
@@ -6004,6 +4804,7 @@ public enum FontAwesomeBrands: String {
     case symfony = "fa-symfony"
     case teamspeak = "fa-teamspeak"
     case telegram = "fa-telegram"
+    case telegramPlane = "fa-telegram-plane"
     case tencentWeibo = "fa-tencent-weibo"
     case theRedYeti = "fa-the-red-yeti"
     case themeco = "fa-themeco"
@@ -6012,9 +4813,12 @@ public enum FontAwesomeBrands: String {
     case tiktok = "fa-tiktok"
     case tradeFederation = "fa-trade-federation"
     case trello = "fa-trello"
+    case tripadvisor = "fa-tripadvisor"
     case tumblr = "fa-tumblr"
+    case tumblrSquare = "fa-tumblr-square"
     case twitch = "fa-twitch"
     case twitter = "fa-twitter"
+    case twitterSquare = "fa-twitter-square"
     case typo3 = "fa-typo3"
     case uber = "fa-uber"
     case ubuntu = "fa-ubuntu"
@@ -6032,8 +4836,10 @@ public enum FontAwesomeBrands: String {
     case vaadin = "fa-vaadin"
     case viacoin = "fa-viacoin"
     case viadeo = "fa-viadeo"
+    case viadeoSquare = "fa-viadeo-square"
     case viber = "fa-viber"
     case vimeo = "fa-vimeo"
+    case vimeoSquare = "fa-vimeo-square"
     case vimeoV = "fa-vimeo-v"
     case vine = "fa-vine"
     case vk = "fa-vk"
@@ -6045,10 +4851,10 @@ public enum FontAwesomeBrands: String {
     case weibo = "fa-weibo"
     case weixin = "fa-weixin"
     case whatsapp = "fa-whatsapp"
+    case whatsappSquare = "fa-whatsapp-square"
     case whmcs = "fa-whmcs"
     case wikipediaW = "fa-wikipedia-w"
     case windows = "fa-windows"
-    case wirsindhandwerk = "fa-wirsindhandwerk"
     case wix = "fa-wix"
     case wizardsOfTheCoast = "fa-wizards-of-the-coast"
     case wodu = "fa-wodu"
@@ -6061,6 +4867,7 @@ public enum FontAwesomeBrands: String {
     case wpressr = "fa-wpressr"
     case xbox = "fa-xbox"
     case xing = "fa-xing"
+    case xingSquare = "fa-xing-square"
     case yCombinator = "fa-y-combinator"
     case yahoo = "fa-yahoo"
     case yammer = "fa-yammer"
@@ -6070,15 +4877,16 @@ public enum FontAwesomeBrands: String {
     case yelp = "fa-yelp"
     case yoast = "fa-yoast"
     case youtube = "fa-youtube"
+    case youtubeSquare = "fa-youtube-square"
     case zhihu = "fa-zhihu"
 
     /// An unicode code of FontAwesome icon
     public var unicode: String {
         switch self {
-            case .42Group: return "\u{e080}"
             case .fiveHundredPixels: return "\u{f26e}"
             case .accessibleIcon: return "\u{f368}"
             case .accusoft: return "\u{f369}"
+            case .acquisitionsIncorporated: return "\u{f6af}"
             case .adn: return "\u{f170}"
             case .adversal: return "\u{f36a}"
             case .affiliatetheme: return "\u{f36b}"
@@ -6108,7 +4916,7 @@ public enum FontAwesomeBrands: String {
             case .bandcamp: return "\u{f2d5}"
             case .battleNet: return "\u{f835}"
             case .behance: return "\u{f1b4}"
-            case .bilibili: return "\u{e3d9}"
+            case .behanceSquare: return "\u{f1b5}"
             case .bimobject: return "\u{f378}"
             case .bitbucket: return "\u{f171}"
             case .bitcoin: return "\u{f379}"
@@ -6120,7 +4928,6 @@ public enum FontAwesomeBrands: String {
             case .bluetooth: return "\u{f293}"
             case .bluetoothB: return "\u{f294}"
             case .bootstrap: return "\u{f836}"
-            case .bots: return "\u{e340}"
             case .btc: return "\u{f15a}"
             case .buffer: return "\u{f837}"
             case .buromobelexperte: return "\u{f37f}"
@@ -6145,7 +4952,6 @@ public enum FontAwesomeBrands: String {
             case .cloudscale: return "\u{f383}"
             case .cloudsmith: return "\u{f384}"
             case .cloudversify: return "\u{f385}"
-            case .cmplid: return "\u{e360}"
             case .codepen: return "\u{f1cb}"
             case .codiepie: return "\u{f284}"
             case .confluence: return "\u{f78d}"
@@ -6191,6 +4997,7 @@ public enum FontAwesomeBrands: String {
             case .docker: return "\u{f395}"
             case .draft2digital: return "\u{f396}"
             case .dribbble: return "\u{f17d}"
+            case .dribbbleSquare: return "\u{f397}"
             case .dropbox: return "\u{f16b}"
             case .drupal: return "\u{f1a9}"
             case .dyalog: return "\u{f399}"
@@ -6211,6 +5018,7 @@ public enum FontAwesomeBrands: String {
             case .facebook: return "\u{f09a}"
             case .facebookF: return "\u{f39e}"
             case .facebookMessenger: return "\u{f39f}"
+            case .facebookSquare: return "\u{f082}"
             case .fantasyFlightGames: return "\u{f6dc}"
             case .fedex: return "\u{f797}"
             case .fedora: return "\u{f798}"
@@ -6224,6 +5032,9 @@ public enum FontAwesomeBrands: String {
             case .flipboard: return "\u{f44d}"
             case .fly: return "\u{f417}"
             case .fontAwesome: return "\u{f2b4}"
+            case .fontAwesomeAlt: return "\u{f35c}"
+            case .fontAwesomeFlag: return "\u{f425}"
+            case .fontAwesomeLogoFull: return "\u{f4e6}"
             case .fonticons: return "\u{f280}"
             case .fonticonsFi: return "\u{f3a2}"
             case .fortAwesome: return "\u{f286}"
@@ -6240,15 +5051,16 @@ public enum FontAwesomeBrands: String {
             case .ggCircle: return "\u{f261}"
             case .git: return "\u{f1d3}"
             case .gitAlt: return "\u{f841}"
+            case .gitSquare: return "\u{f1d2}"
             case .github: return "\u{f09b}"
             case .githubAlt: return "\u{f113}"
+            case .githubSquare: return "\u{f092}"
             case .gitkraken: return "\u{f3a6}"
             case .gitlab: return "\u{f296}"
             case .gitter: return "\u{f426}"
             case .glide: return "\u{f2a5}"
             case .glideG: return "\u{f2a6}"
             case .gofore: return "\u{f3a7}"
-            case .golang: return "\u{e40f}"
             case .goodreads: return "\u{f3a8}"
             case .goodreadsG: return "\u{f3a9}"
             case .google: return "\u{f1a0}"
@@ -6257,6 +5069,7 @@ public enum FontAwesomeBrands: String {
             case .googlePlay: return "\u{f3ab}"
             case .googlePlus: return "\u{f2b3}"
             case .googlePlusG: return "\u{f0d5}"
+            case .googlePlusSquare: return "\u{f0d4}"
             case .googleWallet: return "\u{f1ee}"
             case .gratipay: return "\u{f184}"
             case .grav: return "\u{f2d6}"
@@ -6265,8 +5078,8 @@ public enum FontAwesomeBrands: String {
             case .guilded: return "\u{e07e}"
             case .gulp: return "\u{f3ae}"
             case .hackerNews: return "\u{f1d4}"
+            case .hackerNewsSquare: return "\u{f3af}"
             case .hackerrank: return "\u{f5f7}"
-            case .hashnode: return "\u{e499}"
             case .hips: return "\u{f452}"
             case .hireAHelper: return "\u{f3b0}"
             case .hive: return "\u{e07f}"
@@ -6278,7 +5091,9 @@ public enum FontAwesomeBrands: String {
             case .hubspot: return "\u{f3b2}"
             case .ideal: return "\u{e013}"
             case .imdb: return "\u{f2d8}"
+            case .innosoft: return "\u{e080}"
             case .instagram: return "\u{f16d}"
+            case .instagramSquare: return "\u{e055}"
             case .instalod: return "\u{e081}"
             case .intercom: return "\u{f7af}"
             case .internetExplorer: return "\u{f26b}"
@@ -6294,6 +5109,7 @@ public enum FontAwesomeBrands: String {
             case .joget: return "\u{f3b7}"
             case .joomla: return "\u{f1aa}"
             case .js: return "\u{f3b8}"
+            case .jsSquare: return "\u{f3b9}"
             case .jsfiddle: return "\u{f1cc}"
             case .kaggle: return "\u{f5fa}"
             case .keybase: return "\u{f4f5}"
@@ -6303,6 +5119,7 @@ public enum FontAwesomeBrands: String {
             case .korvue: return "\u{f42f}"
             case .laravel: return "\u{f3bd}"
             case .lastfm: return "\u{f202}"
+            case .lastfmSquare: return "\u{f203}"
             case .leanpub: return "\u{f212}"
             case .less: return "\u{f41d}"
             case .line: return "\u{f3c0}"
@@ -6320,11 +5137,11 @@ public enum FontAwesomeBrands: String {
             case .mdb: return "\u{f8ca}"
             case .medapps: return "\u{f3c6}"
             case .medium: return "\u{f23a}"
+            case .mediumM: return "\u{f3c7}"
             case .medrt: return "\u{f3c8}"
             case .meetup: return "\u{f2e0}"
             case .megaport: return "\u{f5a3}"
             case .mendeley: return "\u{f7b3}"
-            case .meta: return "\u{e49b}"
             case .microblog: return "\u{e01a}"
             case .microsoft: return "\u{f3ca}"
             case .mix: return "\u{f3cb}"
@@ -6335,8 +5152,6 @@ public enum FontAwesomeBrands: String {
             case .monero: return "\u{f3d0}"
             case .napster: return "\u{f3d2}"
             case .neos: return "\u{f612}"
-            case .nfcDirectional: return "\u{e530}"
-            case .nfcSymbol: return "\u{e531}"
             case .nimblr: return "\u{f5a8}"
             case .node: return "\u{f419}"
             case .nodeJs: return "\u{f3d3}"
@@ -6345,6 +5160,7 @@ public enum FontAwesomeBrands: String {
             case .nutritionix: return "\u{f3d6}"
             case .octopusDeploy: return "\u{e082}"
             case .odnoklassniki: return "\u{f263}"
+            case .odnoklassnikiSquare: return "\u{f264}"
             case .oldRepublic: return "\u{f510}"
             case .opencart: return "\u{f23d}"
             case .openid: return "\u{f19b}"
@@ -6352,12 +5168,12 @@ public enum FontAwesomeBrands: String {
             case .optinMonster: return "\u{f23c}"
             case .orcid: return "\u{f8d2}"
             case .osi: return "\u{f41a}"
-            case .padlet: return "\u{e4a0}"
             case .page4: return "\u{f3d7}"
             case .pagelines: return "\u{f18c}"
             case .palfed: return "\u{f3d8}"
             case .patreon: return "\u{f3d9}"
             case .paypal: return "\u{f1ed}"
+            case .pennyArcade: return "\u{f704}"
             case .perbyte: return "\u{e083}"
             case .periscope: return "\u{f3da}"
             case .phabricator: return "\u{f3db}"
@@ -6368,9 +5184,10 @@ public enum FontAwesomeBrands: String {
             case .piedPiperAlt: return "\u{f1a8}"
             case .piedPiperHat: return "\u{f4e5}"
             case .piedPiperPp: return "\u{f1a7}"
+            case .piedPiperSquare: return "\u{e01e}"
             case .pinterest: return "\u{f0d2}"
             case .pinterestP: return "\u{f231}"
-            case .pix: return "\u{e43a}"
+            case .pinterestSquare: return "\u{f0d3}"
             case .playstation: return "\u{f3df}"
             case .productHunt: return "\u{f288}"
             case .pushed: return "\u{f3e1}"
@@ -6388,6 +5205,7 @@ public enum FontAwesomeBrands: String {
             case .redRiver: return "\u{f3e3}"
             case .reddit: return "\u{f1a1}"
             case .redditAlien: return "\u{f281}"
+            case .redditSquare: return "\u{f1a2}"
             case .redhat: return "\u{f7bc}"
             case .renren: return "\u{f18b}"
             case .replyd: return "\u{f3e6}"
@@ -6401,7 +5219,6 @@ public enum FontAwesomeBrands: String {
             case .salesforce: return "\u{f83b}"
             case .sass: return "\u{f41e}"
             case .schlix: return "\u{f3ea}"
-            case .screenpal: return "\u{e570}"
             case .scribd: return "\u{f28a}"
             case .searchengin: return "\u{f3eb}"
             case .sellcast: return "\u{f2da}"
@@ -6413,51 +5230,27 @@ public enum FontAwesomeBrands: String {
             case .simplybuilt: return "\u{f215}"
             case .sistrix: return "\u{f3ee}"
             case .sith: return "\u{f512}"
-            case .sitrox: return "\u{e44a}"
             case .sketch: return "\u{f7c6}"
             case .skyatlas: return "\u{f216}"
             case .skype: return "\u{f17e}"
             case .slack: return "\u{f198}"
+            case .slackHash: return "\u{f3ef}"
             case .slideshare: return "\u{f1e7}"
             case .snapchat: return "\u{f2ab}"
+            case .snapchatGhost: return "\u{f2ac}"
+            case .snapchatSquare: return "\u{f2ad}"
             case .soundcloud: return "\u{f1be}"
             case .sourcetree: return "\u{f7d3}"
-            case .spaceAwesome: return "\u{e5ac}"
             case .speakap: return "\u{f3f3}"
             case .speakerDeck: return "\u{f83c}"
             case .spotify: return "\u{f1bc}"
-            case .squareBehance: return "\u{f1b5}"
-            case .squareDribbble: return "\u{f397}"
-            case .squareFacebook: return "\u{f082}"
-            case .squareFontAwesome: return "\u{e5ad}"
-            case .squareFontAwesomeStroke: return "\u{f35c}"
-            case .squareGit: return "\u{f1d2}"
-            case .squareGithub: return "\u{f092}"
-            case .squareGitlab: return "\u{e5ae}"
-            case .squareGooglePlus: return "\u{f0d4}"
-            case .squareHackerNews: return "\u{f3af}"
-            case .squareInstagram: return "\u{e055}"
-            case .squareJs: return "\u{f3b9}"
-            case .squareLastfm: return "\u{f203}"
-            case .squareOdnoklassniki: return "\u{f264}"
-            case .squarePiedPiper: return "\u{e01e}"
-            case .squarePinterest: return "\u{f0d3}"
-            case .squareReddit: return "\u{f1a2}"
-            case .squareSnapchat: return "\u{f2ad}"
-            case .squareSteam: return "\u{f1b7}"
-            case .squareTumblr: return "\u{f174}"
-            case .squareTwitter: return "\u{f081}"
-            case .squareViadeo: return "\u{f2aa}"
-            case .squareVimeo: return "\u{f194}"
-            case .squareWhatsapp: return "\u{f40c}"
-            case .squareXing: return "\u{f169}"
-            case .squareYoutube: return "\u{f431}"
             case .squarespace: return "\u{f5be}"
             case .stackExchange: return "\u{f18d}"
             case .stackOverflow: return "\u{f16c}"
             case .stackpath: return "\u{f842}"
             case .staylinked: return "\u{f3f5}"
             case .steam: return "\u{f1b6}"
+            case .steamSquare: return "\u{f1b7}"
             case .steamSymbol: return "\u{f3f6}"
             case .stickerMule: return "\u{f3f7}"
             case .strava: return "\u{f428}"
@@ -6473,6 +5266,7 @@ public enum FontAwesomeBrands: String {
             case .symfony: return "\u{f83d}"
             case .teamspeak: return "\u{f4f9}"
             case .telegram: return "\u{f2c6}"
+            case .telegramPlane: return "\u{f3fe}"
             case .tencentWeibo: return "\u{f1d5}"
             case .theRedYeti: return "\u{f69d}"
             case .themeco: return "\u{f5c6}"
@@ -6481,9 +5275,12 @@ public enum FontAwesomeBrands: String {
             case .tiktok: return "\u{e07b}"
             case .tradeFederation: return "\u{f513}"
             case .trello: return "\u{f181}"
+            case .tripadvisor: return "\u{f262}"
             case .tumblr: return "\u{f173}"
+            case .tumblrSquare: return "\u{f174}"
             case .twitch: return "\u{f1e8}"
             case .twitter: return "\u{f099}"
+            case .twitterSquare: return "\u{f081}"
             case .typo3: return "\u{f42b}"
             case .uber: return "\u{f402}"
             case .ubuntu: return "\u{f7df}"
@@ -6501,8 +5298,10 @@ public enum FontAwesomeBrands: String {
             case .vaadin: return "\u{f408}"
             case .viacoin: return "\u{f237}"
             case .viadeo: return "\u{f2a9}"
+            case .viadeoSquare: return "\u{f2aa}"
             case .viber: return "\u{f409}"
             case .vimeo: return "\u{f40a}"
+            case .vimeoSquare: return "\u{f194}"
             case .vimeoV: return "\u{f27d}"
             case .vine: return "\u{f1ca}"
             case .vk: return "\u{f189}"
@@ -6514,10 +5313,10 @@ public enum FontAwesomeBrands: String {
             case .weibo: return "\u{f18a}"
             case .weixin: return "\u{f1d7}"
             case .whatsapp: return "\u{f232}"
+            case .whatsappSquare: return "\u{f40c}"
             case .whmcs: return "\u{f40d}"
             case .wikipediaW: return "\u{f266}"
             case .windows: return "\u{f17a}"
-            case .wirsindhandwerk: return "\u{e2d0}"
             case .wix: return "\u{f5cf}"
             case .wizardsOfTheCoast: return "\u{f730}"
             case .wodu: return "\u{e088}"
@@ -6530,6 +5329,7 @@ public enum FontAwesomeBrands: String {
             case .wpressr: return "\u{f3e4}"
             case .xbox: return "\u{f412}"
             case .xing: return "\u{f168}"
+            case .xingSquare: return "\u{f169}"
             case .yCombinator: return "\u{f23b}"
             case .yahoo: return "\u{f19e}"
             case .yammer: return "\u{f840}"
@@ -6539,6 +5339,7 @@ public enum FontAwesomeBrands: String {
             case .yelp: return "\u{f1e9}"
             case .yoast: return "\u{f2b1}"
             case .youtube: return "\u{f167}"
+            case .youtubeSquare: return "\u{f431}"
             case .zhihu: return "\u{f63f}"        
         }
     }
