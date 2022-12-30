@@ -1884,18 +1884,18 @@ public enum FontAwesome: String, CaseIterable {
     /// An unicode code of FontAwesome icon
     public var unicode: String {
         switch self {
-            case .0: return "\u{30}"
-            case .1: return "\u{31}"
-            case .2: return "\u{32}"
-            case .3: return "\u{33}"
-            case .4: return "\u{34}"
-            case .42Group: return "\u{e080}"
-            case .5: return "\u{35}"
-            case .fiveHundredPixels: return "\u{f26e}"
-            case .6: return "\u{36}"
-            case .7: return "\u{37}"
-            case .8: return "\u{38}"
-            case .9: return "\u{39}"
+            case .fa_0: return "\u{30}"
+            case .fa_1: return "\u{31}"
+            case .fa_2: return "\u{32}"
+            case .fa_3: return "\u{33}"
+            case .fa_4: return "\u{34}"
+            case .fa_42Group: return "\u{e080}"
+            case .fa_5: return "\u{35}"
+            case .fa_500px: return "\u{f26e}"
+            case .fa_6: return "\u{36}"
+            case .fa_7: return "\u{37}"
+            case .fa_8: return "\u{38}"
+            case .fa_9: return "\u{39}"
             case .a: return "\u{41}"
             case .accessibleIcon: return "\u{f368}"
             case .accusoft: return "\u{f369}"
@@ -3212,7 +3212,7 @@ public enum FontAwesome: String, CaseIterable {
             case .redhat: return "\u{f7bc}"
             case .registered: return "\u{f25d}"
             case .renren: return "\u{f18b}"
-            case .repeat: return "\u{f363}"
+            case .fa_repeat: return "\u{f363}"
             case .reply: return "\u{f3e5}"
             case .replyAll: return "\u{f122}"
             case .replyd: return "\u{f3e6}"
@@ -3745,18 +3745,18 @@ public enum FontAwesome: String, CaseIterable {
     /// Supported styles of each FontAwesome font
     public var supportedStyles: [FontAwesomeStyle] {
         switch self {
-            case .0: return [.solid]
-            case .1: return [.solid]
-            case .2: return [.solid]
-            case .3: return [.solid]
-            case .4: return [.solid]
-            case .42Group: return [.brands]
-            case .5: return [.solid]
-            case .fiveHundredPixels: return [.brands]
-            case .6: return [.solid]
-            case .7: return [.solid]
-            case .8: return [.solid]
-            case .9: return [.solid]
+            case .fa_0: return [.solid]
+            case .fa_1: return [.solid]
+            case .fa_2: return [.solid]
+            case .fa_3: return [.solid]
+            case .fa_4: return [.solid]
+            case .fa_42Group: return [.brands]
+            case .fa_5: return [.solid]
+            case .fa_500px: return [.brands]
+            case .fa_6: return [.solid]
+            case .fa_7: return [.solid]
+            case .fa_8: return [.solid]
+            case .fa_9: return [.solid]
             case .a: return [.solid]
             case .accessibleIcon: return [.brands]
             case .accusoft: return [.brands]
@@ -5073,7 +5073,7 @@ public enum FontAwesome: String, CaseIterable {
             case .redhat: return [.brands]
             case .registered: return [.solid, .regular]
             case .renren: return [.brands]
-            case .repeat: return [.solid]
+            case .fa_repeat: return [.solid]
             case .reply: return [.solid]
             case .replyAll: return [.solid]
             case .replyd: return [.brands]
@@ -5606,8 +5606,8 @@ public enum FontAwesome: String, CaseIterable {
 
 /// An enumaration of FontAwesome Brands icon names
 public enum FontAwesomeBrands: String {
-    case 42Group = "fa-42-group"
-    case fiveHundredPixels = "fa-500px"
+    case fa_42Group = "fa-42-group"
+    case fa_500px = "fa-500px"
     case accessibleIcon = "fa-accessible-icon"
     case accusoft = "fa-accusoft"
     case adn = "fa-adn"
@@ -6075,8 +6075,8 @@ public enum FontAwesomeBrands: String {
     /// An unicode code of FontAwesome icon
     public var unicode: String {
         switch self {
-            case .42Group: return "\u{e080}"
-            case .fiveHundredPixels: return "\u{f26e}"
+            case .fa_42Group: return "\u{e080}"
+            case .fa_500px: return "\u{f26e}"
             case .accessibleIcon: return "\u{f368}"
             case .accusoft: return "\u{f369}"
             case .adn: return "\u{f170}"

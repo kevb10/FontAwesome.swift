@@ -68,9 +68,6 @@ extension String {
     }
 
     public func filteredKeywords() -> String {
-        if self == "500px" {
-            return "fiveHundredPixels"
-        }
         if self == "subscript" {
             return "`subscript`"
         }
@@ -141,7 +138,8 @@ fontAwesomeEnum += """
 
 sortedKeys.forEach { key in
     guard let value = icons[key] else { return }
-    let enumKeyName = key.filteredKeywords().camelCased(with: "-")
+    let safeKey = key.isInt || key == "repeat" || key.startsWithANumber() ? "fa_" + key : key
+    let enumKeyName = safeKey.filteredKeywords().camelCased(with: "-")
     fontAwesomeEnum += """
                 case .\(enumKeyName): return \"\\u{\(value.unicode)}\"
     """
@@ -169,7 +167,8 @@ fontAwesomeEnum += """
 
 sortedKeys.forEach { key in
     guard let value = icons[key] else { return }
-    let enumKeyName = key.filteredKeywords().camelCased(with: "-")
+    let safeKey = key.isInt || key == "repeat" || key.startsWithANumber() ? "fa_" + key : key
+    let enumKeyName = safeKey.filteredKeywords().camelCased(with: "-")
     fontAwesomeEnum += """
                 case .\(enumKeyName): return [.\(value.styles.joined(separator: ", ."))]
     """
@@ -195,7 +194,8 @@ let brandsIcons = icons.filter { $0.value.styles.contains("brands") }
 let sortedBrandsKeys = Array(brandsIcons.keys).sorted(by: <)
 sortedBrandsKeys.forEach { key in
     guard brandsIcons[key] != nil else { return }
-    let enumKeyName = key.filteredKeywords().camelCased(with: "-")
+    let safeKey = key.isInt || key == "repeat" || key.startsWithANumber() ? "fa_" + key : key
+    let enumKeyName = safeKey.filteredKeywords().camelCased(with: "-")
     fontAwesomeEnum += """
         case \(enumKeyName) = \"fa-\(key)\"
 
@@ -213,7 +213,8 @@ fontAwesomeEnum += """
 
 sortedBrandsKeys.forEach { key in
     guard let value = brandsIcons[key] else { return }
-    let enumKeyName = key.filteredKeywords().camelCased(with: "-")
+    let safeKey = key.isInt || key == "repeat" || key.startsWithANumber() ? "fa_" + key : key
+    let enumKeyName = safeKey.filteredKeywords().camelCased(with: "-")
     fontAwesomeEnum += """
                 case .\(enumKeyName): return \"\\u{\(value.unicode)}\"
     """
